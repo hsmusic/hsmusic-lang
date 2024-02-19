@@ -1,333 +1,607 @@
-String Key,String Value
-meta.languageCode,es
-meta.languageName,Español
-count.tracks,{TRACKS}
-count.tracks.withUnit.zero,
-count.tracks.withUnit.one,{TRACKS} pista
-count.tracks.withUnit.two,
-count.tracks.withUnit.few,
-count.tracks.withUnit.many,
-count.tracks.withUnit.other,{TRACKS} pistas
-count.albums,{ALBUMS}
-count.albums.withUnit.zero,
-count.albums.withUnit.one,{ALBUMS} álbum
-count.albums.withUnit.two,
-count.albums.withUnit.few,
-count.albums.withUnit.many,
-count.albums.withUnit.other,{ALBUMS} álbumes
-count.commentaryEntries,{ENTRIES}
-count.commentaryEntries.withUnit.zero,
-count.commentaryEntries.withUnit.one,{ENTRIES} entrada
-count.commentaryEntries.withUnit.two,
-count.commentaryEntries.withUnit.few,
-count.commentaryEntries.withUnit.many,
-count.commentaryEntries.withUnit.other,{ENTRIES} entradas
-count.contributions,{CONTRIBUTIONS}
-count.contributions.withUnit.zero,
-count.contributions.withUnit.one,{CONTRIBUTIONS} contribución
-count.contributions.withUnit.two,
-count.contributions.withUnit.few,
-count.contributions.withUnit.many,
-count.contributions.withUnit.other,{CONTRIBUTIONS} contribuciones
-count.coverArts,{COVER_ARTS}
-count.coverArts.withUnit.zero,
-count.coverArts.withUnit.one,{COVER_ARTS} carátula
-count.coverArts.withUnit.two,
-count.coverArts.withUnit.few,
-count.coverArts.withUnit.many,
-count.coverArts.withUnit.other,{COVER_ARTS} carátulas
-count.timesReferenced,{TIMES_REFERENCED}
-count.timesReferenced.withUnit.zero,
-count.timesReferenced.withUnit.one,referenciado {TIMES_REFERENCED} vez
-count.timesReferenced.withUnit.two,
-count.timesReferenced.withUnit.few,
-count.timesReferenced.withUnit.many,
-count.timesReferenced.withUnit.other,referenciado {TIMES_REFERENCED} veces
-count.words,{WORDS}
-count.words.thousand,{WORDS} mil
-count.words.withUnit.zero,
-count.words.withUnit.one,{WORDS} palabra
-count.words.withUnit.two,
-count.words.withUnit.few,
-count.words.withUnit.many,
-count.words.withUnit.other,{WORDS} palabras
-count.timesUsed,{TIMES_USED}
-count.timesUsed.withUnit.zero,
-count.timesUsed.withUnit.one,usado {TIMES_USED} vez
-count.timesUsed.withUnit.two,
-count.timesUsed.withUnit.few,
-count.timesUsed.withUnit.many,
-count.timesUsed.withUnit.other,usado {TIMES_USED} veces
-count.index.zero,
-count.index.one,{INDEX}.º
-count.index.two,{INDEX}.º
-count.index.few,{INDEX}.º
-count.index.many,
-count.index.other,{INDEX}.º
-count.duration.hours,{HOURS}:{MINUTES}:{SECONDS}
-count.duration.hours.withUnit,{HOURS}:{MINUTES}:{SECONDS} horas
-count.duration.minutes,{MINUTES}:{SECONDS}
-count.duration.minutes.withUnit,{MINUTES}:{SECONDS} minutos
-count.duration.approximate,~{DURATION}
-count.duration.missing,_:__
-count.fileSize.terabytes,{TERABYTES} TB
-count.fileSize.gigabytes,{GIGABYTES} GB
-count.fileSize.megabytes,{MEGABYTES} MB
-count.fileSize.kilobytes,{KILOBYTES} kB
-count.fileSize.bytes,{BYTES} bytes
-releaseInfo.by,Por {ARTISTS}.
-releaseInfo.from,De {ALBUM}.
-releaseInfo.coverArtBy,Carátula por {ARTISTS}.
-releaseInfo.wallpaperArtBy,Fondo por {ARTISTS}.
-releaseInfo.bannerArtBy,Arte de banner por {ARTISTS}.
-releaseInfo.released,Lanzado el {DATE}.
-releaseInfo.artReleased,Arte lanzado el {DATE}.
-releaseInfo.addedToWiki,Añadido a la wiki el {DATE}.
-releaseInfo.duration,Duración: {DURATION}.
-releaseInfo.viewCommentary,¡Véase {LINK}!
-releaseInfo.viewCommentary.link,página de comentario
-releaseInfo.listenOn,Escucha en {LINKS}.
-releaseInfo.listenOn.noLinks,Esta pista no tiene un URL donde puede ser escuchada.
-releaseInfo.visitOn,Visita en {LINKS}.
-releaseInfo.playOn,Ver en {LINKS}.
-releaseInfo.alsoReleasedAs,También lanzada como:
-releaseInfo.alsoReleasedAs.item,{TRACK} (en {ALBUM})
-releaseInfo.contributors,Contribuidores:
-releaseInfo.tracksReferenced,Pistas que {TRACK} referencia:
-releaseInfo.tracksThatReference,Pistas que referencian {TRACK}:
-releaseInfo.tracksSampled,Pistas que {TRACK} samplea:
-releaseInfo.tracksThatSample,Pistas que samplean {TRACK}:
-releaseInfo.flashesThatFeature,Flashes & juegos que incluyen {TRACK}:
-releaseInfo.flashesThatFeature.item,{FLASH}
-releaseInfo.tracksFeatured,Pistas que {FLASH} incluye:
-releaseInfo.flashesThatFeature.item.asDifferentRelease,{FLASH} (como {TRACK})
-releaseInfo.lyrics,Letra:
-releaseInfo.artistCommentary,Comentario del artista:
-releaseInfo.artistCommentary.seeOriginalRelease,¡Véase {ORIGINAL}!
-releaseInfo.artTags,Etiquetas:
-releaseInfo.additionalFiles.shortcut,{ANCHOR_LINK} {TITLES}
-releaseInfo.additionalFiles.shortcut.anchorLink,Archivos adicionales:
-releaseInfo.additionalFiles.heading,Tiene {FILE_COUNT} archivos adicionales:
-releaseInfo.additionalFiles.entry,{TITLE}
-releaseInfo.additionalFiles.entry.withDescription,{TITLE}: {DESCRIPTION}
-releaseInfo.additionalFiles.file,{FILE}
-releaseInfo.additionalFiles.file.withSize,{FILE} ({SIZE})
-releaseInfo.note,Nota:
-trackList.section.withDuration,{SECTION} ({DURATION}):
-trackList.group,{GROUP}:
-trackList.group.other,Otros
-trackList.item.withDuration,({DURATION}) {TRACK}
-trackList.item.withDuration.withArtists,({DURATION}) {TRACK} {BY}
-trackList.item.withArtists,{TRACK} {BY}
-trackList.item.withArtists.by,por {ARTISTS}
-trackList.item.rerelease,{TRACK} (relanzamiento)
-misc.alt.albumCover,carátula del álbum
-misc.alt.albumBanner,banner del álbum
-misc.alt.trackCover,carátula de la pista
-misc.alt.artistAvatar,avatar del artista
-misc.alt.flashArt,arte del flash
-misc.chronology.seeArtistPages,¡Vea las páginas de los artistas para la información cronológica!
-misc.chronology.heading.coverArt,{INDEX} carátula por {ARTIST}
-misc.chronology.heading.flash,{INDEX} flash/juego por {ARTIST}
-misc.chronology.heading.track,{INDEX} pista por {ARTIST}
-misc.external.domain,Externo ({DOMAIN})
-misc.external.bandcamp,Bandcamp
-misc.external.bandcamp.domain,Bandcamp ({DOMAIN})
-misc.external.deviantart,DeviantArt
-misc.external.instagram,Instagram
-misc.external.mastodon,Mastodon
-misc.external.mastodon.domain,Mastodon ({DOMAIN})
-misc.external.patreon,Patreon
-misc.external.poetryFoundation,Poetry Foundation
-misc.external.soundcloud,SoundCloud
-misc.external.tumblr,Tumblr
-misc.external.twitter,Twitter
-misc.external.wikipedia,Wikipedia
-misc.external.youtube,YouTube
-misc.external.youtube.playlist,YouTube (lista de reproducción)
-misc.external.youtube.fullAlbum,YouTube (álbum completo)
-misc.external.flash.bgreco,{LINK} (Audio de alta calidad)
-misc.external.flash.homestuck.page,{LINK} (página {PAGE})
-misc.external.flash.homestuck.secret,{LINK} (página secreta)
-misc.external.flash.youtube,{LINK} (en cualquier dispositivo)
-misc.nav.previous,Anterior
-misc.nav.next,Siguiente
-misc.nav.info,Info
-misc.nav.gallery,Galería
-misc.pageTitle,{TITLE}
-misc.pageTitle.withWikiName,{TITLE} | {WIKI_NAME}
-misc.skippers.skipToContent,Saltar al contenido
-misc.skippers.skipToSidebar,Saltar a la barra lateral
-misc.skippers.skipToSidebar.left,Saltar a la barra lateral (izquierda)
-misc.skippers.skipToSidebar.right,Saltar a la barra lateral (derecha)
-misc.skippers.skipToFooter,Saltar al pie de página
-misc.jumpTo,Saltar a:
-misc.jumpTo.withLinks,Saltar a: {LINKS}.
-misc.contentWarnings,advertencias de contenido: {WARNINGS}
-misc.contentWarnings.reveal,haga clic para mostrar
-misc.albumGridDetails,"({TRACKS}, {TIME})"
-misc.uiLanguage,Lenguaje de interfaz: {LANGUAGES}
-homepage.title,{TITLE}
-homepage.news.title,Noticias
-homepage.news.entry.viewRest,¡Vea el resto del artículo!
-albumSidebar.trackList.group,{GROUP}
-albumSidebar.trackList.group.withRange,{GROUP} ({RANGE})
-albumSidebar.trackList.item,{TRACK}
-albumSidebar.groupBox.title,{GROUP}
-albumSidebar.groupBox.next,Siguiente: {ALBUM}
-albumSidebar.groupBox.previous,Anterior: {ALBUM}
-albumPage.title,{ALBUM}
-albumPage.nav.album,{ALBUM}
-albumPage.nav.randomTrack,Pista Aleatoria
-albumCommentaryPage.title,{ALBUM} - Comentario
-albumCommentaryPage.infoLine,{WORDS} en {ENTRIES}.
-groupGalleryPage.anotherGroupLine,({LINK})
-groupGalleryPage.anotherGroupLine.link,¡Elije otro group por el que filtrar!
-albumCommentaryPage.nav.album,Álbum: {ALBUM}
-albumCommentaryPage.entry.title.albumCommentary,Comentario del álbum
-albumCommentaryPage.entry.title.trackCommentary,{TRACK}
-artistPage.title,{ARTIST}
-artistPage.creditList.album,{ALBUM}
-artistPage.creditList.album.withDate,{ALBUM} ({DATE})
-artistPage.creditList.album.withDate.withDuration,{ALBUM} ({DATE}; {DURATION})
-artistPage.creditList.flashAct,{ACT}
-artistPage.creditList.flashAct.withDateRange,{ACT} ({DATE_RANGE})
-artistPage.creditList.entry.track,{TRACK}
-artistPage.creditList.entry.track.withDuration,({DURATION}) {TRACK}
-artistPage.creditList.entry.album.coverArt,(carátula)
-artistPage.creditList.entry.album.wallpaperArt,(fondo)
-artistPage.creditList.entry.album.bannerArt,(banner)
-artistPage.creditList.entry.album.commentary,(comentario del álbum)
-artistPage.creditList.entry.flash,{FLASH}
-artistPage.creditList.entry.rerelease,{ENTRY} (relanzamiento)
-artistPage.creditList.entry.withContribution,{ENTRY} ({CONTRIBUTION})
-artistPage.creditList.entry.withArtists,{ENTRY} (con {ARTISTS})
-artistPage.creditList.entry.withArtists.withContribution,{ENTRY} ({CONTRIBUTION}; con {ARTISTS})
-artistPage.musicGroupsLine,Contribuyó música a estos grupos: {GROUPS}
-artistPage.artGroupsLine,Contribuyó arte a estos grupos: {GROUPS}
-artistPage.groupsLine.item,{GROUP} ({CONTRIBUTIONS})
-artistPage.contributedDurationLine,{ARTIST} ha contribuido {DURATION} de música compartido en este wiki.
-artistPage.trackList.title,Pistas
-artistPage.unreleasedTrackList.title,Pistas inéditas
-artistPage.artList.title,Arte
-artistPage.flashList.title,Flashes & Juegos
-artistPage.commentaryList.title,Comentario
-artistPage.viewArtGallery,¡Véase {LINK}!
-artistPage.viewArtGallery.orBrowseList,¡Véase {LINK}! O navegue la lista:
-artistPage.viewArtGallery.link,galería de arte
-artistPage.nav.artist,Artista: {ARTIST}
-artistGalleryPage.title,{ARTIST} - Galería
-artistGalleryPage.infoLine,Contribuyó a {COVER_ARTS}.
-commentaryIndex.title,Comentario
-commentaryIndex.infoLine,{WORDS} en {ENTRIES} en total.
-commentaryIndex.albumList.title,Escoge un álbum:
-commentaryIndex.albumList.item,{ALBUM} ({WORDS} en {ENTRIES})
-flashIndex.title,Flashes & Juegos
-flashPage.title,{FLASH}
-flashPage.nav.flash,{FLASH}
-groupSidebar.title,Grupos
-groupSidebar.groupList.category,{CATEGORY}
-groupSidebar.groupList.item,{GROUP}
-groupPage.nav.group,Grupo: {GROUP}
-groupInfoPage.title,{GROUP}
-groupInfoPage.viewAlbumGallery,¡Véase {LINK}! O navegue la lista:
-groupInfoPage.viewAlbumGallery.link,galería de álbumes
-groupInfoPage.albumList.title,Álbumes
-groupInfoPage.albumList.item,({YEAR}) {ALBUM}
-groupGalleryPage.title,{GROUP} - Galería
-groupGalleryPage.infoLine,"{TRACKS} en {ALBUMS}, sumando {TIME}."
-listingIndex.title,Listados
-listingIndex.infoLine,"{WIKI}: {TRACKS} en {ALBUMS}, sumando {DURATION}."
-listingIndex.exploreList,¡Explora cualquiera de los listados vinculados abajo y en la barra lateral!
-listingPage.listAlbums.byName.title,Álbumes - por Nombre
-listingPage.listAlbums.byName.item,{ALBUM} ({TRACKS})
-listingPage.listAlbums.byTracks.title,Álbumes - por Pistas
-listingPage.listAlbums.byTracks.item,{ALBUM} ({TRACKS})
-listingPage.listAlbums.byDuration.title,Álbumes - por Duración
-listingPage.listAlbums.byDuration.item,{ALBUM} ({DURATION})
-listingPage.listAlbums.byDate.title,Álbumes - por Fecha
-listingPage.listAlbums.byDateAdded.title,Álbumes - por Fecha añadido al Wiki
-listingPage.listAlbums.byDateAdded.date,{DATE}
-listingPage.listAlbums.byDateAdded.album,{ALBUM}
-listingPage.listAlbums.byDate.item,{ALBUM} ({DATE})
-listingPage.listArtists.byName.title,Artistas - por Nombre
-listingPage.listArtists.byName.item,{ARTIST} ({CONTRIBUTIONS})
-listingPage.listArtists.byContribs.title,Artistas - por Contribuciones
-listingPage.listArtists.byContribs.item,{ARTIST} ({CONTRIBUTIONS})
-listingPage.listArtists.byCommentary.title,Artistas - por Entradas de comentarios
-listingPage.listArtists.byCommentary.item,{ARTIST} ({ENTRIES})
-listingPage.listArtists.byDuration.title,Artistas - por Duración
-listingPage.listArtists.byDuration.item,{ARTIST} ({DURATION})
-listingPage.listArtists.byLatest.title,Artistas - por Última contribución
-listingPage.listArtists.byLatest.item,{ARTIST} ({DATE})
-listingPage.listGroups.byName.title,Grupos - por Nombre
-listingPage.listGroups.byName.item,{GROUP} ({GALLERY})
-listingPage.listGroups.byName.item.gallery,Galería
-listingPage.listGroups.byCategory.title,Grupos - por Categoría
-listingPage.listGroups.byCategory.category,{CATEGORY}
-listingPage.listGroups.byCategory.group,{GROUP} ({GALLERY})
-listingPage.listGroups.byCategory.group.gallery,Galería
-listingPage.listGroups.byAlbums.title,Grupos - por Álbumes
-listingPage.listGroups.byAlbums.item,{GROUP} ({ALBUMS})
-listingPage.listGroups.byTracks.title,Grupos - por Pistas
-listingPage.listGroups.byTracks.item,{GROUP} ({TRACKS})
-listingPage.listGroups.byDuration.title,Grupos - por Duración
-listingPage.listGroups.byDuration.item,{GROUP} ({DURATION})
-listingPage.listGroups.byLatest.title,Grupos - por Último álbum
-listingPage.listGroups.byLatest.item,{GROUP} ({DATE})
-listingPage.listTracks.byName.title,Pistas - por Nombre
-listingPage.listTracks.byName.item,{TRACK}
-listingPage.listTracks.byAlbum.title,Pistas - por Álbum
-listingPage.listTracks.byAlbum.album,{ALBUM}
-listingPage.listTracks.byAlbum.track,{TRACK}
-listingPage.listTracks.byDate.title,Pistas - por Fecha
-listingPage.listTracks.byDate.album,{ALBUM} ({DATE})
-listingPage.listTracks.byDate.track,{TRACK}
-listingPage.listTracks.byDate.track.rerelease,{TRACK} (relanzamiento)
-listingPage.listTracks.byDuration.title,Pistas - por Duración
-listingPage.listTracks.byDuration.item,{TRACK} ({DURATION})
-listingPage.listTracks.byDurationInAlbum.title,Pistas - por Duración (en Álbum)
-listingPage.listTracks.byDurationInAlbum.album,{ALBUM}
-listingPage.listTracks.byDurationInAlbum.track,{TRACK} ({DURATION})
-listingPage.listTracks.byTimesReferenced.title,Pistas - por Veces referenciado
-listingPage.listTracks.byTimesReferenced.item,{TRACK} ({TIMES_REFERENCED})
-listingPage.listTracks.inFlashes.byAlbum.title,Pistas - en Flashes & juegos (por Álbum)
-listingPage.listTracks.inFlashes.byAlbum.album,(ALBUM) ({DATE})
-listingPage.listTracks.inFlashes.byAlbum.track,{TRACK} (en {FLASHES})
-listingPage.listTracks.inFlashes.byFlash.title,Pistas - en Flashes & juegos (por Flash)
-listingPage.listTracks.inFlashes.byFlash.flash,{FLASH} ({DATE})
-listingPage.listTracks.inFlashes.byFlash.track,{TRACK} (de {ALBUM})
-listingPage.listTracks.withLyrics.title,Pistas - con Letra
-listingPage.listTracks.withLyrics.album,{ALBUM} ({DATE})
-listingPage.listTracks.withLyrics.track,{TRACK}
-listingPage.listTags.byName.title,Etiquetas - por Nombre
-listingPage.listTags.byName.item,{TAG} ({TIMES_USED})
-listingPage.listTags.byUses.title,Etiquetas - por Veces usado
-listingPage.listTags.byUses.item,{TAG} ({TIMES_USED})
-listingPage.misc.trackContributors,Contribuidores de pistas
-listingPage.misc.artContributors,Contribuidores de arte
-listingPage.misc.artAndFlashContributors,Contribuidores de arte & flash
-newsIndex.title,Noticias
-newsIndex.entry.viewRest,¡Vea el resto del artículo!
-newsEntryPage.title,{ENTRY}
-newsEntryPage.published,(Publicado el {DATE}.)
-newsEntryPage.nav.news,Noticias
-newsEntryPage.nav.entry,{DATE}: {ENTRY}
-redirectPage.title,Trasladado a {TITLE}
-redirectPage.infoLine,Esta página ha sido trasladada a {TARGET}
-tagPage.title,{TAG}
-tagPage.infoLine,Aparece en {COVER_ARTS}.
-tagPage.nav.tag,Etiqueta: {TAG}
-trackPage.title,{TRACK}
-trackPage.referenceList.fandom,Fandom:
-trackPage.referenceList.official,Oficial:
-trackPage.nav.track,{TRACK}
-trackPage.nav.track.withNumber,{NUMBER}. {TRACK}
-trackPage.nav.random,Aleatorio
-content.group.clark-powell.description,"Compositora de {MEDIUM} y {SYMPHONY_IMPOSSIBLE_TO_PLAY} al igual que docenas de canciones a través de la discografía de Homestuck, y la artista detrás de varios álbumes independientes cuyas canciones fueron recopiladas y usadas como la banda sonora para {PSYCHOLONIALS}."
-content.group.cristata.description,"Artista detrás de {PERFECTLY_GENERIC_ALBUM} entre otros, y creadora de la fanventura crossover {DELTASTUCK}. Lanza álbumes bajo una variedad de nombres."
-content.group.michael-guy-bowman.description,"Reconicido por {SBURBAN_JUNGLE}, su album solo oficial {MOBIUS_TRIP_AND_HADRON_KALEIDO} y muchos otros hits en la discográfica de Homestuck, Bowman ha continuado desde entonces con su extensa discografía personal."
-content.group.nasqueron.description,"Artista creadora de varias canciones en una gama de álbumes fan (donde es acreditada como {KAL_LA_KAL_LA}), con dos álbumes de poesía sonora en su haber."
-content.group.nuclear333.description,"Co-creadora del webcomic [INHOSPITABLE], y música con un catálogo que abarca media década. Artista plural de internet."
-content.group.tensei.description,Compositor roquero detrás del lanzamiento hit de 2011 {STRIFE} y en general guitarrista y músico detrás de una gran cantidad de canciones memorables. ¡Desde entonces ha lanzado la secuela de 2017 {STRIFE_2} y una variedad de otras canciones colaborativas tras Homestuck!
-content.group.toby-fox.description,"Un artista con más de 100 canciones en el canon musical de Homestuck (incluyendo el elusivo {PENUMBRA_PHANTASM}), Toby Fox siguió a componer las renombradas bandas sonoras de sus juegos {UNDERTALE_AND_DELTARUNE}, plantando firmemente su lugar en la historia moderna de los videojuegos e Internet."
+Reviewed?,Sign-off,String Key,Current Reference (English),Used Reference (English),String Value,Comments
+TRUE,"Niklink, Cello",meta.languageCode,en,en,es,
+TRUE,"Niklink, Cello",meta.languageName,English,English,Español,
+FALSE,,count.additionalFiles,{FILES},,,
+FALSE,,count.additionalFiles.withUnit.zero,,,,
+FALSE,Cello,count.additionalFiles.withUnit.one,{FILES} file,{FILES} additional file,{FILES} archivo adicional,
+FALSE,,count.additionalFiles.withUnit.two,,,,
+FALSE,,count.additionalFiles.withUnit.few,,,,
+FALSE,,count.additionalFiles.withUnit.many,,,,
+FALSE,Cello,count.additionalFiles.withUnit.other,{FILES} files,{FILES} additional files,{FILES} archivos adicionales,
+TRUE,"Niklink, Cello",count.albums,{ALBUMS},{ALBUMS},{ALBUMS},
+FALSE,Niklink,count.albums.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.albums.withUnit.one,{ALBUMS} album,{ALBUMS} album,{ALBUMS} álbum,
+FALSE,Niklink,count.albums.withUnit.two,,,,
+FALSE,Niklink,count.albums.withUnit.few,,,,
+FALSE,Niklink,count.albums.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.albums.withUnit.other,{ALBUMS} albums,{ALBUMS} albums,{ALBUMS} álbumes,
+FALSE,,count.artworks,{ARTWORKS},{ARTWORKS},,
+FALSE,,count.artworks.withUnit.zero,,,,
+FALSE,,count.artworks.withUnit.one,{ARTWORKS} artwork,{ARTWORKS} artwork,,
+FALSE,,count.artworks.withUnit.two,,,,
+FALSE,,count.artworks.withUnit.few,,,,
+FALSE,,count.artworks.withUnit.many,,,,
+FALSE,,count.artworks.withUnit.other,{ARTWORKS} artworks,{ARTWORKS} artworks,,
+TRUE,"Niklink, Cello",count.commentaryEntries,{ENTRIES},{ENTRIES},{ENTRIES},
+FALSE,Niklink,count.commentaryEntries.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.commentaryEntries.withUnit.one,{ENTRIES} entry,{ENTRIES} entry,{ENTRIES} entrada,
+FALSE,Niklink,count.commentaryEntries.withUnit.two,,,,
+FALSE,Niklink,count.commentaryEntries.withUnit.few,,,,
+FALSE,Niklink,count.commentaryEntries.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.commentaryEntries.withUnit.other,{ENTRIES} entries,{ENTRIES} entries,{ENTRIES} entradas,
+TRUE,"Niklink, Cello",count.contributions,{CONTRIBUTIONS},{CONTRIBUTIONS},{CONTRIBUTIONS},
+FALSE,Niklink,count.contributions.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.contributions.withUnit.one,{CONTRIBUTIONS} contribution,{CONTRIBUTIONS} contribution,{CONTRIBUTIONS} contribución,
+FALSE,Niklink,count.contributions.withUnit.two,,,,
+FALSE,Niklink,count.contributions.withUnit.few,,,,
+FALSE,Niklink,count.contributions.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.contributions.withUnit.other,{CONTRIBUTIONS} contributions,{CONTRIBUTIONS} contributions,{CONTRIBUTIONS} contribuciones,
+TRUE,"Niklink, Cello",count.coverArts,{COVER_ARTS},{COVER_ARTS},{COVER_ARTS},
+FALSE,Niklink,count.coverArts.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.coverArts.withUnit.one,{COVER_ARTS} cover art,{COVER_ARTS} cover art,{COVER_ARTS} carátula,
+FALSE,Niklink,count.coverArts.withUnit.two,,,,
+FALSE,Niklink,count.coverArts.withUnit.few,,,,
+FALSE,Niklink,count.coverArts.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.coverArts.withUnit.other,{COVER_ARTS} cover arts,{COVER_ARTS} cover arts,{COVER_ARTS} carátulas,
+FALSE,,count.flashes,{FLASHES},{FLASHES},,
+FALSE,,count.flashes.withUnit.zero,,,,
+FALSE,,count.flashes.withUnit.one,{FLASHES} flashes & games,{FLASHES} flashes & games,,
+FALSE,,count.flashes.withUnit.two,,,,
+FALSE,,count.flashes.withUnit.few,,,,
+FALSE,,count.flashes.withUnit.many,,,,
+FALSE,,count.flashes.withUnit.other,{FLASHES} flashes & games,{FLASHES} flashes & games,,
+TRUE,"Niklink, Cello",count.tracks,{TRACKS},{TRACKS},{TRACKS},
+FALSE,Niklink,count.tracks.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.tracks.withUnit.one,{TRACKS} track,{TRACKS} track,{TRACKS} pista,
+FALSE,Niklink,count.tracks.withUnit.two,,,,
+FALSE,Niklink,count.tracks.withUnit.few,,,,
+FALSE,Niklink,count.tracks.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.tracks.withUnit.other,{TRACKS} tracks,{TRACKS} tracks,{TRACKS} pistas,
+FALSE,,count.days,{DAYS},{DAYS},,
+FALSE,,count.days.withUnit.zero,,,,
+FALSE,,count.days.withUnit.one,{DAYS} day,{DAYS} day,,
+FALSE,,count.days.withUnit.two,,,,
+FALSE,,count.days.withUnit.few,,,,
+FALSE,,count.days.withUnit.many,,,,
+FALSE,,count.days.withUnit.other,{DAYS} days,{DAYS} days,,
+FALSE,,count.months,{MONTHS},{MONTHS},,
+FALSE,,count.months.withUnit.zero,,,,
+FALSE,,count.months.withUnit.one,{MONTHS} month,{MONTHS} month,,
+FALSE,,count.months.withUnit.two,,,,
+FALSE,,count.months.withUnit.few,,,,
+FALSE,,count.months.withUnit.many,,,,
+FALSE,,count.months.withUnit.other,{MONTHS} months,{MONTHS} months,,
+TRUE,Niklink,count.timesReferenced,{TIMES_REFERENCED},{TIMES_REFERENCED},{TIMES_REFERENCED},
+FALSE,Niklink,count.timesReferenced.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.timesReferenced.withUnit.one,{TIMES_REFERENCED} time referenced,{TIMES_REFERENCED} time referenced,referenciado {TIMES_REFERENCED} vez,
+FALSE,Niklink,count.timesReferenced.withUnit.two,,,,
+FALSE,Niklink,count.timesReferenced.withUnit.few,,,,
+FALSE,Niklink,count.timesReferenced.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.timesReferenced.withUnit.other,{TIMES_REFERENCED} times referenced,{TIMES_REFERENCED} times referenced,referenciado {TIMES_REFERENCED} veces,
+TRUE,"Niklink, Cello",count.timesUsed,{TIMES_USED},{TIMES_USED},{TIMES_USED},
+FALSE,Niklink,count.timesUsed.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.timesUsed.withUnit.one,used {TIMES_USED} time,used {TIMES_USED} time,usado {TIMES_USED} vez,
+FALSE,Niklink,count.timesUsed.withUnit.two,,,,
+FALSE,Niklink,count.timesUsed.withUnit.few,,,,
+FALSE,Niklink,count.timesUsed.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.timesUsed.withUnit.other,used {TIMES_USED} times,used {TIMES_USED} times,usado {TIMES_USED} veces,
+FALSE,,count.weeks,{WEEKS},{WEEKS},,
+FALSE,,count.weeks.withUnit.zero,,,,
+FALSE,,count.weeks.withUnit.one,{WEEKS} week,{WEEKS} week,,
+FALSE,,count.weeks.withUnit.two,,,,
+FALSE,,count.weeks.withUnit.few,,,,
+FALSE,,count.weeks.withUnit.many,,,,
+FALSE,,count.weeks.withUnit.other,{WEEKS} weeks,{WEEKS} weeks,,
+TRUE,"Niklink, Cello",count.words,{WORDS},{WORDS},{WORDS},
+TRUE,"Niklink, Cello",count.words.thousand,{WORDS}k,{WORDS}k,{WORDS} mil,
+FALSE,Niklink,count.words.withUnit.zero,,,,
+TRUE,"Niklink, Cello",count.words.withUnit.one,{WORDS} word,{WORDS} word,{WORDS} palabra,
+FALSE,Niklink,count.words.withUnit.two,,,,
+FALSE,Niklink,count.words.withUnit.few,,,,
+FALSE,Niklink,count.words.withUnit.many,,,,
+TRUE,"Niklink, Cello",count.words.withUnit.other,{WORDS} words,{WORDS} words,{WORDS} palabras,
+FALSE,,count.years,{YEARS},{YEARS},,
+FALSE,,count.years.withUnit.zero,,,,
+FALSE,,count.years.withUnit.one,{YEARS} year,{YEARS} year,,
+FALSE,,count.years.withUnit.two,,,,
+FALSE,,count.years.withUnit.few,,,,
+FALSE,,count.years.withUnit.many,,,,
+FALSE,,count.years.withUnit.other,{YEARS} years,{YEARS} years,,
+TRUE,"Niklink, Cello",count.duration.missing,_:__,_:__,_:__,
+TRUE,"Niklink, Cello",count.duration.approximate,~{DURATION},~{DURATION},~{DURATION},
+TRUE,"Niklink, Cello",count.duration.hours,{HOURS}:{MINUTES}:{SECONDS},{HOURS}:{MINUTES}:{SECONDS},{HOURS}:{MINUTES}:{SECONDS},
+TRUE,"Niklink, Cello",count.duration.hours.withUnit,{HOURS}:{MINUTES}:{SECONDS} hours,{HOURS}:{MINUTES}:{SECONDS} hours,{HOURS}:{MINUTES}:{SECONDS} horas,
+TRUE,"Niklink, Cello",count.duration.minutes,{MINUTES}:{SECONDS},{MINUTES}:{SECONDS},{MINUTES}:{SECONDS},
+TRUE,"Niklink, Cello",count.duration.minutes.withUnit,{MINUTES}:{SECONDS} minutes,{MINUTES}:{SECONDS} minutes,{MINUTES}:{SECONDS} minutos,
+FALSE,,count.dateDuration.earlier,{DURATION} earlier,{DURATION} earlier,,
+FALSE,,count.dateDuration.later,{DURATION} later,{DURATION} later,,
+FALSE,,count.dateDuration.same,on the same date,on the same date,,
+FALSE,,count.dateDuration.zero,at most one day,at most one day,,
+FALSE,,count.dateDuration.approximate,about {DURATION},about {DURATION},,
+FALSE,,count.dateDuration.approximateEarlier,about {DURATION} earlier,about {DURATION} earlier,,
+FALSE,,count.dateDuration.approximateLater,about {DURATION} later,about {DURATION} later,,
+FALSE,,count.dateDuration.relativeAbsolute,{ABSOLUTE}; {RELATIVE},{ABSOLUTE}; {RELATIVE},,
+FALSE,,count.dateDuration.years,{YEARS},{YEARS},,
+FALSE,,count.dateDuration.months,{MONTHS},{MONTHS},,
+FALSE,,count.dateDuration.days,{DAYS},{DAYS},,
+FALSE,,count.dateDuration.yearsMonthsDays,"{YEARS}, {MONTHS}, {DAYS}","{YEARS}, {MONTHS}, {DAYS}",,
+FALSE,,count.dateDuration.yearsMonths,"{YEARS}, {MONTHS}","{YEARS}, {MONTHS}",,
+FALSE,,count.dateDuration.yearsDays,"{YEARS}, {DAYS}","{YEARS}, {DAYS}",,
+FALSE,,count.dateDuration.monthsDays,"{MONTHS}, {DAYS}","{MONTHS}, {DAYS}",,
+TRUE,"Cello, Niklink",count.fileSize.terabytes,{TERABYTES} TB,{TERABYTES} TB,{TERABYTES} TB,
+TRUE,"Cello, Niklink",count.fileSize.gigabytes,{GIGABYTES} GB,{GIGABYTES} GB,{GIGABYTES} GB,
+TRUE,"Cello, Niklink",count.fileSize.megabytes,{MEGABYTES} MB,{MEGABYTES} MB,{MEGABYTES} MB,
+TRUE,"Cello, Niklink",count.fileSize.kilobytes,{KILOBYTES} kB,{KILOBYTES} kB,{KILOBYTES} kB,
+TRUE,"Cello, Niklink",count.fileSize.bytes,{BYTES} bytes,{BYTES} bytes,{BYTES} bytes,
+FALSE,Niklink,count.index.zero,,,,
+TRUE,"Niklink, Cello",count.index.one,{INDEX}st,{INDEX}st,{INDEX}.º,
+TRUE,"Niklink, Cello",count.index.two,{INDEX}nd,{INDEX}nd,{INDEX}.º,
+TRUE,"Niklink, Cello",count.index.few,{INDEX}rd,{INDEX}rd,{INDEX}.º,
+FALSE,Niklink,count.index.many,,,,
+TRUE,"Niklink, Cello",count.index.other,{INDEX}th,{INDEX}th,{INDEX}.º,
+TRUE,"Niklink, Cello",releaseInfo.by,By {ARTISTS}.,By {ARTISTS}.,Por {ARTISTS}.,
+TRUE,"Niklink, Cello",releaseInfo.from,From {ALBUM}.,From {ALBUM}.,De {ALBUM}.,
+TRUE,"Niklink, Cello",releaseInfo.coverArtBy,Cover art by {ARTISTS}.,Cover art by {ARTISTS}.,Carátula por {ARTISTS}.,
+TRUE,"Niklink, Cello",releaseInfo.wallpaperArtBy,Wallpaper art by {ARTISTS}.,Wallpaper art by {ARTISTS}.,Fondo por {ARTISTS}.,
+TRUE,"Niklink, Cello",releaseInfo.bannerArtBy,Banner art by {ARTISTS}.,Banner art by {ARTISTS}.,Arte de banner por {ARTISTS}.,
+TRUE,"Niklink, Cello",releaseInfo.released,Released {DATE}.,Released {DATE}.,Lanzado el {DATE}.,
+TRUE,"Niklink, Cello",releaseInfo.artReleased,Art released {DATE}.,Art released {DATE}.,Arte lanzado el {DATE}.,
+TRUE,"Niklink, Cello",releaseInfo.addedToWiki,Added to wiki {DATE}.,Added to wiki {DATE}.,Añadido a la wiki el {DATE}.,
+TRUE,"Niklink, Cello",releaseInfo.duration,Duration: {DURATION}.,Duration: {DURATION}.,Duración: {DURATION}.,
+TRUE,"Niklink, Cello",releaseInfo.contributors,Contributors:,Contributors:,Contribuidores:,
+TRUE,"Niklink, Cello",releaseInfo.lyrics,Lyrics:,Lyrics:,Letra:,
+TRUE,"Niklink, Cello",releaseInfo.note,Context notes:,Note:,Nota:,
+TRUE,"Niklink, Cello",releaseInfo.alsoReleasedAs,Also released as:,Also released as:,También lanzada como:,
+FALSE,Lanolin,releaseInfo.alsoReleasedAs.item,{TRACK} ({ALBUM}),{TRACK} ({ALBUM}),{TRACK} ({ALBUM}),
+FALSE,Lanolin,releaseInfo.alsoReleasedAs.item.withYear,({YEAR}) {TRACK} ({ALBUM}),({YEAR}) {TRACK} ({ALBUM}),({YEAR}) {TRACK} ({ALBUM}),
+TRUE,"Niklink, Cello",releaseInfo.tracksReferenced,Tracks that {TRACK} references:,Tracks that {TRACK} references:,Pistas que {TRACK} referencia:,
+TRUE,"Niklink, Cello",releaseInfo.tracksThatReference,Tracks that reference {TRACK}:,Tracks that reference {TRACK}:,Pistas que referencian {TRACK}:,
+TRUE,"Niklink, Cello",releaseInfo.tracksSampled,Tracks that {TRACK} samples:,Tracks that {TRACK} samples:,Pistas que {TRACK} samplea:,
+TRUE,Niklink. Cello,releaseInfo.tracksThatSample,Tracks that sample {TRACK}:,Tracks that sample {TRACK}:,Pistas que samplean {TRACK}:,
+TRUE,"Niklink, Cello",releaseInfo.flashesThatFeature,Flashes & games that feature {TRACK}:,Flashes & games that feature {TRACK}:,Flashes & juegos que incluyen {TRACK}:,
+TRUE,"Niklink, Cello",releaseInfo.flashesThatFeature.item,{FLASH},{FLASH},{FLASH},
+TRUE,"Niklink, Cello",releaseInfo.flashesThatFeature.item.asDifferentRelease,{FLASH} (as {TRACK}),{FLASH} (as {TRACK}),{FLASH} (como {TRACK}),
+TRUE,"Niklink, Cello",releaseInfo.tracksFeatured,Tracks that {FLASH} features:,Tracks that {FLASH} features:,Pistas que {FLASH} incluye:,
+TRUE,"Niklink, Cello",releaseInfo.viewCommentary,View {LINK}!,View {LINK}!,¡Véase {LINK}!,
+TRUE,"Niklink, Cello",releaseInfo.viewCommentary.link,commentary page,commentary page,página de comentario,
+FALSE,,releaseInfo.viewGallery,View {LINK}!,View {LINK}!,,
+FALSE,,releaseInfo.viewGallery.link,gallery page,gallery page,,
+FALSE,,releaseInfo.viewGalleryOrCommentary,View {GALLERY} or {COMMENTARY}!,View {GALLERY} or {COMMENTARY}!,,
+FALSE,,releaseInfo.viewGalleryOrCommentary.gallery,gallery page,gallery page,,
+FALSE,,releaseInfo.viewGalleryOrCommentary.commentary,commentary page,commentary page,,
+FALSE,,releaseInfo.viewOriginalFile,View {LINK}.,View {LINK}.,,
+FALSE,,releaseInfo.viewOriginalFile.withSize,View {LINK} ({SIZE}).,View {LINK} ({SIZE}).,,
+FALSE,,releaseInfo.viewOriginalFile.link,original file,original file,,
+FALSE,,releaseInfo.viewOriginalFile.sizeWarning,"(Heads up! If you're on a mobile plan, this is a large download.)","(Heads up! If you're on a mobile plan, this is a large download.)",,
+TRUE,"Niklink, Cello",releaseInfo.listenOn,Listen on {LINKS}.,Listen on {LINKS}.,Escucha en {LINKS}.,
+TRUE,"Niklink, Cello",releaseInfo.listenOn.noLinks,This wiki doesn't have any listening links for {NAME}.,This track has no URLs at which it can be listened.,Esta pista no tiene un URL donde puede ser escuchada.,
+TRUE,"Niklink, Cello",releaseInfo.visitOn,Visit on {LINKS}.,Visit on {LINKS}.,Visita en {LINKS}.,
+TRUE,"Niklink, Cello",releaseInfo.playOn,Play on {LINKS}.,Play on {LINKS}.,Ver en {LINKS}.,
+FALSE,,releaseInfo.readCommentary,Read {LINK}.,Read {LINK}.,,
+FALSE,,releaseInfo.readCommentary.link,artist commentary,artist commentary,,
+TRUE,"QN, Cello",releaseInfo.additionalFiles.heading,View or download {ADDITIONAL_FILES}:,Has {ADDITIONAL_FILES}:,Tiene {ADDITIONAL_FILES}:,
+TRUE,"Cello, Niklink",releaseInfo.additionalFiles.entry,{TITLE},{TITLE},{TITLE},
+TRUE,"Cello, Niklink",releaseInfo.additionalFiles.entry.withDescription,{TITLE}: {DESCRIPTION},{TITLE}: {DESCRIPTION},{TITLE}: {DESCRIPTION},
+TRUE,"Cello, Niklink",releaseInfo.additionalFiles.file,{FILE},{FILE},{FILE},
+TRUE,"Cello, Niklink",releaseInfo.additionalFiles.file.withSize,{FILE} ({SIZE}),{FILE} ({SIZE}),{FILE} ({SIZE}),
+FALSE,,releaseInfo.additionalFiles.shortcut,View {ANCHOR_LINK}: {TITLES},View {ANCHOR_LINK}: {TITLES},,
+FALSE,Lanolin,releaseInfo.additionalFiles.shortcut.anchorLink,additional files,additional files,archivos adicionales,
+FALSE,,releaseInfo.sheetMusicFiles.heading,Print or download sheet music files:,Print or download sheet music files:,,
+FALSE,,releaseInfo.sheetMusicFiles.shortcut,Download {LINK}.,Download {LINK}.,,
+FALSE,,releaseInfo.sheetMusicFiles.shortcut.link,sheet music files,sheet music files,,
+FALSE,,releaseInfo.midiProjectFiles.heading,Download MIDI/project files:,Download MIDI/project files:,,
+FALSE,,releaseInfo.midiProjectFiles.shortcut,Download {LINK}.,Download {LINK}.,,
+FALSE,,releaseInfo.midiProjectFiles.shortcut.link,MIDI/project files,MIDI/project files,,
+FALSE,,trackList.section,{SECTION}:,{SECTION}:,,
+FALSE,Lanolin,trackList.section.withDuration,{SECTION}: ({DURATION}),{SECTION}: ({DURATION}),{SECTION}: ({DURATION}),
+FALSE,,trackList.group,From {GROUP}:,From {GROUP}:,,
+FALSE,,trackList.group.fromOther,From somewhere else:,From somewhere else:,,
+FALSE,,trackList.item,{TRACK},{TRACK},,
+FALSE,Lanolin,trackList.item.withDuration,{DURATION} {TRACK},{DURATION} {TRACK},{DURATION} {TRACK},
+TRUE,"Niklink, Cello",trackList.item.withArtists,{TRACK} {BY},{TRACK} {BY},{TRACK} {BY},
+FALSE,Lanolin,trackList.item.withDuration.withArtists,{DURATION} {TRACK} {BY},{DURATION} {TRACK} {BY},{DURATION} {TRACK} {BY},
+FALSE,,trackList.item.withDuration.duration,({DURATION}),({DURATION}),,
+FALSE,,trackList.item.withDuration.duration.missing,_:__,_:__,,
+FALSE,,trackList.item.withDuration.duration.missing.info,no duration provided; treated as zero seconds long,no duration provided; treated as zero seconds long,,
+TRUE,"Niklink, Cello",trackList.item.withArtists.by,by {ARTISTS},by {ARTISTS},por {ARTISTS},
+TRUE,"Niklink, Cello",trackList.item.rerelease,{TRACK} (rerelease),{TRACK} (rerelease),{TRACK} (relanzamiento),
+FALSE,,misc.additionalNames.title,Additional or alternate names:,Additional or alternate names:,,
+FALSE,,misc.additionalNames.tooltip,Click to view additional or alternate names,Click to view additional or alternate names,,
+FALSE,,misc.additionalNames.item,{NAME},{NAME},,
+FALSE,,misc.additionalNames.item.withAccent,{NAME} {ACCENT},{NAME} {ACCENT},,
+FALSE,,misc.additionalNames.item.accent.withAnnotation,({ANNOTATION}),({ANNOTATION}),,
+FALSE,,misc.additionalNames.item.accent.withAlbums,(on {ALBUMS}),(on {ALBUMS}),,
+FALSE,,misc.additionalNames.item.accent.withAnnotations.withAlbums,({ANNOTATION}; on {ALBUMS}),({ANNOTATION}; on {ALBUMS}),,
+TRUE,"Niklink, Cello",misc.alt.albumCover,album cover,album cover,carátula del álbum,
+TRUE,"Niklink, Cello",misc.alt.albumBanner,album banner,album banner,banner del álbum,
+TRUE,"Niklink, Cello",misc.alt.trackCover,track cover,track cover,carátula de la pista,
+TRUE,"Niklink, Cello",misc.alt.artistAvatar,artist avatar,artist avatar,avatar del artista,
+TRUE,"Niklink, Cello",misc.alt.flashArt,flash art,flash art,arte del flash,
+TRUE,"Niklink, Cello",misc.artistCommentary,Artist commentary:,Artist commentary:,Comentario del artista:,
+FALSE,,misc.artistCommentary.entry.title,{ARTISTS}:,{ARTISTS}:,,
+FALSE,,misc.artistCommentary.entry.title.noArtists,Unknown artist,Unknown artist,,
+FALSE,,misc.artistCommentary.entry.title.withAccent,{ARTISTS}: {ACCENT},{ARTISTS}: {ACCENT},,
+FALSE,,misc.artistCommentary.entry.title.accent.withAnnotation,({ANNOTATION}),({ANNOTATION}),,
+FALSE,,misc.artistCommentary.entry.title.accent.withDate,"({DATE})\"",""
+FALSE""","({DATE})\"",""
+FALSE""",,
+FALSE,,misc.artistCommentary.entry.seeOriginalRelease,See {ORIGINAL}!,See {ORIGINAL}!,,
+FALSE,,misc.artistLink,{ARTIST},{ARTIST},,
+FALSE,,misc.artistLink.withContribution,{ARTIST} ({CONTRIB}),{ARTIST} ({CONTRIB}),,
+FALSE,,misc.artistLink.withExternalLinks,{ARTIST} ({LINKS}),{ARTIST} ({LINKS}),,
+FALSE,,misc.artistLink.withContribution.withExternalLinks,{ARTIST} ({CONTRIB}) ({LINKS}),{ARTIST} ({CONTRIB}) ({LINKS}),,
+TRUE,"Niklink, Cello",misc.chronology.seeArtistPages,(See artist pages for chronology info!),(See artist pages for chronology info!),¡Vea las páginas de los artistas para la información cronológica!,
+FALSE,,misc.chronology.withNavigation,{HEADING} ({NAVIGATION}),{HEADING} ({NAVIGATION}),,
+TRUE,"Niklink, Cello",misc.chronology.heading.coverArt,{INDEX} cover art by {ARTIST},{INDEX} cover art by {ARTIST},{INDEX} carátula por {ARTIST},
+TRUE,"Niklink, Cello",misc.chronology.heading.flash,{INDEX} flash/game by {ARTIST},{INDEX} flash/game by {ARTIST},{INDEX} flash/juego por {ARTIST},
+TRUE,"Niklink, Cello",misc.chronology.heading.track,{INDEX} track by {ARTIST},{INDEX} track by {ARTIST},{INDEX} pista por {ARTIST},
+TRUE,"Niklink, Cello",misc.external.external,External,External,Externo,
+FALSE,,misc.external.withDomain,{PLATFORM} ({DOMAIN}),{PLATFORM} ({DOMAIN}),,
+FALSE,,misc.external.withHandle,{PLATFORM} ({HANDLE}),{PLATFORM} ({HANDLE}),,
+FALSE,,misc.external.local,Wiki Archive (local upload),Wiki Archive (local upload),,
+TRUE,"Niklink, Cello",misc.external.bandcamp,Bandcamp,Bandcamp,Bandcamp,
+FALSE,,misc.external.bgreco,bgreco.net,bgreco.net,,
+TRUE,"Niklink, Cello",misc.external.bgreco.flash,bgreco.net (high quality audio),bgreco.net (HQ Audio),bgreco.net (Audio de alta calidad),
+FALSE,,misc.external.deconreconstruction,Deconreconstruction,Deconreconstruction,,
+FALSE,,misc.external.deconreconstruction.music,MUSIC@DCRC,MUSIC@DCRC,,
+TRUE,"Niklink, Cello",misc.external.deviantart,DeviantArt,DeviantArt,DeviantArt,
+FALSE,,misc.external.fandom,Fandom,Fandom,,
+FALSE,,misc.external.fandom.mspaintadventures,MSPA Wiki,MSPA Wiki,,
+FALSE,,misc.external.fandom.mspaintadventures.page,MSPA Wiki ({PAGE}),MSPA Wiki ({PAGE}),,
+FALSE,,misc.external.homestuck,Homestuck,Homestuck,,
+TRUE,"Niklink, Cello",misc.external.homestuck.page,Homestuck (page {PAGE}),Homestuck (page {PAGE}),Homestuck (página {PAGE}),
+TRUE,"Niklink, Cello",misc.external.homestuck.secretPage,Homestuck (secret page),Homestuck (secret page),Homestuck (página secreta),
+TRUE,"Niklink, Cello",misc.external.instagram,Instagram,Instagram,Instagram,
+TRUE,"Niklink, Cello",misc.external.mastodon,Mastodon,Mastodon,Mastodon,
+FALSE,,misc.external.newgrounds,Newgrounds,Newgrounds,,
+TRUE,"Niklink, Cello",misc.external.patreon,Patreon,Patreon,Patreon,
+TRUE,"Niklink, Cello",misc.external.poetryFoundation,Poetry Foundation,Poetry Foundation,Poetry Foundation,
+TRUE,"Niklink, Cello",misc.external.soundcloud,SoundCloud,SoundCloud,SoundCloud,
+FALSE,,misc.external.spotify,Spotify,Spotify,,
+TRUE,"Niklink, Cello",misc.external.tumblr,Tumblr,Tumblr,Tumblr,
+TRUE,"Niklink, Cello",misc.external.twitter,Twitter,Twitter,Twitter,
+TRUE,"Niklink, Cello",misc.external.wikipedia,Wikipedia,Wikipedia,Wikipedia,
+TRUE,"Niklink, Cello",misc.external.youtube,YouTube,YouTube,YouTube,
+TRUE,"Niklink, Cello",misc.external.youtube.flash,YouTube (on any device),YouTube (on any device),YouTube (en cualquier dispositivo),
+TRUE,"Niklink, Cello",misc.external.youtube.playlist,YouTube (playlist),YouTube (playlist),YouTube (lista de reproducción),
+TRUE,"Niklink, Cello",misc.external.youtube.fullAlbum,YouTube (full album),YouTube (full album),YouTube (álbum completo),
+FALSE,,misc.missingImage,(This image file is missing),(This image file is missing),,
+FALSE,,misc.missingLinkContent,(Missing link content),(Missing link content),,
+TRUE,"Niklink, Cello",misc.nav.previous,Previous,Previous,Anterior,
+TRUE,"Niklink, Cello",misc.nav.next,Next,Next,Siguiente,
+TRUE,"Niklink, Cello",misc.nav.info,Info,Info,Info,
+TRUE,"Niklink, Cello",misc.nav.gallery,Gallery,Gallery,Galería,
+TRUE,"Cello, Niklink",misc.pageTitle,{TITLE},{TITLE},{TITLE},
+TRUE,"Cello, Niklink",misc.pageTitle.withWikiName,{TITLE} | {WIKI_NAME},{TITLE} | {WIKI_NAME},{TITLE} | {WIKI_NAME},
+FALSE,Lanolin,misc.skippers.skipTo,Skip to:,Skip to:,Saltar:,"These strings used to each include ""Skip to"". They're displayed in a more compact list now. -Lan"
+FALSE,Lanolin,misc.skippers.content,Content,Content,al contenido,"was ""Saltar al pie de página"", etc -Lan"
+FALSE,,misc.skippers.header,Header,Header,,
+FALSE,Lanolin,misc.skippers.footer,Footer,Footer,al pie de página,
+FALSE,Lanolin,misc.skippers.sidebar,Sidebar,Sidebar,a la barra lateral,"was ""Saltar a la barra lateral"", etc -Lan"
+FALSE,Lanolin,misc.skippers.sidebar.left,Sidebar (left),Sidebar (left),a la barra lateral (izquierda),
+FALSE,Lanolin,misc.skippers.sidebar.right,Sidebar (right),Sidebar (right),a la barra lateral (derecha),
+FALSE,,misc.skippers.tracks,Tracks,Tracks,,
+FALSE,,misc.skippers.artworks,Artworks,Artworks,,
+FALSE,,misc.skippers.flashes,Flashes & Games,Flashes & Games,,
+FALSE,,misc.skippers.contributors,Contributors,Contributors,,
+FALSE,,misc.skippers.references,References...,References...,,
+FALSE,,misc.skippers.referencedBy,Referenced by...,Referenced by...,,
+FALSE,,misc.skippers.samples,Samples...,Samples...,,
+FALSE,,misc.skippers.sampledBy,Sampled by...,Sampled by...,,
+FALSE,,misc.skippers.features,Features...,Features...,,
+FALSE,,misc.skippers.featuredIn,Featured in...,Featured in...,,
+FALSE,,misc.skippers.lyrics,Lyrics,Lyrics,,
+FALSE,,misc.skippers.sheetMusicFiles,Sheet music files,Sheet music files,,
+FALSE,,misc.skippers.midiProjectFiles,MIDI/project files,MIDI/project files,,
+FALSE,,misc.skippers.commentary,Commentary,Commentary,,
+FALSE,,misc.skippers.artistCommentary,Commentary,Commentary,,
+FALSE,,misc.skippers.additionalFiles,Additional files,Additional files,,
+FALSE,,misc.socialEmbed.heading,{WIKI_NAME} | {HEADING},{WIKI_NAME} | {HEADING},,
+TRUE,"Niklink, Cello",misc.jumpTo,Jump to:,Jump to:,Saltar a:,
+TRUE,"Niklink, Cello",misc.jumpTo.withLinks,Jump to: {LINKS}.,Jump to: {LINKS}.,Saltar a: {LINKS}.,
+FALSE,,misc.contentWarnings.warnings,{WARNINGS},{WARNINGS},,
+TRUE,"Niklink, Cello",misc.contentWarnings.reveal,click to show,click to show,haga clic para mostrar,
+FALSE,,misc.albumGrid.noCoverArt,{ALBUM},{ALBUM},,
+FALSE,,misc.albumGrid.details,"({TRACKS}, {TIME})","({TRACKS}, {TIME})",,
+FALSE,,misc.albumGrid.details.coverArtists,(Illust. {ARTISTS}),(Illust. {ARTISTS}),,
+FALSE,,misc.albumGrid.details.otherCoverArtists,(With {ARTISTS}),(With {ARTISTS}),,
+FALSE,,misc.albumGalleryGrid.noCoverArt,{NAME},{NAME},,
+TRUE,"Cello, Niklink",misc.uiLanguage,UI Language: {LANGUAGES},UI Language: {LANGUAGES},Lenguaje de interfaz: {LANGUAGES},
+TRUE,"Niklink, Cello",homepage.title,{TITLE},{TITLE},{TITLE},
+TRUE,"Niklink, Cello",homepage.news.title,News,News,Noticias,
+TRUE,"Niklink, Cello",homepage.news.entry.viewRest,(View rest of entry!),(View rest of entry!),¡Vea el resto del artículo!,
+TRUE,"Niklink, Cello",albumSidebar.trackList.item,{TRACK},{TRACK},{TRACK},
+FALSE,,albumSidebar.trackList.fallbackSectionName,Track list,Track list,,
+TRUE,"Niklink, Cello",albumSidebar.trackList.group,{GROUP},{GROUP},{GROUP},
+TRUE,"Niklink, Cello",albumSidebar.trackList.group.withRange,{GROUP} ({RANGE}),{GROUP} ({RANGE}),{GROUP} ({RANGE}),
+TRUE,"Niklink, Cello",albumSidebar.groupBox.title,{GROUP},{GROUP},{GROUP},
+TRUE,"Niklink, Cello",albumSidebar.groupBox.next,Next: {ALBUM},Next: {ALBUM},Siguiente: {ALBUM},
+TRUE,"Niklink, Cello",albumSidebar.groupBox.previous,Previous: {ALBUM},Previous: {ALBUM},Anterior: {ALBUM},
+TRUE,"Niklink, Cello",albumPage.title,{ALBUM},{ALBUM},{ALBUM},
+TRUE,"Niklink, Cello",albumPage.nav.album,{ALBUM},{ALBUM},{ALBUM},
+TRUE,"Niklink, Cello",albumPage.nav.randomTrack,Random Track,Random Track,Pista Aleatoria,
+FALSE,,albumPage.nav.gallery,Gallery,Gallery,,
+FALSE,,albumPage.nav.commentary,Commentary,Commentary,,
+FALSE,,albumPage.socialEmbed.heading,{GROUP},{GROUP},,
+FALSE,,albumPage.socialEmbed.title,{ALBUM},{ALBUM},,
+FALSE,,albumPage.socialEmbed.body.withDuration,{DURATION}.,{DURATION}.,,
+FALSE,,albumPage.socialEmbed.body.withTracks,{TRACKS}.,{TRACKS}.,,
+FALSE,,albumPage.socialEmbed.body.withReleaseDate,Released {DATE}.,Released {DATE}.,,
+FALSE,,albumPage.socialEmbed.body.withDuration.withTracks,"{DURATION}, {TRACKS}.","{DURATION}, {TRACKS}.",,
+FALSE,,albumPage.socialEmbed.body.withDuration.withReleaseDate,{DURATION}. Released {DATE}.,{DURATION}. Released {DATE}.,,
+FALSE,,albumPage.socialEmbed.body.withTracks.withReleaseDate,{TRACKS}. Released {DATE}.,{TRACKS}. Released {DATE}.,,
+FALSE,,albumPage.socialEmbed.body.withDuration.withTracks.withReleaseDate,"{DURATION}, {TRACKS}. Released {DATE}.","{DURATION}, {TRACKS}. Released {DATE}.",,
+FALSE,,albumGalleryPage.title,{ALBUM} - Gallery,{ALBUM} - Gallery,,
+FALSE,,albumGalleryPage.statsLine,{TRACKS} totaling {DURATION}.,{TRACKS} totaling {DURATION}.,,
+FALSE,,albumGalleryPage.statsLine.withDate,{TRACKS} totaling {DURATION}. Released {DATE}.,{TRACKS} totaling {DURATION}. Released {DATE}.,,
+FALSE,,albumGalleryPage.coverArtistsLine,All track artwork by {ARTISTS}.,All track artwork by {ARTISTS}.,,
+FALSE,,albumGalleryPage.noTrackArtworksLine,This album doesn't have any track artwork.,This album doesn't have any track artwork.,,
+TRUE,"Niklink, Cello",albumCommentaryPage.title,{ALBUM} - Commentary,{ALBUM} - Commentary,{ALBUM} - Comentario,
+TRUE,"Niklink, Cello",albumCommentaryPage.nav.album,Album: {ALBUM},Album: {ALBUM},Álbum: {ALBUM},
+TRUE,"Niklink, Cello",albumCommentaryPage.infoLine,{WORDS} across {ENTRIES}.,{WORDS} across {ENTRIES}.,{WORDS} en {ENTRIES}.,
+FALSE,Lanolin,albumCommentaryPage.entry.title.albumCommentary,{ALBUM},{ALBUM},{ALBUM},
+FALSE,,albumCommentaryPage.entry.title.albumCommentary.accent,Listen on: {LISTENING_LINKS},Listen on: {LISTENING_LINKS},,
+TRUE,"Niklink, Cello",albumCommentaryPage.entry.title.trackCommentary,{TRACK},{TRACK},{TRACK},
+FALSE,,albumCommentaryPage.entry.title.trackCommentary.accent,Listen on: {LISTENING_LINKS},Listen on: {LISTENING_LINKS},,
+TRUE,"Niklink, Cello",artistPage.title,{ARTIST},{ARTIST},{ARTIST},
+TRUE,"Niklink, Cello",artistPage.nav.artist,Artist: {ARTIST},Artist: {ARTIST},Artista: {ARTIST},
+TRUE,"Niklink, Cello",artistPage.creditList.album,{ALBUM},{ALBUM},{ALBUM},
+TRUE,"Niklink, Cello",artistPage.creditList.album.withDate,{ALBUM} ({DATE}),{ALBUM} ({DATE}),{ALBUM} ({DATE}),
+FALSE,,artistPage.creditList.album.withDuration,{ALBUM} ({DURATION}),{ALBUM} ({DURATION}),,
+TRUE,"Niklink, Cello",artistPage.creditList.album.withDate.withDuration,{ALBUM} ({DATE}; {DURATION}),{ALBUM} ({DATE}; {DURATION}),{ALBUM} ({DATE}; {DURATION}),
+TRUE,"Niklink, Cello",artistPage.creditList.flashAct,{ACT},{ACT},{ACT},
+FALSE,,artistPage.creditList.flashAct.withDate,{ACT} ({DATE}),{ACT} ({DATE}),,
+TRUE,"Niklink, Cello",artistPage.creditList.flashAct.withDateRange,{ACT} ({DATE_RANGE}),{ACT} ({DATE_RANGE}),{ACT} ({DATE_RANGE}),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.withAnnotation,{ENTRY} ({ANNOTATION}),{ENTRY} ({ANNOTATION}),{ENTRY} ({ANNOTATION}),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.withArtists,{ENTRY} (with {ARTISTS}),{ENTRY} (with {ARTISTS}),{ENTRY} (con {ARTISTS}),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.withArtists.withAnnotation,{ENTRY} ({ANNOTATION}; with {ARTISTS}),{ENTRY} ({ANNOTATION}; with {ARTISTS}),{ENTRY} ({ANNOTATION}; con {ARTISTS}),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.rerelease,{ENTRY} (rerelease),{ENTRY} (rerelease),{ENTRY} (relanzamiento),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.track,{TRACK},{TRACK},{TRACK},
+TRUE,"Niklink, Cello",artistPage.creditList.entry.track.withDuration,({DURATION}) {TRACK},({DURATION}) {TRACK},({DURATION}) {TRACK},
+TRUE,"Niklink, Cello",artistPage.creditList.entry.album.coverArt,(cover art),(cover art),(carátula),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.album.wallpaperArt,(wallpaper art),(wallpaper art),(fondo),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.album.bannerArt,(banner art),(banner art),(banner),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.album.commentary,(album commentary),(album commentary),(comentario del álbum),
+TRUE,"Niklink, Cello",artistPage.creditList.entry.flash,{FLASH},{FLASH},{FLASH},
+TRUE,"Niklink, Cello",artistPage.contributedDurationLine,{ARTIST} has contributed {DURATION} of music shared on this wiki.,{ARTIST} has contributed {DURATION} of music shared on this wiki.,{ARTIST} ha contribuido {DURATION} de música compartido en este wiki.,
+FALSE,Lanolin,artistPage.groupContributions.title.music,Contributed music to groups:,Contributed music to groups:,Contribuyó música a estos grupos:,
+TRUE,"Niklink, Cello",artistPage.groupContributions.title.artworks,Contributed artworks to groups:,Contributed art to groups: {GROUPS},Contribuyó arte a estos grupos: {GROUPS},
+FALSE,,artistPage.groupContributions.title.withSortButton,{TITLE} ({SORT}),{TITLE} ({SORT}),,
+FALSE,,artistPage.groupContributions.title.sorting.count,Sorting by count.,Sorting by count.,,
+FALSE,,artistPage.groupContributions.title.sorting.duration,Sorting by duration.,Sorting by duration.,,
+FALSE,,artistPage.groupContributions.item.countAccent,({COUNT}),({COUNT}),,
+FALSE,,artistPage.groupContributions.item.durationAccent,({DURATION}),({DURATION}),,
+FALSE,,artistPage.groupContributions.item.countDurationAccent,({COUNT} — {DURATION}),({COUNT} — {DURATION}),,
+FALSE,,artistPage.groupContributions.item.durationCountAccent,({DURATION} — {COUNT}),({DURATION} — {COUNT}),,
+TRUE,"Niklink, Cello",artistPage.trackList.title,Tracks,Tracks,Pistas,
+TRUE,"Niklink, Cello",artistPage.artList.title,Artworks,Art,Arte,
+TRUE,"Niklink, Cello",artistPage.flashList.title,Flashes & Games,Flashes & Games,Flashes & Juegos,
+TRUE,"Niklink, Cello",artistPage.commentaryList.title,Commentary,Commentary,Comentario,
+TRUE,"Niklink, Cello",artistPage.viewArtGallery,View {LINK}!,View {LINK}!,¡Véase {LINK}!,
+TRUE,"Niklink, Cello",artistPage.viewArtGallery.orBrowseList,View {LINK}! Or browse the list:,View {LINK}! Or browse the list:,¡Véase {LINK}! O navegue la lista:,
+TRUE,"Niklink, Cello",artistPage.viewArtGallery.link,art gallery,art gallery,galería de arte,
+TRUE,"Niklink, Cello",artistGalleryPage.title,{ARTIST} - Gallery,{ARTIST} - Gallery,{ARTIST} - Galería,
+TRUE,"Niklink, Cello",artistGalleryPage.infoLine,Contributed to {COVER_ARTS}.,Contributed to {COVER_ARTS}.,Contribuyó a {COVER_ARTS}.,
+TRUE,"Niklink, Cello",commentaryIndex.title,Commentary,Commentary,Comentario,
+TRUE,"Niklink, Cello",commentaryIndex.infoLine,"{WORDS} across {ENTRIES}, in all.","{WORDS} across {ENTRIES}, in all.",{WORDS} en {ENTRIES} en total.,
+TRUE,"Niklink, Cello",commentaryIndex.albumList.title,Choose an album:,Choose an album:,Escoge un álbum:,
+TRUE,"Niklink, Cello",commentaryIndex.albumList.item,{ALBUM} ({WORDS} across {ENTRIES}),{ALBUM} ({WORDS} across {ENTRIES}),{ALBUM} ({WORDS} en {ENTRIES}),
+TRUE,"Niklink, Cello",flashIndex.title,Flashes & Games,Flashes & Games,Flashes & Juegos,
+FALSE,,flashSidebar.flashList.flashesInThisAct,Flashes in this act,Flashes in this act,,
+FALSE,,flashSidebar.flashList.entriesInThisSection,Entries in this section,Entries in this section,,
+TRUE,"Niklink, Cello",flashPage.title,{FLASH},{FLASH},{FLASH},
+TRUE,"Niklink, Cello",flashPage.nav.flash,{FLASH},{FLASH},{FLASH},
+TRUE,"Niklink, Cello",groupSidebar.title,Groups,Groups,Grupos,
+TRUE,"Niklink, Cello",groupSidebar.groupList.category,{CATEGORY},{CATEGORY},{CATEGORY},
+TRUE,"Niklink, Cello",groupSidebar.groupList.item,{GROUP},{GROUP},{GROUP},
+TRUE,"Niklink, Cello",groupPage.nav.group,Group: {GROUP},Group: {GROUP},Grupo: {GROUP},
+TRUE,"Niklink, Cello",groupInfoPage.title,{GROUP},{GROUP},{GROUP},
+TRUE,"Niklink, Cello",groupInfoPage.viewAlbumGallery,View {LINK}! Or browse the list:,View {LINK}! Or browse the list:,¡Véase {LINK}! O navegue la lista:,
+TRUE,"Niklink, Cello",groupInfoPage.viewAlbumGallery.link,album gallery,album gallery,galería de álbumes,
+TRUE,"Niklink, Cello",groupInfoPage.albumList.title,Albums,Albums,Álbumes,
+FALSE,,groupInfoPage.albumList.item,{ALBUM},{ALBUM},,
+FALSE,,groupInfoPage.albumList.item.withYear,{YEAR_ACCENT} {ALBUM},{YEAR_ACCENT} {ALBUM},,
+FALSE,,groupInfoPage.albumList.item.withOtherGroup,{ALBUM} {OTHER_GROUP_ACCENT},{ALBUM} {OTHER_GROUP_ACCENT},,
+FALSE,,groupInfoPage.albumList.item.withYear.withOtherGroup,{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT},{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT},,
+FALSE,,groupInfoPage.albumList.item.yearAccent,({YEAR}),({YEAR}),,
+FALSE,,groupInfoPage.albumList.item.otherGroupAccent,(from {GROUPS}),(from {GROUPS}),,
+TRUE,"Niklink, Cello",groupGalleryPage.title,{GROUP} - Gallery,{GROUP} - Gallery,{GROUP} - Galería,
+TRUE,"Niklink, Cello",groupGalleryPage.infoLine,"{TRACKS} across {ALBUMS}, totaling {TIME}.","{TRACKS} across {ALBUMS}, totaling {TIME}.","{TRACKS} en {ALBUMS}, sumando {TIME}.",
+TRUE,"Niklink, Cello",listingIndex.title,Listings,Listings,Listados,
+TRUE,"Niklink, Cello",listingIndex.infoLine,"{WIKI}: {TRACKS} across {ALBUMS}, totaling {DURATION}.","{WIKI}: {TRACKS} across {ALBUMS}, totaling {DURATION}.","{WIKI}: {TRACKS} en {ALBUMS}, sumando {DURATION}.",
+TRUE,"Niklink, Cello",listingIndex.exploreList,Feel free to explore any of the listings linked below and in the sidebar!,Feel free to explore any of the listings linked below and in the sidebar!,¡Explora cualquiera de los listados vinculados abajo y en la barra lateral!,
+FALSE,,listingPage.target.album,Albums,Albums,,
+FALSE,,listingPage.target.artist,Artists,Artists,,
+FALSE,,listingPage.target.group,Groups,Groups,,
+FALSE,,listingPage.target.track,Tracks,Tracks,,
+FALSE,,listingPage.target.tag,Tags,Tags,,
+FALSE,,listingPage.target.other,Other,Other,,
+TRUE,"Niklink, Cello",listingPage.misc.trackContributors,Track Contributors,Track Contributors,Contribuidores de pistas,
+TRUE,"Niklink, Cello",listingPage.misc.artContributors,Art Contributors,Art Contributors,Contribuidores de arte,
+FALSE,,listingPage.misc.flashContributors,Flash & Game Contributors,Flash & Game Contributors,,
+TRUE,"Niklink, Cello",listingPage.misc.artAndFlashContributors,Art & Flash Contributors,Art & Flash Contributors,Contribuidores de arte & flash,
+FALSE,,listingPage.listingsFor,Listings for {TARGET}: {LISTINGS},Listings for {TARGET}: {LISTINGS},,
+FALSE,,listingPage.seeAlso,Also check out: {LISTINGS},Also check out: {LISTINGS},,
+FALSE,,listingPage.skipToSection,Skip to a section:,Skip to a section:,,
+TRUE,"Niklink, Cello",listingPage.listAlbums.byName.title,Albums - by Name,Albums - by Name,Álbumes - por Nombre,
+FALSE,,listingPage.listAlbums.byName.title.short,...by Name,...by Name,,
+TRUE,"Niklink, Cello",listingPage.listAlbums.byName.item,{ALBUM} ({TRACKS}),{ALBUM} ({TRACKS}),{ALBUM} ({TRACKS}),
+TRUE,"Niklink, Cello",listingPage.listAlbums.byTracks.title,Albums - by Tracks,Albums - by Tracks,Álbumes - por Pistas,
+FALSE,,listingPage.listAlbums.byTracks.title.short,...by Tracks,...by Tracks,,
+TRUE,"Niklink, Cello",listingPage.listAlbums.byTracks.item,{ALBUM} ({TRACKS}),{ALBUM} ({TRACKS}),{ALBUM} ({TRACKS}),
+TRUE,"Niklink, Cello",listingPage.listAlbums.byDuration.title,Albums - by Duration,Albums - by Duration,Álbumes - por Duración,
+FALSE,,listingPage.listAlbums.byDuration.title.short,...by Duration,...by Duration,,
+TRUE,"Niklink, Cello",listingPage.listAlbums.byDuration.item,{ALBUM} ({DURATION}),{ALBUM} ({DURATION}),{ALBUM} ({DURATION}),
+TRUE,"Niklink, Cello",listingPage.listAlbums.byDate.title,Albums - by Date,Albums - by Date,Álbumes - por Fecha,
+FALSE,,listingPage.listAlbums.byDate.title.short,...by Date,...by Date,,
+TRUE,"Niklink, Cello",listingPage.listAlbums.byDate.item,{ALBUM} ({DATE}),{ALBUM} ({DATE}),{ALBUM} ({DATE}),
+TRUE,"Niklink, Cello",listingPage.listAlbums.byDateAdded.title,Albums - by Date Added to Wiki,Albums - by Date Added to Wiki,Álbumes - por Fecha añadido al Wiki,
+FALSE,,listingPage.listAlbums.byDateAdded.title.short,...by Date Added to Wiki,...by Date Added to Wiki,,
+FALSE,,listingPage.listAlbums.byDateAdded.chunk.title,{DATE},{DATE},,
+FALSE,,listingPage.listAlbums.byDateAdded.chunk.item,{ALBUM},{ALBUM},,
+TRUE,"Niklink, Cello",listingPage.listArtists.byName.title,Artists - by Name,Artists - by Name,Artistas - por Nombre,
+FALSE,,listingPage.listArtists.byName.title.short,...by Name,...by Name,,
+TRUE,"Niklink, Cello",listingPage.listArtists.byName.item,{ARTIST} ({CONTRIBUTIONS}),{ARTIST} ({CONTRIBUTIONS}),{ARTIST} ({CONTRIBUTIONS}),
+TRUE,"Niklink, Cello",listingPage.listArtists.byContribs.title,Artists - by Contributions,Artists - by Contributions,Artistas - por Contribuciones,
+FALSE,,listingPage.listArtists.byContribs.title.short,...by Contributions,...by Contributions,,
+FALSE,,listingPage.listArtists.byContribs.chunk.item,{ARTIST} ({CONTRIBUTIONS}),{ARTIST} ({CONTRIBUTIONS}),,
+FALSE,,listingPage.listArtists.byContribs.chunk.title.trackContributors,Contributed tracks:,Contributed tracks:,,
+FALSE,,listingPage.listArtists.byContribs.chunk.title.artContributors,Contributed artworks:,Contributed artworks:,,
+FALSE,,listingPage.listArtists.byContribs.chunk.title.flashContributors,Contributed to flashes & games:,Contributed to flashes & games:,,
+TRUE,"Niklink, Cello",listingPage.listArtists.byCommentary.title,Artists - by Commentary Entries,Artists - by Commentary Entries,Artistas - por Entradas de comentarios,
+FALSE,,listingPage.listArtists.byCommentary.title.short,...by Commentary Entries,...by Commentary Entries,,
+TRUE,"Niklink, Cello",listingPage.listArtists.byCommentary.item,{ARTIST} ({ENTRIES}),{ARTIST} ({ENTRIES}),{ARTIST} ({ENTRIES}),
+TRUE,"Niklink, Cello",listingPage.listArtists.byDuration.title,Artists - by Duration,Artists - by Duration,Artistas - por Duración,
+FALSE,,listingPage.listArtists.byDuration.title.short,...by Duration,...by Duration,,
+TRUE,"Niklink, Cello",listingPage.listArtists.byDuration.item,{ARTIST} ({DURATION}),{ARTIST} ({DURATION}),{ARTIST} ({DURATION}),
+FALSE,,listingPage.listArtists.byGroup.title,Artists - by Group,Artists - by Group,,
+FALSE,,listingPage.listArtists.byGroup.title.short,...by Group,...by Group,,
+FALSE,,listingPage.listArtists.byGroup.item,{ARTIST} ({CONTRIBUTIONS}),{ARTIST} ({CONTRIBUTIONS}),,
+FALSE,,listingPage.listArtists.byGroup.chunk.title,Contributed to {GROUP}:,Contributed to {GROUP}:,,
+FALSE,,listingPage.listArtists.byGroup.chunk.item,{ARTIST} ({CONTRIBUTIONS}),{ARTIST} ({CONTRIBUTIONS}),,
+TRUE,"Niklink, Cello",listingPage.listArtists.byLatest.title,Artists - by Latest Contribution,Artists - by Latest Contribution,Artistas - por Última contribución,
+FALSE,,listingPage.listArtists.byLatest.title.short,...by Latest Contribution,...by Latest Contribution,,
+FALSE,,listingPage.listArtists.byLatest.chunk.title.album,{ALBUM} ({DATE}),{ALBUM} ({DATE}),,
+FALSE,,listingPage.listArtists.byLatest.chunk.title.flash,{FLASH} ({DATE}),{FLASH} ({DATE}),,
+FALSE,,listingPage.listArtists.byLatest.chunk.title.dateless,These artists' contributions aren't dated:,These artists' contributions aren't dated:,,
+FALSE,,listingPage.listArtists.byLatest.chunk.item,{ARTIST},{ARTIST},,
+FALSE,,listingPage.listArtists.byLatest.chunk.item.tracks,{ARTIST} (tracks),{ARTIST} (tracks),,
+FALSE,,listingPage.listArtists.byLatest.chunk.item.tracksAndArt,"{ARTIST} (tracks, art)","{ARTIST} (tracks, art)",,
+FALSE,,listingPage.listArtists.byLatest.chunk.item.art,{ARTIST} (art),{ARTIST} (art),,
+TRUE,"Niklink, Cello",listingPage.listGroups.byName.title,Groups - by Name,Groups - by Name,Grupos - por Nombre,
+FALSE,,listingPage.listGroups.byName.title.short,...by Name,...by Name,,
+TRUE,"Niklink, Cello",listingPage.listGroups.byName.item,{GROUP} ({GALLERY}),{GROUP} ({GALLERY}),{GROUP} ({GALLERY}),
+TRUE,"Niklink, Cello",listingPage.listGroups.byName.item.gallery,Gallery,Gallery,Galería,
+TRUE,"Niklink, Cello",listingPage.listGroups.byCategory.title,Groups - by Category,Groups - by Category,Grupos - por Categoría,
+FALSE,,listingPage.listGroups.byCategory.title.short,...by Category,...by Category,,
+FALSE,,listingPage.listGroups.byCategory.chunk.title,{CATEGORY},{CATEGORY},,
+FALSE,,listingPage.listGroups.byCategory.chunk.item,{GROUP} ({GALLERY}),{GROUP} ({GALLERY}),,
+TRUE,"Niklink, Cello",listingPage.listGroups.byCategory.chunk.item.gallery,Gallery,Gallery,Galería,
+TRUE,"Niklink, Cello",listingPage.listGroups.byAlbums.title,Groups - by Albums,Groups - by Albums,Grupos - por Álbumes,
+FALSE,,listingPage.listGroups.byAlbums.title.short,...by Albums,...by Albums,,
+TRUE,"Niklink, Cello",listingPage.listGroups.byAlbums.item,{GROUP} ({ALBUMS}),{GROUP} ({ALBUMS}),{GROUP} ({ALBUMS}),
+TRUE,"Niklink, Cello",listingPage.listGroups.byTracks.title,Groups - by Tracks,Groups - by Tracks,Grupos - por Pistas,
+FALSE,,listingPage.listGroups.byTracks.title.short,...by Tracks,...by Tracks,,
+TRUE,"Niklink, Cello",listingPage.listGroups.byTracks.item,{GROUP} ({TRACKS}),{GROUP} ({TRACKS}),{GROUP} ({TRACKS}),
+TRUE,"Niklink, Cello",listingPage.listGroups.byDuration.title,Groups - by Duration,Groups - by Duration,Grupos - por Duración,
+FALSE,,listingPage.listGroups.byDuration.title.short,...by Duration,...by Duration,,
+TRUE,"Niklink, Cello",listingPage.listGroups.byDuration.item,{GROUP} ({DURATION}),{GROUP} ({DURATION}),{GROUP} ({DURATION}),
+TRUE,"Niklink, Cello",listingPage.listGroups.byLatest.title,Groups - by Latest Album,Groups - by Latest Album,Grupos - por Último álbum,
+FALSE,,listingPage.listGroups.byLatest.title.short,...by Latest Album,...by Latest Album,,
+TRUE,"Niklink, Cello",listingPage.listGroups.byLatest.item,{GROUP} ({DATE}),{GROUP} ({DATE}),{GROUP} ({DATE}),
+TRUE,"Niklink, Cello",listingPage.listTracks.byName.title,Tracks - by Name,Tracks - by Name,Pistas - por Nombre,
+FALSE,,listingPage.listTracks.byName.title.short,...by Name,...by Name,,
+TRUE,"Niklink, Cello",listingPage.listTracks.byName.item,{TRACK},{TRACK},{TRACK},
+TRUE,"Niklink, Cello",listingPage.listTracks.byAlbum.title,Tracks - by Album,Tracks - by Album,Pistas - por Álbum,
+FALSE,,listingPage.listTracks.byAlbum.title.short,...by Album,...by Album,,
+FALSE,,listingPage.listTracks.byAlbum.chunk.title,{ALBUM},{ALBUM},,
+FALSE,,listingPage.listTracks.byAlbum.chunk.item,{TRACK},{TRACK},,
+TRUE,"Niklink, Cello",listingPage.listTracks.byDate.title,Tracks - by Date,Tracks - by Date,Pistas - por Fecha,
+FALSE,,listingPage.listTracks.byDate.title.short,...by Date,...by Date,,
+FALSE,,listingPage.listTracks.byDate.chunk.title,{ALBUM} ({DATE}),{ALBUM} ({DATE}),,
+FALSE,,listingPage.listTracks.byDate.chunk.item,{TRACK},{TRACK},,
+TRUE,"Niklink, Cello",listingPage.listTracks.byDate.chunk.item.rerelease,{TRACK} (rerelease),{TRACK} (rerelease),{TRACK} (relanzamiento),
+TRUE,"Niklink, Cello",listingPage.listTracks.byDuration.title,Tracks - by Duration,Tracks - by Duration,Pistas - por Duración,
+FALSE,,listingPage.listTracks.byDuration.title.short,...by Duration,...by Duration,,
+TRUE,"Niklink, Cello",listingPage.listTracks.byDuration.item,{TRACK} ({DURATION}),{TRACK} ({DURATION}),{TRACK} ({DURATION}),
+TRUE,"Niklink, Cello",listingPage.listTracks.byDurationInAlbum.title,Tracks - by Duration (in Album),Tracks - by Duration (in Album),Pistas - por Duración (en Álbum),
+FALSE,,listingPage.listTracks.byDurationInAlbum.title.short,...by Duration (in Album),...by Duration (in Album),,
+FALSE,,listingPage.listTracks.byDurationInAlbum.chunk.title,{ALBUM},{ALBUM},,
+FALSE,,listingPage.listTracks.byDurationInAlbum.chunk.item,{TRACK} ({DURATION}),{TRACK} ({DURATION}),,
+TRUE,"Niklink, Cello",listingPage.listTracks.byTimesReferenced.title,Tracks - by Times Referenced,Tracks - by Times Referenced,Pistas - por Veces referenciado,
+FALSE,,listingPage.listTracks.byTimesReferenced.title.short,...by Times Referenced,...by Times Referenced,,
+TRUE,"Niklink, Cello",listingPage.listTracks.byTimesReferenced.item,{TRACK} ({TIMES_REFERENCED}),{TRACK} ({TIMES_REFERENCED}),{TRACK} ({TIMES_REFERENCED}),
+TRUE,"Niklink, Cello",listingPage.listTracks.inFlashes.byAlbum.title,Tracks - in Flashes & Games (by Album),Tracks - in Flashes & Games (by Album),Pistas - en Flashes & juegos (por Álbum),
+FALSE,,listingPage.listTracks.inFlashes.byAlbum.title.short,...in Flashes & Games (by Album),...in Flashes & Games (by Album),,
+FALSE,,listingPage.listTracks.inFlashes.byAlbum.chunk.title,{ALBUM},{ALBUM},,
+TRUE,"Niklink, Cello",listingPage.listTracks.inFlashes.byAlbum.chunk.item,{TRACK} (in {FLASHES}),{TRACK} (in {FLASHES}),{TRACK} (en {FLASHES}),
+TRUE,"Niklink, Cello",listingPage.listTracks.inFlashes.byFlash.title,Tracks - in Flashes & Games (by Flash),Tracks - in Flashes & Games (by Flash),Pistas - en Flashes & juegos (por Flash),
+FALSE,,listingPage.listTracks.inFlashes.byFlash.title.short,...in Flashes & Games (by Flash),...in Flashes & Games (by Flash),,
+FALSE,,listingPage.listTracks.inFlashes.byFlash.chunk.title,{FLASH},{FLASH},,
+TRUE,"Niklink, Cello",listingPage.listTracks.inFlashes.byFlash.chunk.item,{TRACK} (from {ALBUM}),{TRACK} (from {ALBUM}),{TRACK} (de {ALBUM}),
+TRUE,"Niklink, Cello",listingPage.listTracks.withLyrics.title,Tracks - with Lyrics,Tracks - with Lyrics,Pistas - con Letra,
+FALSE,,listingPage.listTracks.withLyrics.title.short,...with Lyrics,...with Lyrics,,
+FALSE,,listingPage.listTracks.withLyrics.chunk.title,{ALBUM},{ALBUM},,
+FALSE,,listingPage.listTracks.withLyrics.chunk.title.withDate,{ALBUM} ({DATE}),{ALBUM} ({DATE}),,
+FALSE,,listingPage.listTracks.withLyrics.chunk.item,{TRACK},{TRACK},,
+FALSE,,listingPage.listTracks.withSheetMusicFiles.title,Tracks - with Sheet Music Files,Tracks - with Sheet Music Files,,
+FALSE,,listingPage.listTracks.withSheetMusicFiles.title.short,...with Sheet Music Files,...with Sheet Music Files,,
+FALSE,,listingPage.listTracks.withSheetMusicFiles.chunk.title,{ALBUM},{ALBUM},,
+FALSE,,listingPage.listTracks.withSheetMusicFiles.chunk.title.withDate,{ALBUM} ({DATE}),{ALBUM} ({DATE}),,
+FALSE,,listingPage.listTracks.withSheetMusicFiles.chunk.item,{TRACK},{TRACK},,
+FALSE,,listingPage.listTracks.withMidiProjectFiles.title,Tracks - with MIDI & Project Files,Tracks - with MIDI & Project Files,,
+FALSE,,listingPage.listTracks.withMidiProjectFiles.title.short,...with MIDI & Project Files,...with MIDI & Project Files,,
+FALSE,,listingPage.listTracks.withMidiProjectFiles.chunk.title,{ALBUM},{ALBUM},,
+FALSE,,listingPage.listTracks.withMidiProjectFiles.chunk.title.withDate,{ALBUM} ({DATE}),{ALBUM} ({DATE}),,
+FALSE,,listingPage.listTracks.withMidiProjectFiles.chunk.item,{TRACK},{TRACK},,
+TRUE,"Niklink, Cello",listingPage.listTags.byName.title,Tags - by Name,Tags - by Name,Etiquetas - por Nombre,
+FALSE,,listingPage.listTags.byName.title.short,...by Name,...by Name,,
+TRUE,"Niklink, Cello",listingPage.listTags.byName.item,{TAG} ({TIMES_USED}),{TAG} ({TIMES_USED}),{TAG} ({TIMES_USED}),
+TRUE,"Niklink, Cello",listingPage.listTags.byUses.title,Tags - by Uses,Tags - by Uses,Etiquetas - por Veces usado,
+FALSE,,listingPage.listTags.byUses.title.short,...by Uses,...by Uses,,
+TRUE,"Niklink, Cello",listingPage.listTags.byUses.item,{TAG} ({TIMES_USED}),{TAG} ({TIMES_USED}),{TAG} ({TIMES_USED}),
+FALSE,,listingPage.other.allSheetMusic.title,All Sheet Music,All Sheet Music,,
+FALSE,,listingPage.other.allSheetMusic.title.short,All Sheet Music,All Sheet Music,,
+FALSE,,listingPage.other.allSheetMusic.albumFiles,Album sheet music:,Album sheet music:,,
+FALSE,,listingPage.other.allSheetMusic.file,{TITLE},{TITLE},,
+FALSE,,listingPage.other.allSheetMusic.file.withMultipleFiles,{TITLE} ({FILES}),{TITLE} ({FILES}),,
+FALSE,,listingPage.other.allMidiProjectFiles.title,All MIDI/Project Files,All MIDI/Project Files,,
+FALSE,,listingPage.other.allMidiProjectFiles.title.short,All MIDI/Project Files,All MIDI/Project Files,,
+FALSE,,listingPage.other.allMidiProjectFiles.albumFiles,Album MIDI/project files:,Album MIDI/project files:,,
+FALSE,,listingPage.other.allMidiProjectFiles.file,{TITLE},{TITLE},,
+FALSE,,listingPage.other.allMidiProjectFiles.file.withMultipleFiles,{TITLE} ({FILES}),{TITLE} ({FILES}),,
+FALSE,,listingPage.other.allAdditionalFiles.title,All Additional Files,All Additional Files,,
+FALSE,,listingPage.other.allAdditionalFiles.title.short,All Additional Files,All Additional Files,,
+FALSE,,listingPage.other.allAdditionalFiles.albumFiles,Album additional files:,Album additional files:,,
+FALSE,,listingPage.other.allAdditionalFiles.file,{TITLE},{TITLE},,
+FALSE,,listingPage.other.allAdditionalFiles.file.withMultipleFiles,{TITLE} ({FILES}),{TITLE} ({FILES}),,
+FALSE,,listingPage.other.randomPages.title,Random Pages,Random Pages,,
+FALSE,,listingPage.other.randomPages.title.short,Random Pages,Random Pages,,
+FALSE,,listingPage.other.randomPages.chooseLinkLine,{FROM_PART} {BROWSER_SUPPORT_PART},{FROM_PART} {BROWSER_SUPPORT_PART},,
+FALSE,,listingPage.other.randomPages.chooseLinkLine.fromPart.dividedByGroups,Choose a link to go to a random page in that group or album!,Choose a link to go to a random page in that group or album!,,
+FALSE,,listingPage.other.randomPages.chooseLinkLine.fromPart.notDividedByGroups,Choose a link to go to a random page in that album!,Choose a link to go to a random page in that album!,,
+FALSE,,listingPage.other.randomPages.chooseLinkLine.browserSupportPart,"If your browser doesn't support relatively modern JavaScript or you've disabled it, these links won't work - sorry.","If your browser doesn't support relatively modern JavaScript or you've disabled it, these links won't work - sorry.",,
+FALSE,,listingPage.other.randomPages.dataLoadingLine,(Data files are downloading in the background! Please wait for data to load.),(Data files are downloading in the background! Please wait for data to load.),,
+FALSE,,listingPage.other.randomPages.dataLoadedLine,(Data files have finished being downloaded. The links should work!),(Data files have finished being downloaded. The links should work!),,
+FALSE,,listingPage.other.randomPages.dataErrorLine,"(Data files failed to download. Sorry, some of these links won't work right now!)","(Data files failed to download. Sorry, some of these links won't work right now!)",,
+FALSE,,listingPage.other.randomPages.chunk.title.misc,Miscellaneous:,Miscellaneous:,,
+FALSE,,listingPage.other.randomPages.chunk.title.fromAlbum,From an album:,From an album:,,
+FALSE,,listingPage.other.randomPages.chunk.title.fromGroup,From {GROUP}:,From {GROUP}:,,
+FALSE,,listingPage.other.randomPages.chunk.title.fromGroup.accent,"({RANDOM_ALBUM}, {RANDOM_TRACK})","({RANDOM_ALBUM}, {RANDOM_TRACK})",,
+FALSE,,listingPage.other.randomPages.chunk.title.fromGroup.accent.randomAlbum,Random Album,Random Album,,
+FALSE,,listingPage.other.randomPages.chunk.title.fromGroup.accent.randomTrack,Random Track,Random Track,,
+FALSE,,listingPage.other.randomPages.chunk.item.album,{ALBUM},{ALBUM},,
+FALSE,,listingPage.other.randomPages.chunk.item.randomArtist,{MAIN_LINK} ({AT_LEAST_TWO_CONTRIBUTIONS}),{MAIN_LINK} ({AT_LEAST_TWO_CONTRIBUTIONS}),,
+FALSE,,listingPage.other.randomPages.chunk.item.randomArtist.mainLink,Random Artist,Random Artist,,
+FALSE,,listingPage.other.randomPages.chunk.item.randomArtist.atLeastTwoContributions,at least 2 contributions,at least 2 contributions,,
+FALSE,,listingPage.other.randomPages.chunk.item.randomAlbumWholeSite,Random Album (whole site),Random Album (whole site),,
+FALSE,,listingPage.other.randomPages.chunk.item.randomTrackWholeSite,Random Track (whole site),Random Track (whole site),,
+TRUE,"Niklink, Cello",newsIndex.title,News,News,Noticias,
+TRUE,"Niklink, Cello",newsIndex.entry.viewRest,(View rest of entry!),(View rest of entry!),¡Vea el resto del artículo!,
+TRUE,"Niklink, Cello",newsEntryPage.title,{ENTRY},{ENTRY},{ENTRY},
+TRUE,"Niklink, Cello",newsEntryPage.published,(Published {DATE}.),(Published {DATE}.),(Publicado el {DATE}.),
+FALSE,,newsEntryPage.readAnother.previous,(← {ENTRY}),(← {ENTRY}),,
+FALSE,,newsEntryPage.readAnother.previous.withDate,(← {DATE} {ENTRY}),(← {DATE} {ENTRY}),,
+FALSE,,newsEntryPage.readAnother.next,(→ {ENTRY}),(→ {ENTRY}),,
+FALSE,,newsEntryPage.readAnother.next.withDate,(→ {DATE} {ENTRY}),(→ {DATE} {ENTRY}),,
+TRUE,"Niklink, Cello",redirectPage.title,Moved to {TITLE},Moved to {TITLE},Trasladado a {TITLE},
+TRUE,"Niklink, Cello",redirectPage.infoLine,This page has been moved to {TARGET}.,This page has been moved to {TARGET}.,Esta página ha sido trasladada a {TARGET},
+TRUE,"Niklink, Cello",tagPage.title,{TAG},{TAG},{TAG},
+TRUE,"Niklink, Cello",tagPage.nav.tag,Tag: {TAG},Tag: {TAG},Etiqueta: {TAG},
+TRUE,"Niklink, Cello",tagPage.infoLine,Appears in {COVER_ARTS}.,Appears in {COVER_ARTS}.,Aparece en {COVER_ARTS}.,
+TRUE,"Niklink, Cello",trackPage.title,{TRACK},{TRACK},{TRACK},
+TRUE,"Niklink, Cello",trackPage.nav.random,Random,Random,Aleatorio,
+TRUE,"Niklink, Cello",trackPage.nav.track,{TRACK},{TRACK},{TRACK},
+TRUE,"Niklink, Cello",trackPage.nav.track.withNumber,{NUMBER}. {TRACK},{NUMBER}. {TRACK},{NUMBER}. {TRACK},
+FALSE,,trackPage.socialEmbed.heading,{ALBUM},{ALBUM},,
+FALSE,,trackPage.socialEmbed.title,{TRACK},{TRACK},,
+FALSE,,trackPage.socialEmbed.body.withArtists.withCoverArtists,By {ARTISTS}; art by {COVER_ARTISTS}.,By {ARTISTS}; art by {COVER_ARTISTS}.,,
+FALSE,,trackPage.socialEmbed.body.withArtists,By {ARTISTS}.,By {ARTISTS}.,,
+FALSE,,trackPage.socialEmbed.body.withCoverArtists,Art by {COVER_ARTISTS}.,Art by {COVER_ARTISTS}.,,
+TRUE,"Cello, Niklink",content.group.clark-powell.description,--outdated or unused string key--,"Composer of {MEDIUM} and {SYMPHONY_IMPOSSIBLE_TO_PLAY} as well as dozens of tracks across the Homestuck discography, and artist behind several independent albums whose tracks were recompiled and featured as the soundtrack for {PSYCHOLONIALS}.","Compositora de {MEDIUM} y {SYMPHONY_IMPOSSIBLE_TO_PLAY} al igual que docenas de canciones a través de la discografía de Homestuck, y la artista detrás de varios álbumes independientes cuyas canciones fueron recopiladas y usadas como la banda sonora para {PSYCHOLONIALS}.",
+FALSE,Cello,content.group.cristata.description,--outdated or unused string key--,"Artist behind {PERFECTLY_GENERIC_ALBUM} and more, and creator of crossover fanventure {DELTASTUCK}. Releases under a number of aliases.","Artista detrás de {PERFECTLY_GENERIC_ALBUM} entre otros, y creadora de la fanventura crossover {DELTASTUCK}. Lanza álbumes bajo una variedad de nombres.",
+TRUE,"Cello, Niklink",content.group.michael-guy-bowman.description,--outdated or unused string key--,"Renowned for {SBURBAN_JUNGLE}, his official solo album {MOBIUS_TRIP_AND_HADRON_KALEIDO} and many other hit Homestuck releases, Bowman has gone on to create his own expansive personal discography since.","Reconicido por {SBURBAN_JUNGLE}, su album solo oficial {MOBIUS_TRIP_AND_HADRON_KALEIDO} y muchos otros hits en la discográfica de Homestuck, Bowman ha continuado desde entonces con su extensa discografía personal.",
+TRUE,"Cello, Niklink",content.group.nasqueron.description,--outdated or unused string key--,"Artist behind tracks across a wide variety of fan albums (where she's credited as {KAL_LA_KAL_LA}), with two experimental noise-poetry albums by her own solo release.","Artista creadora de varias canciones en una gama de álbumes fan (donde es acreditada como {KAL_LA_KAL_LA}), con dos álbumes de poesía sonora en su haber.",
+TRUE,"Cello, Niklink",content.group.nuclear333.description,--outdated or unused string key--,"Co-creator of the webcomic {INHOSPITABLE}, and musician with a history spanning half a decade. Plural internet artist.","Co-creadora del webcomic [INHOSPITABLE], y música con un catálogo que abarca media década. Artista plural de internet.",
+TRUE,"Cello, Niklink",content.group.tensei.description,--outdated or unused string key--,Rock composer behind hit 2011 release {STRIFE} and overall guitarist and musician behind a whole host of memorable tracks. He's gone on to release the 2017 sequel {STRIFE_2} and a variety of other collaborative tracks since Homestuck!,Compositor roquero detrás del lanzamiento hit de 2011 {STRIFE} y en general guitarrista y músico detrás de una gran cantidad de canciones memorables. ¡Desde entonces ha lanzado la secuela de 2017 {STRIFE_2} y una variedad de otras canciones colaborativas tras Homestuck!,
+TRUE,"Cello, Niklink",content.group.toby-fox.description,--outdated or unused string key--,"Artist of well over 100 tracks in Homestuck's musical canon (including the elusive {PENUMBRA_PHANTASM}), Toby Fox went on to compose the much-renowned soundtracks to his games {UNDERTALE_AND_DELTARUNE}, firmly planting his place in modern game and internet history.","Un artista con más de 100 canciones en el canon musical de Homestuck (incluyendo el elusivo {PENUMBRA_PHANTASM}), Toby Fox siguió a componer las renombradas bandas sonoras de sus juegos {UNDERTALE_AND_DELTARUNE}, plantando firmemente su lugar en la historia moderna de los videojuegos e Internet.",
