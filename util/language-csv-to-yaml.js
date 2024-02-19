@@ -1,3 +1,5 @@
+import * as path from 'node:path';
+
 const HSMUSIC_PATH =
   path.join('..', '..', 'code');
 
@@ -9,7 +11,6 @@ const yamlOptions = {
 
 import {createReadStream} from 'node:fs';
 import {readFile} from 'node:fs/promises';
-import * as path from 'node:path';
 
 import csv2json from 'csv2json';
 import yaml from 'js-yaml';
