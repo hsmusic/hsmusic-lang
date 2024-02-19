@@ -49,7 +49,9 @@ const csvobj =
 
 const flat =
   Object.fromEntries(
-    csvobj.map(({'String Key': key, 'String Value': value}) => [key, value]));
+    csvobj
+      .map(({'String Key': key, 'String Value': value}) => [key, value])
+      .filter(([key, value]) => value !== ''));
 
 if (empty(Object.entries(flat).filter(([k, v]) => v))) {
   console.error(`doesn't look like that's a CSV formatted appropriately`);

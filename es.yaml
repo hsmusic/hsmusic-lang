@@ -5,71 +5,43 @@ count:
   albums:
     _: "{ALBUMS}"
     withUnit:
-      zero: ""
       one: "{ALBUMS} álbum"
-      two: ""
-      few: ""
-      many: ""
       other: "{ALBUMS} álbumes"
 
   commentaryEntries:
     _: "{ENTRIES}"
     withUnit:
-      zero: ""
       one: "{ENTRIES} entrada"
-      two: ""
-      few: ""
-      many: ""
       other: "{ENTRIES} entradas"
 
   contributions:
     _: "{CONTRIBUTIONS}"
     withUnit:
-      zero: ""
       one: "{CONTRIBUTIONS} contribución"
-      two: ""
-      few: ""
-      many: ""
       other: "{CONTRIBUTIONS} contribuciones"
 
   coverArts:
     _: "{COVER_ARTS}"
     withUnit:
-      zero: ""
       one: "{COVER_ARTS} carátula"
-      two: ""
-      few: ""
-      many: ""
       other: "{COVER_ARTS} carátulas"
 
   tracks:
     _: "{TRACKS}"
     withUnit:
-      zero: ""
       one: "{TRACKS} pista"
-      two: ""
-      few: ""
-      many: ""
       other: "{TRACKS} pistas"
 
   timesReferenced:
     _: "{TIMES_REFERENCED}"
     withUnit:
-      zero: ""
       one: "referenciado {TIMES_REFERENCED} vez"
-      two: ""
-      few: ""
-      many: ""
       other: "referenciado {TIMES_REFERENCED} veces"
 
   timesUsed:
     _: "{TIMES_USED}"
     withUnit:
-      zero: ""
       one: "usado {TIMES_USED} vez"
-      two: ""
-      few: ""
-      many: ""
       other: "usado {TIMES_USED} veces"
 
   words:
@@ -77,11 +49,7 @@ count:
     thousand: "{WORDS} mil"
 
     withUnit:
-      zero: ""
       one: "{WORDS} palabra"
-      two: ""
-      few: ""
-      many: ""
       other: "{WORDS} palabras"
 
   duration:
@@ -104,11 +72,9 @@ count:
     bytes: "{BYTES} bytes"
 
   index:
-    zero: ""
     one: "{INDEX}.º"
     two: "{INDEX}.º"
     few: "{INDEX}.º"
-    many: ""
     other: "{INDEX}.º"
 
 releaseInfo:
