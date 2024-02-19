@@ -1,0 +1,333 @@
+String Key,String Value
+meta.languageCode,es
+meta.languageName,Español
+count.tracks,{TRACKS}
+count.tracks.withUnit.zero,
+count.tracks.withUnit.one,{TRACKS} pista
+count.tracks.withUnit.two,
+count.tracks.withUnit.few,
+count.tracks.withUnit.many,
+count.tracks.withUnit.other,{TRACKS} pistas
+count.albums,{ALBUMS}
+count.albums.withUnit.zero,
+count.albums.withUnit.one,{ALBUMS} álbum
+count.albums.withUnit.two,
+count.albums.withUnit.few,
+count.albums.withUnit.many,
+count.albums.withUnit.other,{ALBUMS} álbumes
+count.commentaryEntries,{ENTRIES}
+count.commentaryEntries.withUnit.zero,
+count.commentaryEntries.withUnit.one,{ENTRIES} entrada
+count.commentaryEntries.withUnit.two,
+count.commentaryEntries.withUnit.few,
+count.commentaryEntries.withUnit.many,
+count.commentaryEntries.withUnit.other,{ENTRIES} entradas
+count.contributions,{CONTRIBUTIONS}
+count.contributions.withUnit.zero,
+count.contributions.withUnit.one,{CONTRIBUTIONS} contribución
+count.contributions.withUnit.two,
+count.contributions.withUnit.few,
+count.contributions.withUnit.many,
+count.contributions.withUnit.other,{CONTRIBUTIONS} contribuciones
+count.coverArts,{COVER_ARTS}
+count.coverArts.withUnit.zero,
+count.coverArts.withUnit.one,{COVER_ARTS} carátula
+count.coverArts.withUnit.two,
+count.coverArts.withUnit.few,
+count.coverArts.withUnit.many,
+count.coverArts.withUnit.other,{COVER_ARTS} carátulas
+count.timesReferenced,{TIMES_REFERENCED}
+count.timesReferenced.withUnit.zero,
+count.timesReferenced.withUnit.one,referenciado {TIMES_REFERENCED} vez
+count.timesReferenced.withUnit.two,
+count.timesReferenced.withUnit.few,
+count.timesReferenced.withUnit.many,
+count.timesReferenced.withUnit.other,referenciado {TIMES_REFERENCED} veces
+count.words,{WORDS}
+count.words.thousand,{WORDS} mil
+count.words.withUnit.zero,
+count.words.withUnit.one,{WORDS} palabra
+count.words.withUnit.two,
+count.words.withUnit.few,
+count.words.withUnit.many,
+count.words.withUnit.other,{WORDS} palabras
+count.timesUsed,{TIMES_USED}
+count.timesUsed.withUnit.zero,
+count.timesUsed.withUnit.one,usado {TIMES_USED} vez
+count.timesUsed.withUnit.two,
+count.timesUsed.withUnit.few,
+count.timesUsed.withUnit.many,
+count.timesUsed.withUnit.other,usado {TIMES_USED} veces
+count.index.zero,
+count.index.one,{INDEX}.º
+count.index.two,{INDEX}.º
+count.index.few,{INDEX}.º
+count.index.many,
+count.index.other,{INDEX}.º
+count.duration.hours,{HOURS}:{MINUTES}:{SECONDS}
+count.duration.hours.withUnit,{HOURS}:{MINUTES}:{SECONDS} horas
+count.duration.minutes,{MINUTES}:{SECONDS}
+count.duration.minutes.withUnit,{MINUTES}:{SECONDS} minutos
+count.duration.approximate,~{DURATION}
+count.duration.missing,_:__
+count.fileSize.terabytes,{TERABYTES} TB
+count.fileSize.gigabytes,{GIGABYTES} GB
+count.fileSize.megabytes,{MEGABYTES} MB
+count.fileSize.kilobytes,{KILOBYTES} kB
+count.fileSize.bytes,{BYTES} bytes
+releaseInfo.by,Por {ARTISTS}.
+releaseInfo.from,De {ALBUM}.
+releaseInfo.coverArtBy,Carátula por {ARTISTS}.
+releaseInfo.wallpaperArtBy,Fondo por {ARTISTS}.
+releaseInfo.bannerArtBy,Arte de banner por {ARTISTS}.
+releaseInfo.released,Lanzado el {DATE}.
+releaseInfo.artReleased,Arte lanzado el {DATE}.
+releaseInfo.addedToWiki,Añadido a la wiki el {DATE}.
+releaseInfo.duration,Duración: {DURATION}.
+releaseInfo.viewCommentary,¡Véase {LINK}!
+releaseInfo.viewCommentary.link,página de comentario
+releaseInfo.listenOn,Escucha en {LINKS}.
+releaseInfo.listenOn.noLinks,Esta pista no tiene un URL donde puede ser escuchada.
+releaseInfo.visitOn,Visita en {LINKS}.
+releaseInfo.playOn,Ver en {LINKS}.
+releaseInfo.alsoReleasedAs,También lanzada como:
+releaseInfo.alsoReleasedAs.item,{TRACK} (en {ALBUM})
+releaseInfo.contributors,Contribuidores:
+releaseInfo.tracksReferenced,Pistas que {TRACK} referencia:
+releaseInfo.tracksThatReference,Pistas que referencian {TRACK}:
+releaseInfo.tracksSampled,Pistas que {TRACK} samplea:
+releaseInfo.tracksThatSample,Pistas que samplean {TRACK}:
+releaseInfo.flashesThatFeature,Flashes & juegos que incluyen {TRACK}:
+releaseInfo.flashesThatFeature.item,{FLASH}
+releaseInfo.tracksFeatured,Pistas que {FLASH} incluye:
+releaseInfo.flashesThatFeature.item.asDifferentRelease,{FLASH} (como {TRACK})
+releaseInfo.lyrics,Letra:
+releaseInfo.artistCommentary,Comentario del artista:
+releaseInfo.artistCommentary.seeOriginalRelease,¡Véase {ORIGINAL}!
+releaseInfo.artTags,Etiquetas:
+releaseInfo.additionalFiles.shortcut,{ANCHOR_LINK} {TITLES}
+releaseInfo.additionalFiles.shortcut.anchorLink,Archivos adicionales:
+releaseInfo.additionalFiles.heading,Tiene {FILE_COUNT} archivos adicionales:
+releaseInfo.additionalFiles.entry,{TITLE}
+releaseInfo.additionalFiles.entry.withDescription,{TITLE}: {DESCRIPTION}
+releaseInfo.additionalFiles.file,{FILE}
+releaseInfo.additionalFiles.file.withSize,{FILE} ({SIZE})
+releaseInfo.note,Nota:
+trackList.section.withDuration,{SECTION} ({DURATION}):
+trackList.group,{GROUP}:
+trackList.group.other,Otros
+trackList.item.withDuration,({DURATION}) {TRACK}
+trackList.item.withDuration.withArtists,({DURATION}) {TRACK} {BY}
+trackList.item.withArtists,{TRACK} {BY}
+trackList.item.withArtists.by,por {ARTISTS}
+trackList.item.rerelease,{TRACK} (relanzamiento)
+misc.alt.albumCover,carátula del álbum
+misc.alt.albumBanner,banner del álbum
+misc.alt.trackCover,carátula de la pista
+misc.alt.artistAvatar,avatar del artista
+misc.alt.flashArt,arte del flash
+misc.chronology.seeArtistPages,¡Vea las páginas de los artistas para la información cronológica!
+misc.chronology.heading.coverArt,{INDEX} carátula por {ARTIST}
+misc.chronology.heading.flash,{INDEX} flash/juego por {ARTIST}
+misc.chronology.heading.track,{INDEX} pista por {ARTIST}
+misc.external.domain,Externo ({DOMAIN})
+misc.external.bandcamp,Bandcamp
+misc.external.bandcamp.domain,Bandcamp ({DOMAIN})
+misc.external.deviantart,DeviantArt
+misc.external.instagram,Instagram
+misc.external.mastodon,Mastodon
+misc.external.mastodon.domain,Mastodon ({DOMAIN})
+misc.external.patreon,Patreon
+misc.external.poetryFoundation,Poetry Foundation
+misc.external.soundcloud,SoundCloud
+misc.external.tumblr,Tumblr
+misc.external.twitter,Twitter
+misc.external.wikipedia,Wikipedia
+misc.external.youtube,YouTube
+misc.external.youtube.playlist,YouTube (lista de reproducción)
+misc.external.youtube.fullAlbum,YouTube (álbum completo)
+misc.external.flash.bgreco,{LINK} (Audio de alta calidad)
+misc.external.flash.homestuck.page,{LINK} (página {PAGE})
+misc.external.flash.homestuck.secret,{LINK} (página secreta)
+misc.external.flash.youtube,{LINK} (en cualquier dispositivo)
+misc.nav.previous,Anterior
+misc.nav.next,Siguiente
+misc.nav.info,Info
+misc.nav.gallery,Galería
+misc.pageTitle,{TITLE}
+misc.pageTitle.withWikiName,{TITLE} | {WIKI_NAME}
+misc.skippers.skipToContent,Saltar al contenido
+misc.skippers.skipToSidebar,Saltar a la barra lateral
+misc.skippers.skipToSidebar.left,Saltar a la barra lateral (izquierda)
+misc.skippers.skipToSidebar.right,Saltar a la barra lateral (derecha)
+misc.skippers.skipToFooter,Saltar al pie de página
+misc.jumpTo,Saltar a:
+misc.jumpTo.withLinks,Saltar a: {LINKS}.
+misc.contentWarnings,advertencias de contenido: {WARNINGS}
+misc.contentWarnings.reveal,haga clic para mostrar
+misc.albumGridDetails,"({TRACKS}, {TIME})"
+misc.uiLanguage,Lenguaje de interfaz: {LANGUAGES}
+homepage.title,{TITLE}
+homepage.news.title,Noticias
+homepage.news.entry.viewRest,¡Vea el resto del artículo!
+albumSidebar.trackList.group,{GROUP}
+albumSidebar.trackList.group.withRange,{GROUP} ({RANGE})
+albumSidebar.trackList.item,{TRACK}
+albumSidebar.groupBox.title,{GROUP}
+albumSidebar.groupBox.next,Siguiente: {ALBUM}
+albumSidebar.groupBox.previous,Anterior: {ALBUM}
+albumPage.title,{ALBUM}
+albumPage.nav.album,{ALBUM}
+albumPage.nav.randomTrack,Pista Aleatoria
+albumCommentaryPage.title,{ALBUM} - Comentario
+albumCommentaryPage.infoLine,{WORDS} en {ENTRIES}.
+groupGalleryPage.anotherGroupLine,({LINK})
+groupGalleryPage.anotherGroupLine.link,¡Elije otro group por el que filtrar!
+albumCommentaryPage.nav.album,Álbum: {ALBUM}
+albumCommentaryPage.entry.title.albumCommentary,Comentario del álbum
+albumCommentaryPage.entry.title.trackCommentary,{TRACK}
+artistPage.title,{ARTIST}
+artistPage.creditList.album,{ALBUM}
+artistPage.creditList.album.withDate,{ALBUM} ({DATE})
+artistPage.creditList.album.withDate.withDuration,{ALBUM} ({DATE}; {DURATION})
+artistPage.creditList.flashAct,{ACT}
+artistPage.creditList.flashAct.withDateRange,{ACT} ({DATE_RANGE})
+artistPage.creditList.entry.track,{TRACK}
+artistPage.creditList.entry.track.withDuration,({DURATION}) {TRACK}
+artistPage.creditList.entry.album.coverArt,(carátula)
+artistPage.creditList.entry.album.wallpaperArt,(fondo)
+artistPage.creditList.entry.album.bannerArt,(banner)
+artistPage.creditList.entry.album.commentary,(comentario del álbum)
+artistPage.creditList.entry.flash,{FLASH}
+artistPage.creditList.entry.rerelease,{ENTRY} (relanzamiento)
+artistPage.creditList.entry.withContribution,{ENTRY} ({CONTRIBUTION})
+artistPage.creditList.entry.withArtists,{ENTRY} (con {ARTISTS})
+artistPage.creditList.entry.withArtists.withContribution,{ENTRY} ({CONTRIBUTION}; con {ARTISTS})
+artistPage.musicGroupsLine,Contribuyó música a estos grupos: {GROUPS}
+artistPage.artGroupsLine,Contribuyó arte a estos grupos: {GROUPS}
+artistPage.groupsLine.item,{GROUP} ({CONTRIBUTIONS})
+artistPage.contributedDurationLine,{ARTIST} ha contribuido {DURATION} de música compartido en este wiki.
+artistPage.trackList.title,Pistas
+artistPage.unreleasedTrackList.title,Pistas inéditas
+artistPage.artList.title,Arte
+artistPage.flashList.title,Flashes & Juegos
+artistPage.commentaryList.title,Comentario
+artistPage.viewArtGallery,¡Véase {LINK}!
+artistPage.viewArtGallery.orBrowseList,¡Véase {LINK}! O navegue la lista:
+artistPage.viewArtGallery.link,galería de arte
+artistPage.nav.artist,Artista: {ARTIST}
+artistGalleryPage.title,{ARTIST} - Galería
+artistGalleryPage.infoLine,Contribuyó a {COVER_ARTS}.
+commentaryIndex.title,Comentario
+commentaryIndex.infoLine,{WORDS} en {ENTRIES} en total.
+commentaryIndex.albumList.title,Escoge un álbum:
+commentaryIndex.albumList.item,{ALBUM} ({WORDS} en {ENTRIES})
+flashIndex.title,Flashes & Juegos
+flashPage.title,{FLASH}
+flashPage.nav.flash,{FLASH}
+groupSidebar.title,Grupos
+groupSidebar.groupList.category,{CATEGORY}
+groupSidebar.groupList.item,{GROUP}
+groupPage.nav.group,Grupo: {GROUP}
+groupInfoPage.title,{GROUP}
+groupInfoPage.viewAlbumGallery,¡Véase {LINK}! O navegue la lista:
+groupInfoPage.viewAlbumGallery.link,galería de álbumes
+groupInfoPage.albumList.title,Álbumes
+groupInfoPage.albumList.item,({YEAR}) {ALBUM}
+groupGalleryPage.title,{GROUP} - Galería
+groupGalleryPage.infoLine,"{TRACKS} en {ALBUMS}, sumando {TIME}."
+listingIndex.title,Listados
+listingIndex.infoLine,"{WIKI}: {TRACKS} en {ALBUMS}, sumando {DURATION}."
+listingIndex.exploreList,¡Explora cualquiera de los listados vinculados abajo y en la barra lateral!
+listingPage.listAlbums.byName.title,Álbumes - por Nombre
+listingPage.listAlbums.byName.item,{ALBUM} ({TRACKS})
+listingPage.listAlbums.byTracks.title,Álbumes - por Pistas
+listingPage.listAlbums.byTracks.item,{ALBUM} ({TRACKS})
+listingPage.listAlbums.byDuration.title,Álbumes - por Duración
+listingPage.listAlbums.byDuration.item,{ALBUM} ({DURATION})
+listingPage.listAlbums.byDate.title,Álbumes - por Fecha
+listingPage.listAlbums.byDateAdded.title,Álbumes - por Fecha añadido al Wiki
+listingPage.listAlbums.byDateAdded.date,{DATE}
+listingPage.listAlbums.byDateAdded.album,{ALBUM}
+listingPage.listAlbums.byDate.item,{ALBUM} ({DATE})
+listingPage.listArtists.byName.title,Artistas - por Nombre
+listingPage.listArtists.byName.item,{ARTIST} ({CONTRIBUTIONS})
+listingPage.listArtists.byContribs.title,Artistas - por Contribuciones
+listingPage.listArtists.byContribs.item,{ARTIST} ({CONTRIBUTIONS})
+listingPage.listArtists.byCommentary.title,Artistas - por Entradas de comentarios
+listingPage.listArtists.byCommentary.item,{ARTIST} ({ENTRIES})
+listingPage.listArtists.byDuration.title,Artistas - por Duración
+listingPage.listArtists.byDuration.item,{ARTIST} ({DURATION})
+listingPage.listArtists.byLatest.title,Artistas - por Última contribución
+listingPage.listArtists.byLatest.item,{ARTIST} ({DATE})
+listingPage.listGroups.byName.title,Grupos - por Nombre
+listingPage.listGroups.byName.item,{GROUP} ({GALLERY})
+listingPage.listGroups.byName.item.gallery,Galería
+listingPage.listGroups.byCategory.title,Grupos - por Categoría
+listingPage.listGroups.byCategory.category,{CATEGORY}
+listingPage.listGroups.byCategory.group,{GROUP} ({GALLERY})
+listingPage.listGroups.byCategory.group.gallery,Galería
+listingPage.listGroups.byAlbums.title,Grupos - por Álbumes
+listingPage.listGroups.byAlbums.item,{GROUP} ({ALBUMS})
+listingPage.listGroups.byTracks.title,Grupos - por Pistas
+listingPage.listGroups.byTracks.item,{GROUP} ({TRACKS})
+listingPage.listGroups.byDuration.title,Grupos - por Duración
+listingPage.listGroups.byDuration.item,{GROUP} ({DURATION})
+listingPage.listGroups.byLatest.title,Grupos - por Último álbum
+listingPage.listGroups.byLatest.item,{GROUP} ({DATE})
+listingPage.listTracks.byName.title,Pistas - por Nombre
+listingPage.listTracks.byName.item,{TRACK}
+listingPage.listTracks.byAlbum.title,Pistas - por Álbum
+listingPage.listTracks.byAlbum.album,{ALBUM}
+listingPage.listTracks.byAlbum.track,{TRACK}
+listingPage.listTracks.byDate.title,Pistas - por Fecha
+listingPage.listTracks.byDate.album,{ALBUM} ({DATE})
+listingPage.listTracks.byDate.track,{TRACK}
+listingPage.listTracks.byDate.track.rerelease,{TRACK} (relanzamiento)
+listingPage.listTracks.byDuration.title,Pistas - por Duración
+listingPage.listTracks.byDuration.item,{TRACK} ({DURATION})
+listingPage.listTracks.byDurationInAlbum.title,Pistas - por Duración (en Álbum)
+listingPage.listTracks.byDurationInAlbum.album,{ALBUM}
+listingPage.listTracks.byDurationInAlbum.track,{TRACK} ({DURATION})
+listingPage.listTracks.byTimesReferenced.title,Pistas - por Veces referenciado
+listingPage.listTracks.byTimesReferenced.item,{TRACK} ({TIMES_REFERENCED})
+listingPage.listTracks.inFlashes.byAlbum.title,Pistas - en Flashes & juegos (por Álbum)
+listingPage.listTracks.inFlashes.byAlbum.album,(ALBUM) ({DATE})
+listingPage.listTracks.inFlashes.byAlbum.track,{TRACK} (en {FLASHES})
+listingPage.listTracks.inFlashes.byFlash.title,Pistas - en Flashes & juegos (por Flash)
+listingPage.listTracks.inFlashes.byFlash.flash,{FLASH} ({DATE})
+listingPage.listTracks.inFlashes.byFlash.track,{TRACK} (de {ALBUM})
+listingPage.listTracks.withLyrics.title,Pistas - con Letra
+listingPage.listTracks.withLyrics.album,{ALBUM} ({DATE})
+listingPage.listTracks.withLyrics.track,{TRACK}
+listingPage.listTags.byName.title,Etiquetas - por Nombre
+listingPage.listTags.byName.item,{TAG} ({TIMES_USED})
+listingPage.listTags.byUses.title,Etiquetas - por Veces usado
+listingPage.listTags.byUses.item,{TAG} ({TIMES_USED})
+listingPage.misc.trackContributors,Contribuidores de pistas
+listingPage.misc.artContributors,Contribuidores de arte
+listingPage.misc.artAndFlashContributors,Contribuidores de arte & flash
+newsIndex.title,Noticias
+newsIndex.entry.viewRest,¡Vea el resto del artículo!
+newsEntryPage.title,{ENTRY}
+newsEntryPage.published,(Publicado el {DATE}.)
+newsEntryPage.nav.news,Noticias
+newsEntryPage.nav.entry,{DATE}: {ENTRY}
+redirectPage.title,Trasladado a {TITLE}
+redirectPage.infoLine,Esta página ha sido trasladada a {TARGET}
+tagPage.title,{TAG}
+tagPage.infoLine,Aparece en {COVER_ARTS}.
+tagPage.nav.tag,Etiqueta: {TAG}
+trackPage.title,{TRACK}
+trackPage.referenceList.fandom,Fandom:
+trackPage.referenceList.official,Oficial:
+trackPage.nav.track,{TRACK}
+trackPage.nav.track.withNumber,{NUMBER}. {TRACK}
+trackPage.nav.random,Aleatorio
+content.group.clark-powell.description,"Compositora de {MEDIUM} y {SYMPHONY_IMPOSSIBLE_TO_PLAY} al igual que docenas de canciones a través de la discografía de Homestuck, y la artista detrás de varios álbumes independientes cuyas canciones fueron recopiladas y usadas como la banda sonora para {PSYCHOLONIALS}."
+content.group.cristata.description,"Artista detrás de {PERFECTLY_GENERIC_ALBUM} entre otros, y creadora de la fanventura crossover {DELTASTUCK}. Lanza álbumes bajo una variedad de nombres."
+content.group.michael-guy-bowman.description,"Reconicido por {SBURBAN_JUNGLE}, su album solo oficial {MOBIUS_TRIP_AND_HADRON_KALEIDO} y muchos otros hits en la discográfica de Homestuck, Bowman ha continuado desde entonces con su extensa discografía personal."
+content.group.nasqueron.description,"Artista creadora de varias canciones en una gama de álbumes fan (donde es acreditada como {KAL_LA_KAL_LA}), con dos álbumes de poesía sonora en su haber."
+content.group.nuclear333.description,"Co-creadora del webcomic [INHOSPITABLE], y música con un catálogo que abarca media década. Artista plural de internet."
+content.group.tensei.description,Compositor roquero detrás del lanzamiento hit de 2011 {STRIFE} y en general guitarrista y músico detrás de una gran cantidad de canciones memorables. ¡Desde entonces ha lanzado la secuela de 2017 {STRIFE_2} y una variedad de otras canciones colaborativas tras Homestuck!
+content.group.toby-fox.description,"Un artista con más de 100 canciones en el canon musical de Homestuck (incluyendo el elusivo {PENUMBRA_PHANTASM}), Toby Fox siguió a componer las renombradas bandas sonoras de sus juegos {UNDERTALE_AND_DELTARUNE}, plantando firmemente su lugar en la historia moderna de los videojuegos e Internet."

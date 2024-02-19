@@ -1,0 +1,9 @@
+{
+  "name": "hsmusic-lang-util",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "csv2json": "^2.0.2",
+    "js-yaml": "^4.1.0"
+  }
+}

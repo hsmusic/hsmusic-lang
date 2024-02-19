@@ -1,0 +1,26 @@
+meta.languageCode: "en"
+meta.languageName: "English"
+
+meta.unmapped:
+  content:
+    group:
+      clark-powell:
+        description: "Composer of {MEDIUM} and {SYMPHONY_IMPOSSIBLE_TO_PLAY} as well as dozens of tracks across the Homestuck discography, and artist behind several independent albums whose tracks were recompiled and featured as the soundtrack for {PSYCHOLONIALS}."
+
+      cristata:
+        description: "Artist behind {PERFECTLY_GENERIC_ALBUM} and more, and creator of crossover fanventure {DELTASTUCK}. Releases under a number of aliases."
+
+      michael-guy-bowman:
+        description: "Renowned for {SBURBAN_JUNGLE}, his official solo album {MOBIUS_TRIP_AND_HADRON_KALEIDO} and many other hit Homestuck releases, Bowman has gone on to create his own expansive personal discography since."
+
+      nasqueron:
+        description: "Artist behind tracks across a wide variety of fan albums (where she's credited as {KAL_LA_KAL_LA}), with two experimental noise-poetry albums by her own solo release."
+
+      nuclear333:
+        description: "Co-creator of the webcomic {INHOSPITABLE}, and musician with a history spanning half a decade. Plural internet artist."
+
+      tensei:
+        description: "Rock composer behind hit 2011 release {STRIFE} and overall guitarist and musician behind a whole host of memorable tracks. He's gone on to release the 2017 sequel {STRIFE_2} and a variety of other collaborative tracks since Homestuck!"
+
+      toby-fox:
+        description: "Artist of well over 100 tracks in Homestuck's musical canon (including the elusive {PENUMBRA_PHANTASM}), Toby Fox went on to compose the much-renowned soundtracks to his games {UNDERTALE_AND_DELTARUNE}, firmly planting his place in modern game and internet history."
