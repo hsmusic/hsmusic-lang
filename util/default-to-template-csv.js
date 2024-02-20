@@ -35,7 +35,15 @@ const header = [
     what: entry => entry[1],
   },
   {
+    title: `Used Reference (English)`,
+    what: entry => entry[1],
+  },
+  {
     title: `String Value`,
+    what: () => '',
+  },
+  {
+    title: `Comments`,
     what: () => '',
   },
 ];
