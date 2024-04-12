@@ -4,14 +4,20 @@ meta.languageName: "Español"
 count:
   additionalFiles:
     withUnit:
-      one: "{FILES} archivo adicional"
-      other: "{FILES} archivos adicionales"
+      one: "{FILES} archivo"
+      other: "{FILES} archivos"
 
   albums:
     _: "{ALBUMS}"
     withUnit:
       one: "{ALBUMS} álbum"
       other: "{ALBUMS} álbumes"
+
+  artworks:
+    _: "{ARTWORKS}"
+    withUnit:
+      one: "{ARTWORKS} ilustración"
+      other: "{ARTWORKS} ilustraciónes"
 
   commentaryEntries:
     _: "{ENTRIES}"
@@ -31,11 +37,29 @@ count:
       one: "{COVER_ARTS} carátula"
       other: "{COVER_ARTS} carátulas"
 
+  flashes:
+    _: "{FLASHES}"
+    withUnit:
+      one: "{FLASHES} animación y/o juego"
+      other: "{FLASHES} animaciónes y/o juegos"
+
   tracks:
     _: "{TRACKS}"
     withUnit:
       one: "{TRACKS} pista"
       other: "{TRACKS} pistas"
+
+  days:
+    _: "{DAYS}"
+    withUnit:
+      one: "{DAYS} día"
+      other: "{DAYS} días"
+
+  months:
+    _: "{MONTHS}"
+    withUnit:
+      one: "{MONTHS} mes"
+      other: "{MONTHS} meses"
 
   timesReferenced:
     _: "{TIMES_REFERENCED}"
@@ -49,6 +73,12 @@ count:
       one: "usado {TIMES_USED} vez"
       other: "usado {TIMES_USED} veces"
 
+  weeks:
+    _: "{WEEKS}"
+    withUnit:
+      one: "{WEEKS} semana"
+      other: "{WEEKS} semanas"
+
   words:
     _: "{WORDS}"
     thousand: "{WORDS} mil"
@@ -56,6 +86,12 @@ count:
     withUnit:
       one: "{WORDS} palabra"
       other: "{WORDS} palabras"
+
+  years:
+    _: "{YEARS}"
+    withUnit:
+      one: "{YEARS} año"
+      other: "{YEARS} años"
 
   duration:
     missing: "_:__"
@@ -131,7 +167,6 @@ releaseInfo:
 
     entry:
       _: "{TITLE}"
-      withDescription: "{TITLE}: {DESCRIPTION}"
 
     file:
       _: "{FILE}"
@@ -303,7 +338,7 @@ artistPage:
   groupContributions:
     title:
       music: "Contribuyó música a estos grupos:"
-      artworks: "Contribuyó arte a estos grupos: {GROUPS}"
+      artworks: "Contribuyó arte a estos grupos:"
 
   trackList:
     title: "Pistas"
@@ -517,6 +552,11 @@ trackPage:
       withNumber: "{NUMBER}. {TRACK}"
 
 meta.unmapped:
+  releaseInfo:
+    additionalFiles:
+      entry:
+        withDescription: "{TITLE}: {DESCRIPTION}"
+
   misc:
     artistCommentary: "Comentario del artista:"
 
