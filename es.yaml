@@ -139,8 +139,8 @@ releaseInfo:
       withYear: "({YEAR}) {TRACK} ({ALBUM})"
 
   tracksReferenced: "Pistas que {TRACK} referencia:"
-  tracksThatReference: "Pistas que referencian {TRACK}:"
   tracksSampled: "Pistas que {TRACK} samplea:"
+  tracksThatReference: "Pistas que referencian {TRACK}:"
   tracksThatSample: "Pistas que samplean {TRACK}:"
 
   flashesThatFeature:
@@ -164,16 +164,11 @@ releaseInfo:
 
   additionalFiles:
     heading: "Tiene {ADDITIONAL_FILES}:"
-
-    entry:
-      _: "{TITLE}"
+    entry: "{TITLE}"
 
     file:
       _: "{FILE}"
       withSize: "{FILE} ({SIZE})"
-
-    shortcut:
-      anchorLink: "archivos adicionales"
 
 trackList:
   section:
@@ -181,7 +176,11 @@ trackList:
 
   item:
     withDuration: "{DURATION} {TRACK}"
-    withArtists: "{TRACK} {BY}"
+
+    withArtists:
+      _: "{TRACK} {BY}"
+      by: "por {ARTISTS}"
+
     rerelease: "{TRACK} (relanzamiento)"
 
 misc:
@@ -192,8 +191,7 @@ misc:
     artistAvatar: "avatar del artista"
     flashArt: "arte del flash"
 
-  artistCommentary:
-    _: "Comentario del artista:"
+  artistCommentary: "Comentario del artista:"
 
   chronology:
     seeArtistPages: "¡Vea las páginas de los artistas para la información cronológica!"
@@ -295,11 +293,8 @@ albumCommentaryPage:
 
   entry:
     title:
-      albumCommentary:
-        _: "{ALBUM}"
-
-      trackCommentary:
-        _: "{TRACK}"
+      albumCommentary: "{ALBUM}"
+      trackCommentary: "{TRACK}"
 
 artistPage:
   title: "{ARTIST}"
@@ -330,8 +325,7 @@ artistPage:
         bannerArt: "(banner)"
         commentary: "(comentario del álbum)"
 
-      flash:
-        _: "{FLASH}"
+      flash: "{FLASH}"
 
   contributedDurationLine: "{ARTIST} ha contribuido {DURATION} de música compartido en este wiki."
 
@@ -554,22 +548,8 @@ trackPage:
 meta.unmapped:
   releaseInfo:
     additionalFiles:
-      entry:
-        withDescription: "{TITLE}: {DESCRIPTION}"
-
-  misc:
-    artistCommentary: "Comentario del artista:"
-
-  albumCommentaryPage:
-    entry:
-      title:
-        albumCommentary: "{ALBUM}"
-        trackCommentary: "{TRACK}"
-
-  artistPage:
-    creditList:
-      entry:
-        flash: "{FLASH}"
+      shortcut:
+        anchorLink: "archivos adicionales"
 
   content:
     group:
