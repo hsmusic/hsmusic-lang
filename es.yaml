@@ -157,7 +157,7 @@ releaseInfo:
 
   listenOn:
     _: "Escucha en {LINKS}."
-    noLinks: "Esta pista no tiene un URL donde puede ser escuchada."
+    noLinks: "La wikia no tiene links para escuchar {NAME}."
 
   visitOn: "Visita en {LINKS}."
   playOn: "Ver en {LINKS}."
