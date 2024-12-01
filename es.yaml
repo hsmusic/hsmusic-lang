@@ -190,7 +190,7 @@ releaseInfo:
       asDifferentRelease: "{FLASH} (como {TRACK})"
 
   referencesArtworks: "Hace referencias a {ARTWORKS}."
-  referencedByArtworks: "Referenciado por {ARTWORKS}"
+  referencedByArtworks: "Referenciado por {ARTWORKS}."
   tracksFeatured: "Pistas que {FLASH} incluye:"
 
   viewCommentary:
@@ -220,11 +220,11 @@ releaseInfo:
   playOn: "Ver en {LINKS}."
 
   readCommentary:
-    _: "Lea en {LINK}"
+    _: "Lea en {LINK}."
     link: "comentario de artista"
 
   readCreditSources:
-    _: "Lea en {LINK}"
+    _: "Lea en {LINK}."
     link: "fuentes de créditos"
 
   additionalFiles:
@@ -262,7 +262,7 @@ trackList:
     withDuration: "{SECTION}: ({DURATION})"
     sticky: "{SECTION}:"
 
-  fromGroup: "De {GROUP}"
+  fromGroup: "De {GROUP}:"
   fromOther: "De alguna parte:"
 
   item:
@@ -276,7 +276,7 @@ trackList:
     withArtists:
       _: "{TRACK} {BY}"
       by: "por {ARTISTS}"
-      featuring: "colaborando con {FEATURING}"
+      featuring: "colaborando con {ARTISTS}"
 
     withDuration.withArtists: "{DURATION} {TRACK} {BY}"
     rerelease: "{TRACK} (relanzamiento)"
@@ -284,7 +284,7 @@ trackList:
 misc:
   additionalNames:
     title: "Nombres adicionales o alternativos:"
-    tooltip: "Clic para ver nombres adicionales o alternativos:"
+    tooltip: "Clic para ver nombres adicionales o alternativos"
 
     item:
       _: "{NAME}"
@@ -313,7 +313,7 @@ misc:
 
         date: "{DATE}"
 
-      seeOriginalRelease: "¡Véase {ORIGINAL}"
+      seeOriginalRelease: "¡Véase {ORIGINAL}!"
 
   artistCredit:
     withNormalArtists: "{NORMAL}"
@@ -487,7 +487,7 @@ misc:
   search:
     placeholder: "Buscando lo que sea"
     preparing: "Preparando..."
-    loadingData: "Cargando data.."
+    loadingData: "Cargando data..."
     searching: "Buscando..."
     failed: "Hubo un error interno, y tu búsqueda no pudo ser procesada. Recargar la página e intentando de nuevo puede que ayude. ¡Lamentamos el inconveniente!"
     noResults: "¡Disculpa, no hay resultados para esta consulta! Revise ortografía y use palabras completas."
@@ -988,7 +988,7 @@ listingPage:
 
     allMidiProjectFiles:
       title: "Todos los MIDI/Archivos de Proyecto"
-      albumFiles: "MIDI/Archivos de Proyecto"
+      albumFiles: "MIDI/Archivos de Proyecto:"
 
       file:
         _: "{TITLE}"
@@ -1015,8 +1015,8 @@ listingPage:
         browserSupportPart: "Si tu buscador no es compatible con JavaScript relativamente modern, o lo has deshabilitado, estos link no funcionaran - lo sentimos."
 
       dataLoadingLine: "(¡Archivos de datos se están descargando en el fondo! Por favor esperar para que se carguen.)"
-      dataLoadedLine: "(Ya se ha terminado la descarga de archivos de datos. ¡Los links deberían funcionar!"
-      dataErrorLine: "(Descarga de archivos de datos ha fallado. ¡Lo sentimos, algunos de estos link no funcionaran ahora mismo!"
+      dataLoadedLine: "(Ya se ha terminado la descarga de archivos de datos. ¡Los links deberían funcionar!)"
+      dataErrorLine: "(Descarga de archivos de datos ha fallado. ¡Lo sentimos, algunos de estos link no funcionaran ahora mismo!)"
 
       chunk:
         title:
@@ -1024,7 +1024,7 @@ listingPage:
           fromAlbum: "De un album:"
 
           fromGroup:
-            _: "De {GRUPO}"
+            _: "De {GROUP}"
             accent:
               _: "({RANDOM_ALBUM}, {RANDOM_TRACK})"
               randomAlbum: "Album Aleatorio"
@@ -1064,12 +1064,12 @@ redirectPage:
   infoLine: "Esta página ha sido trasladada a {TARGET}"
 
 referencedArtworksPage:
-  subtitle: "Arte Referenciado:"
+  subtitle: "Arte Referenciado"
   statsLine: "Hace Referencia a {ARTWORKS}."
 
 referencingArtworksPage:
   subtitle: "Artes de Referencia"
-  statsLine: "Referenciado por {ARTWORKS"
+  statsLine: "Referenciado por {ARTWORKS}."
 
 tagPage:
   title: "{TAG}"
@@ -1098,8 +1098,8 @@ trackPage:
     heading: "{ALBUM}"
     title: "{TRACK}"
     body:
-      withArtists: "Por {ARTISTS}"
-      withCoverArtists: "Arte por {COVER_ARTS}"
+      withArtists: "Por {ARTISTS}."
+      withCoverArtists: "Arte por {COVER_ARTISTS}."
 
 meta.unmapped:
   content:
