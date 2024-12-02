@@ -1,0 +1,582 @@
+meta.languageCode: "ru"
+meta.languageName: "Русский"
+
+count:
+  additionalFiles:
+    withUnit:
+      one: "{FILES} файл"
+      other: "{FILES} файлов"
+
+  albums:
+    withUnit:
+      one: "{ALBUMS} альбом"
+      other: "{ALBUMS} альбомов"
+
+  artworks:
+    _: "{ARTWORKS}"
+    withUnit:
+      one: "{ARTWORKS} иллюстрация"
+      other: "{ARTWORKS} иллюстраций"
+
+  commentaryEntries: "{ENTRIES}"
+
+  contributions:
+    _: "{CONTRIBUTIONS}"
+    withUnit:
+      one: "{CONTRIBUTIONS} контрибуция"
+      other: "{CONTRIBUTIONS} контрибуций"
+
+  coverArts: "{COVER_ARTS}"
+
+  flashes:
+    _: "{FLASHES}"
+    withUnit:
+      one: "{FLASHES} флэшей и игр"
+      other: "{FLASHES} флэшей и игр"
+
+  tracks:
+    _: "{TRACKS}"
+    withUnit:
+      one: "{TRACKS} трек"
+      other: "{TRACKS} треков"
+
+  days:
+    _: "{DAYS}"
+    withUnit:
+      one: "{DAYS} день"
+      other: "{DAYS} дней"
+
+  months:
+    _: "{MONTHS}"
+    withUnit:
+      one: "{MONTHS} месяц"
+      other: "{MONTHS} месяцев"
+
+  timesReferenced:
+    _: "{TIMES_REFERENCED}"
+    withUnit:
+      one: "{TIMES_REFERENCED} раз отсылается"
+      other: "{TIMES_REFERENCED} раз отсылается"
+
+  timesUsed:
+    _: "{TIMES_USED}"
+    withUnit:
+      one: "использовано {TIMES_USED} раз"
+      other: "использовано {TIMES_USED} раз"
+
+  weeks:
+    _: "{WEEKS}"
+    withUnit:
+      one: "{WEEKS} неделя"
+      other: "{WEEKS} недель"
+
+  words:
+    _: "{WORDS}"
+    thousand: "{WORDS} тыс."
+
+    withUnit:
+      one: "{WORDS} слово"
+      other: "{WORDS} слов"
+
+  years:
+    _: "{YEARS}"
+    withUnit:
+      one: "{YEARS} год"
+      other: "{YEARS} лет"
+
+  duration:
+    missing: "_:__"
+    approximate: "~{DURATION}"
+
+    hours:
+      _: "{HOURS}:{MINUTES}:{SECONDS}"
+      withUnit: "{HOURS}:{MINUTES}:{SECONDS} часов"
+
+    minutes:
+      _: "{MINUTES}:{SECONDS}"
+      withUnit: "{MINUTES}:{SECONDS} минут"
+
+  dateDuration:
+    earlier: "{DURATION} ранее"
+    later: "{DURATION} позднее"
+    same: "в тот же день"
+    zero: "максимум один день"
+    approximate: "примерно {DURATION}"
+    approximateEarlier: "примерно {DURATION} ранее"
+    approximateLater: "примерно {DURATION} позднее"
+    relativeAbsolute: "{ABSOLUTE}; {RELATIVE}"
+    years: "{YEARS}"
+    months: "{MONTHS}"
+    days: "{DAYS}"
+    yearsMonthsDays: "{YEARS}, {MONTHS}, {DAYS}"
+    yearsMonths: "{YEARS}, {MONTHS}"
+    yearsDays: "{YEARS}, {DAYS}"
+    monthsDays: "{MONTHS}, {DAYS}"
+
+  fileSize:
+    terabytes: "{TERABYTES} ТБ"
+    gigabytes: "{GIGABYTES} ГБ"
+    megabytes: "{MEGABYTES} МБ"
+    kilobytes: "{KILOBYTES} кБ"
+    bytes: "{BYTES} бит"
+
+  index:
+    one: "{INDEX}"
+    two: "{INDEX}"
+    few: "{INDEX}"
+    other: "{INDEX}"
+
+releaseInfo:
+  by: "Создано {ARTISTS}."
+  from: "Из {ALBUM}."
+  released: "Опубликовано {DATE}."
+  addedToWiki: "Добавлено в вики {DATE}."
+  duration: "Длительность: {DURATION}."
+  contributors: "Участники:"
+  lyrics: "Текст песни:"
+  note: "Контекстные примечания:"
+
+  alsoReleasedAs:
+    _: "Также опубликовано как:"
+    item:
+      _: "{TRACK} ({ALBUM})"
+      withYear: "({YEAR}) {TRACK} ({ALBUM})"
+
+  tracksReferenced: "Треки которые {TRACK} отсылает:"
+  tracksSampled: "Треки которые {TRACK} сэмплирует:"
+  tracksThatReference: "Треки которые отсылают {TRACK}:"
+  tracksThatSample: "Треки которые сэмплируют {TRACK}:"
+
+  flashesThatFeature:
+    _: "Флеши и игры в которых есть {TRACK}:"
+    item: "{FLASH}"
+
+  tracksFeatured: "Треки которые есть в {FLASH}:"
+
+  viewCommentary:
+    _: "Смотреть {LINK}!"
+    link: "страница комментариев"
+
+  viewGallery:
+    _: "Смотреть {LINK}!"
+    link: "страница галереи"
+
+  viewGalleryOrCommentary:
+    _: "Смотреть {GALLERY} или {COMMENTARY}!"
+    gallery: "страница галереи"
+    commentary: "страница комментариев"
+
+  viewOriginalFile:
+    _: "Смотреть {LINK}."
+    withSize: "Смотреть {LINK} ({SIZE})."
+    link: "оригинальный файл"
+    sizeWarning: "(Внимание! Если вы пользуетесь мобильным тарифным планом, это большая загрузка.)"
+
+  listenOn:
+    _: "Слушать на {LINKS}."
+    noLinks: "У этого вики нет ссылок для прослушивания {NAME}."
+
+  visitOn: "Посетить на {LINKS}."
+  playOn: "Играть на {LINKS}."
+
+  readCommentary:
+    _: "Читать на {LINK}."
+    link: "комментарии автора"
+
+  additionalFiles:
+    heading: "Смотреть или скачать {ADDITIONAL_FILES}:"
+
+    entry:
+      _: "{TITLE}"
+      noFilesAvailable: "Для данной записи нет доступных или указанных файлов."
+
+    file:
+      _: "{FILE}"
+      withSize: "{FILE} ({SIZE})"
+
+    shortcut:
+      _: "Смотреть {ANCHOR_LINK}: {TITLES}"
+      link: "дополнительные файлы"
+
+  sheetMusicFiles:
+    heading: "Распечатать или скачать файлы нот:"
+
+    shortcut:
+      _: "Скачать {LINK}."
+      link: "файлы нот"
+
+  midiProjectFiles:
+    heading: "Скачать MIDI/файлы проекта:"
+
+    shortcut:
+      _: "Скачать {LINK}."
+      link: "Файлы MIDI/проекта"
+
+trackList:
+  fromGroup: "Из {GROUP}:"
+  fromOther: "Из другого места:"
+
+  item:
+    withDuration:
+      duration:
+        missing.info: "продолжительность не приведена; длительность рассматривается как ноль секунд"
+
+    withArtists:
+      by: "от {ARTISTS}"
+
+    rerelease: "{TRACK} (переиздание)"
+
+misc:
+  additionalNames:
+    title: "Дополнительные или альтернативные названия:"
+    tooltip: "Нажмите чтобы смотреть дополнительные или альтернативные названия"
+
+    item:
+      _: "{NAME}"
+      withAccent: "{NAME} {ACCENT}"
+
+      accent:
+        withAnnotation: "({ANNOTATION})"
+
+  alt:
+    albumCover: "обложка альбома"
+    albumBanner: "баннер альбома"
+    trackCover: "обложка трека"
+    artistAvatar: "аватар автора"
+    flashArt: "флеш арт"
+
+  artistCommentary:
+    _: "Комментарии автора:"
+    entry:
+      title:
+        _: "{ARTISTS}:"
+        noArtists: "Неизвестный автор"
+        withAccent: "{ARTISTS}: {ACCENT}"
+
+        accent:
+          withAnnotation: "({ANNOTATION})"
+
+        date: "{DATE}"
+        date.range: "{DATE_RANGE}"
+
+      seeOriginalRelease: "Смотреть {ORIGINAL}!"
+
+  artistCredit:
+    withNormalArtists: "{NORMAL}"
+
+  artistLink:
+    _: "{ARTIST}"
+    withContribution: "{ARTIST} ({CONTRIB})"
+    withEditsForWiki: "{ARTISTS} ({EDITS})"
+    noExternalLinkPlatformName: "Другое"
+
+    chronology:
+      previous:
+        symbol: "←"
+
+      next:
+        symbol: "→"
+
+  chronology:
+    seeArtistPages: "(Смотреть страницы авторов для инфо о хронологии!)"
+    withNavigation: "{HEADING} ({NAVIGATION})"
+
+  external:
+    external: "Внешнее"
+    withDomain: "{PLATFORM} ({DOMAIN})"
+    withHandle: "{PLATFORM} ({HANDLE})"
+
+    opensInNewTab:
+      _: "{LINK} ({ANNOTATION})"
+      annotation: "открывается в новой вкладке"
+
+    invalidURL:
+      _: "{LINK} ({ANNOTATION})"
+      annotation: "недействительный URL"
+
+    amazonMusic: "Amazon Music"
+    appleMusic: "Apple Music"
+    artstation: "ArtStation"
+    bandcamp: "Bandcamp"
+
+    bgreco:
+      _: "bgreco.net"
+      flash: "bgreco.net (высококачественное аудио)"
+
+    bluesky: "Bluesky"
+    carrd: "Carrd"
+    cohost: "Cohost"
+
+    deconreconstruction:
+      _: "Deconreconstruction"
+      music: "MUSIC@DCRC"
+
+    deviantart: "DeviantArt"
+    facebook: "Facebook"
+    gamebanana: "GameBanana"
+
+    homestuck:
+      _: "Homestuck"
+      page: "Homestuck (страница {PAGE})"
+      secretPage: "Homestuck (секретная страница)"
+
+    hsmusic:
+      _: "HSMusic"
+      archive: "HSMusic (архив вики)"
+
+    instagram: "Instagram"
+    internetArchive: "Internet Archive"
+    itch: "itch.io"
+    kofi: "Ko-fi"
+    linktree: "Linktree"
+    mastodon: "Mastodon"
+    mspfa: "MSPFA"
+    neocities: "Neocities"
+    newgrounds: "Newgrounds"
+    patreon: "Patreon"
+    poetryFoundation: "Poetry Foundation"
+    soundcloud: "SoundCloud"
+    spotify: "Spotify"
+    steam: "Steam"
+    tiktok: "TikTok"
+    toyhouse: "Toyhouse"
+    tumblr: "Tumblr"
+    twitch: "Twitch"
+    twitter: "Twitter"
+    waybackMachine: "Wayback Machine"
+    wikipedia: "Wikipedia"
+
+    youtube:
+      _: "YouTube"
+      flash: "YouTube (на любом устройстве)"
+      playlist: "YouTube (плейлист)"
+      fullAlbum: "YouTube (полный альбом)"
+
+  missingImage: "(Этот файл изображения отсутствует)"
+  missingLinkContent: "(Отсутствует содержимое ссылки)"
+  navAccent: "({LINKS})"
+
+  quickDescription:
+    moreInfo: "({LINK})"
+    expandDescription: "({EXPAND})"
+    collapseDescription: "({COLLAPSE})"
+
+  nav:
+    previous: "Предыдущее"
+    next: "Следующее"
+    info: "Инфо"
+    gallery: "Галерея"
+
+  pageTitle:
+    _: "{TITLE}"
+    withSubtitle: "{TITLE} - {SUBTITLE}"
+    withWikiName: "{TITLE} | {WIKI_NAME}"
+    withSubtitle.withWikiName: "{TITLE} - {SUBTITLE} | {WIKI_NAME}"
+
+  skippers:
+    skipTo: "Перейти к:"
+    content: "Содержание"
+    header: "Верхний колонтитул"
+    footer: "Нижний колонтитул"
+
+    sidebar:
+      _: "Боковая панель"
+      left: "Боковая панель (лево)"
+      right: "Боковая панель (право)"
+
+    artistCommentary: "Комментарии"
+    tracks: "Треки"
+    artworks: "Иллюстрации"
+    flashes: "Флеши и Игры"
+    commentary: "Комментарии"
+    contributors: "Участники"
+    references: "Отсылает..."
+    samples: "Семплирует..."
+    lyrics: "Текст песни:"
+    sheetMusicFiles: "Файлы нот"
+    midiProjectFiles: "Файлы MIDI/проекта"
+    additionalFiles: "Дополнительные файлы"
+
+  jumpTo:
+    _: "Перейти к:"
+    withLinks: "Перейти к: {LINKS}."
+
+  contentWarnings:
+    warnings: "{WARNINGS}"
+    reveal: "нажмите, чтобы показать"
+
+  coverGrid:
+    noCoverArt: "{ALBUM}"
+
+    details:
+      accent: "({DETAILS})"
+      albumLength: "{TRACKS}, {TIME}"
+      coverArtists: "(Иллюст. {ARTISTS})"
+
+  albumGalleryGrid:
+    noCoverArt: "{NAME}"
+
+  uiLanguage: "Язык пользовательского интерфейса: {LANGUAGES}"
+
+homepage:
+  title: "{TITLE}"
+  news:
+    title: "Новости"
+    entry:
+      viewRest: "(Просмотреть остальную часть записи!)"
+
+albumSidebar:
+  trackList:
+    item: "{TRACK}"
+    fallbackSectionName: "Список треков"
+
+    group:
+      _: "{GROUP}"
+      withRange: "{GROUP} ({RANGE})"
+
+  groupBox:
+    title: "{GROUP}"
+    next: "Следующее: {ALBUM}"
+    previous: "Предыдущее: {ALBUM}"
+
+albumSecondaryNav:
+  group: "{GROUP}"
+  group.withPreviousNext: "{GROUP} ({PREVIOUS_NEXT})"
+  series: "{SERIES}"
+  series.withPreviousNext: "{SERIES} ({PREVIOUS_NEXT})"
+
+albumPage:
+  title: "{ALBUM}"
+  nav:
+    album: "{ALBUM}"
+    randomTrack: "Случайный Трек"
+    gallery: "Галерея"
+    commentary: "Комментарии"
+
+  socialEmbed:
+    heading: "{GROUP}"
+    title: "{ALBUM}"
+    body:
+      withDuration: "{DURATION}."
+      withTracks: "{TRACKS}."
+      withReleaseDate: "Выпущено {DATE}."
+      withDuration.withReleaseDate: "{DURATION}. Выпущено {DATE}."
+      withTracks.withReleaseDate: "{TRACKS}. Выпущено {DATE}."
+      withDuration.withTracks.withReleaseDate: "{DURATION}, {TRACKS}. Выпущено {DATE}."
+
+albumGalleryPage:
+  title: "{ALBUM} - Галерея"
+  statsLine: "{TRACKS} общей длительностью {DURATION}."
+  statsLine.withDate: "{TRACKS} общей длительностью {DURATION}. Выпущено {DATE}."
+  noTrackArtworksLine: "У этого альбома нет никаких обложек треков."
+
+albumCommentaryPage:
+  title: "{ALBUM} - Комментарии"
+  nav:
+    album: "Альбом: {ALBUM}"
+
+  entry:
+    title:
+      albumCommentary:
+        _: "{ALBUM}"
+        accent: "Слушать на: {LISTENING_LINKS}"
+
+      trackCommentary:
+        _: "{TRACK}"
+        accent: "Слушать на: {LISTENING_LINKS}"
+
+artistPage:
+  title: "{ARTIST}"
+  nav:
+    artist: "Автор: {ARTIST}"
+
+  closelyLinkedGroups:
+    group:
+      _: "{GROUP}"
+      withAnnotation: "{GROUP} ({ANNOTATION})"
+
+  creditList:
+    album:
+      _: "{ALBUM}"
+      withDate: "{ALBUM} ({DATE})"
+      withDuration: "{ALBUM} ({DURATION})"
+      withDate.withDuration: "{ALBUM} ({DATE}; {DURATION})"
+
+    flashAct:
+      _: "{ACT}"
+      withDate: "{ACT} ({DATE})"
+      withDateRange: "{ACT} ({DATE_RANGE})"
+
+    entry:
+      withAnnotation: "{ENTRY} ({ANNOTATION})"
+      withArtists: "{ENTRY} (с {ARTISTS})"
+      withArtists.withAnnotation: "{ENTRY} ({ANNOTATION}; с {ARTISTS})"
+      rerelease: "{ENTRY} (переиздание)"
+
+      track:
+        _: "{TRACK}"
+        withDuration: "({DURATION}) {TRACK}"
+
+      flash: "{FLASH}"
+
+  groupContributions:
+    title:
+      withSortButton: "{TITLE} ({SORT})"
+
+    item:
+      countAccent: "({COUNT})"
+      durationAccent: "({DURATION})"
+      countDurationAccent: "({COUNT} — {DURATION})"
+      durationCountAccent: "({DURATION} — {COUNT})"
+
+flashPage:
+  title: "{FLASH}"
+  nav:
+    flash: "{FLASH}"
+
+groupSidebar:
+  groupList:
+    category: "{CATEGORY}"
+    item: "{GROUP}"
+
+groupInfoPage:
+  title: "{GROUP}"
+  closelyLinkedArtists:
+    artist:
+      _: "{ARTIST}"
+      withAnnotation: "{ARTIST} ({ANNOTATION})"
+
+  viewSwitcher: "({OPTIONS})"
+
+  albumList:
+    series: "{SERIES}:"
+
+    item:
+      _: "{ALBUM}"
+      withYear:
+        _: "{YEAR_ACCENT} {ALBUM}"
+        accent: "({YEAR})"
+
+      withOtherGroup: "{ALBUM} {OTHER_GROUP_ACCENT}"
+      withArtists: "{ALBUM} {BY}"
+      withYear.withOtherGroup: "{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT}"
+      withYear.withArtists: "{YEAR_ACCENT} {ALBUM} {BY}"
+
+listingPage:
+  listAlbums:
+    byName:
+      item: "{ALBUM} ({TRACKS})"
+
+    byTracks:
+      item: "{ALBUM} ({TRACKS})"
+
+    byDuration:
+      item: "{ALBUM} ({DURATION})"
+
+    byDate:
+      item: "{ALBUM} ({DATE})"
+
+    byDateAdded:
+      chunk:
+        title: "{DATE}"
+        item: "{ALBUM}"

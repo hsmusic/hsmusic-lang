@@ -1,0 +1,171 @@
+meta.languageCode: "ja"
+meta.languageName: "日本語"
+
+count:
+  additionalFiles:
+    _: "{FILES}個"
+    withUnit:
+      other: "{FILES}個のファイル"
+
+  albums:
+    _: "{ALBUMS}冊"
+    withUnit:
+      other: "{ALBUMS}冊のアルバム"
+
+  artworks:
+    _: "{ARTWORKS}点"
+    withUnit:
+      other: "{ARTWORKS}点のイラスト"
+
+  coverArts:
+    _: "{COVER_ARTS}点"
+    withUnit:
+      other: "{COVER_ARTS}点のイラスト"
+
+  dateDuration:
+    earlier: "{DURATION}前"
+    later: "{DURATION}後"
+    same: "当日"
+    zero: "一日以下"
+    approximate: "{DURATION}ぐらい"
+    relativeAbsolute: "{ABSOLUTE}（{RELATIVE}）"
+
+  index:
+    other: "第{INDEX}"
+
+releaseInfo:
+  by: "{ARTISTS}に作られた。"
+  from: "{ALBUM}でリリースされた。"
+  wallpaperArtBy: "壁紙は{ARTISTS}に描かれた。"
+  lyrics: "歌詞："
+  note: "背景ノート："
+
+misc:
+  external:
+    bandcamp: "Bandcamp"
+
+    bgreco:
+      _: "bgreco.net"
+      flash: "bgreco.net（高級オーディオ）"
+
+    deconreconstruction:
+      _: "Deconreconstruction"
+      music: "MUSIC@DCRC"
+
+    deviantart: "DeviantArt"
+
+    fandom:
+      _: "Fandom"
+      mspaintadventures:
+        _: "MSPAウィキ"
+        page: "MSPAウィキ（{PAGE}）"
+
+    homestuck:
+      _: "Homestuck"
+      page: "Homestuck（{PAGE}ページ）"
+      secretPage: "Homestuck（隠れページ）"
+
+    instagram: "Instagram"
+    mastodon: "Mastodon"
+    newgrounds: "Newgrounds"
+    patreon: "Patreon"
+    poetryFoundation: "Poetry Foundation"
+    soundcloud: "SoundCloud"
+    spotify: "Spotify"
+    tumblr: "Tumblr"
+    twitter: "Twitter"
+    wikipedia: "Wikipedia"
+    youtube: "YouTube"
+
+  missingImage: "（画面ファイル欠測）"
+  missingLinkContent: "（リンク内容欠測）"
+
+  nav:
+    previous: "戻る"
+    next: "次へ"
+
+  pageTitle:
+    _: "{TITLE}"
+    withWikiName: "{TITLE}（{WIKI_NAME}）"
+
+  skippers:
+    skipTo: "飛ばす："
+    content: "内容"
+    header: "ヘッダー"
+    footer: "フッター"
+
+    sidebar:
+      _: "サイドバー"
+      left: "左のサイドバー"
+      right: "右のサイドバー"
+
+    tracks: "曲"
+    artworks: "イラスト"
+    lyrics: "歌詞"
+    sheetMusicFiles: "楽譜"
+
+  coverGrid:
+    noCoverArt: "{ALBUM}"
+
+  uiLanguage: "言語：{LANGUAGES}"
+
+homepage:
+  title: "{TITLE}"
+  news:
+    title: "ブログ"
+
+albumSidebar:
+  groupBox:
+    next: "次：{ALBUM}"
+    previous: "前：{ALBUM}"
+
+albumPage:
+  title: "{ALBUM}"
+  nav:
+    album: "{ALBUM}"
+    randomTrack: "おまかせ曲"
+
+  socialEmbed:
+    heading: "{GROUP}"
+    title: "{ALBUM}"
+
+artistPage:
+  title: "{ARTIST}"
+  nav:
+    artist: "アーティスト：{ARTIST}"
+
+  creditList:
+    album:
+      _: "{ALBUM}"
+      withDate: "{ALBUM}（{DATE}）"
+      withDuration: "{ALBUM}（{DURATION}）"
+      withDate.withDuration: "{ALBUM}（{DATE}・{DURATION})"
+
+    entry:
+      album:
+        wallpaperArt: "（髪壁）"
+        bannerArt: "（バナー）"
+
+  trackList:
+    title: "曲"
+
+  artList:
+    title: "イラスト"
+
+  viewArtGallery: "{LINK}をご覧ください。"
+
+commentaryIndex:
+  albumList:
+    title: "アルバムをご選択ください。"
+
+listingIndex:
+  title: "物づくし"
+
+listingPage:
+  target:
+    album: "アルバム"
+    artist: "アーティスト"
+    group: "グループ"
+    track: "曲"
+    tag: "タッグ"
+    other: "その他"

@@ -1,0 +1,396 @@
+meta.languageCode: "nl"
+meta.languageName: "Nederlands"
+
+count:
+  additionalFiles:
+    withUnit:
+      one: "{FILES} bestand"
+      other: "{FILES} bestanden"
+
+  albums:
+    withUnit:
+      one: "{ALBUMS} album"
+      other: "{ALBUMS} albums"
+
+  contributions:
+    withUnit:
+      one: "{CONTRIBUTIONS} bijdrage"
+      other: "{CONTRIBUTIONS} bijdragen"
+
+  tracks:
+    withUnit:
+      one: "{TRACKS} nummer"
+      other: "{TRACKS} nummers"
+
+  days:
+    withUnit:
+      one: "{DAYS} dag"
+      other: "{DAYS} dagen"
+
+  months:
+    withUnit:
+      one: "{MONTHS} maand"
+      many: "{MONTHS} maanden"
+
+  timesUsed:
+    withUnit:
+      one: "{TIMES_USED} keer gebruikt"
+      other: "{TIMES_USED} keer gebruikt"
+
+  weeks:
+    withUnit:
+      one: "{WEEKS} week"
+      other: "{WEEKS} weken"
+
+  words:
+    withUnit:
+      one: "{WORDS} woord"
+      other: "{WORDS} woorden"
+
+  years:
+    withUnit:
+      one: "{YEARS} jaar"
+      other: "{YEARS} jaar"
+
+  duration:
+    hours:
+      withUnit: "{HOURS}:{MINUTES}:{SECONDS} uur"
+
+    minutes:
+      withUnit: "{MINUTES}:{SECONDS} minuten"
+
+  dateDuration:
+    earlier: "{DURATION} eerder"
+    later: "{DURATION} later"
+    same: "op dezelfde datum"
+    zero: "hoogstens één dag"
+    approximate: "ongeveer {DURATION}"
+    approximateEarlier: "ongeveer {DURATION} eerder"
+    approximateLater: "ongeveer {DURATION} later"
+
+  index:
+    other: "{INDEX}e"
+
+releaseInfo:
+  released: "Uitgebracht op {DATE}."
+  addedToWiki: "Toegevoegd aan wiki {DATE}."
+  duration: "Duur: {DURATION}"
+  lyrics: "Songteksten:"
+
+  alsoReleasedAs:
+    _: "Ook uitgebracht als:"
+    item:
+      _: "{TRACK} ({ALBUM})"
+      withYear: "({YEAR}) {TRACK} ({ALBUM})"
+
+  tracksReferenced:
+    _: "Nummers waar {TRACK} naar verwijst:"
+    sticky: "Nummers die dit nummer naar verwijst:"
+
+  tracksSampled:
+    _: "Nummers die door {TRACK} worden gesampled:"
+    sticky: "Nummers die door dit nummer worden gesampled:"
+
+  tracksThatReference:
+    _: "Nummers die naar {TRACK} verwijzen:"
+    sticky:
+      _: "Nummers die naar dit nummer verwijzen:"
+      fromGroup: "Nummers van {GROUP} die naar dit nummer verwijzen:"
+      fromOther: "Nummers van ergens anders die naar dit nummer verwijzen:"
+
+  tracksThatSample:
+    _: "Nummers die {TRACK} samplen:"
+    sticky:
+      _: "Nummers die dit nummer samplen:"
+      fromGroup: "Nummers van {GROUP} die dit nummer samplen:"
+      fromOther: "Nummers van ergens anders dit dit nummer samplen:"
+
+  flashesThatFeature:
+    _: "Flashes en games waarin {TRACK} voorkomt:"
+    sticky: "Flashes en games waarin dit nummer voorkomt:"
+
+    item:
+      asDifferentRelease: "{FLASH} (als {TRACK})"
+
+  referencesArtworks: "Verwijst naar {ARTWORKS}."
+  referencedByArtworks: "Verwezen door {ARTWORKS}."
+  tracksFeatured: "Nummers die in {FLASH} voorkomen:"
+
+  viewCommentary:
+    _: "Bekijk {LINK}!"
+    link: "commentaarpagina"
+
+  viewGallery:
+    _: "Bekijk {LINK}!"
+    link: "galerijpagina"
+
+  viewGalleryOrCommentary:
+    _: "Bekijk {GALLERY} of {COMMENTARY}!"
+    gallery: "galerijpagina"
+    commentary: "commentaarpagina"
+
+  viewOriginalFile:
+    _: "Bekijk {LINK}!"
+    withSize: "Bekijk {LINK} ({SIZE})."
+    link: "origineel bestand"
+    sizeWarning: "(Bekijk je de site op je telefoon? Let op je data, dit is een grote download!)"
+
+  listenOn:
+    _: "Luister op {LINKS}"
+    noLinks: "Deze wiki heeft geen links om naar {NAME} te luisteren."
+
+  visitOn: "Ga naar {LINKS}."
+  playOn: "Speel op {LINKS}."
+
+  readCommentary:
+    _: "Lees {LINK}."
+    link: "artiest commentaar"
+
+  readCreditSources:
+    _: "Lees {LINK}."
+    link: "bronvermelding"
+
+  additionalFiles:
+    heading: "Bekijk of download extra bestanden:"
+
+    entry:
+      _: "{TITLE}"
+      noFilesAvailable: "Er zijn geen bestanden beschikbaar of weergegeven voor dit item."
+
+    file:
+      _: "{FILE}"
+      withSize: "{FILE} ({SIZE})"
+
+    shortcut:
+      _: "Bekijk {LINK}."
+      link: "extra bestanden"
+
+  sheetMusicFiles:
+    heading: "Print of download bladmuziek bestanden:"
+
+    shortcut:
+      _: "Download {LINK}."
+      link: "bladmuziek bestanden"
+
+  midiProjectFiles:
+    heading: "Download MIDI/project bestanden:"
+
+    shortcut:
+      _: "Download {LINK}."
+      link: "MIDI/project bestanden"
+
+trackList:
+  section:
+    _: "{SECTION}:"
+    withDuration: "{SECTION}: ({DURATION})"
+    sticky: "{SECTION}:"
+
+  fromGroup: "Van {GROUP}:"
+  fromOther: "Van ergens anders:"
+
+  item:
+    _: "{TRACK}"
+    withDuration:
+      _: "{DURATION} {TRACK}"
+      duration:
+        _: "({DURATION})"
+        missing: "_:__"
+        missing.info: "geen lengte opgegeven; behandeld alsof het nul seconden lang is."
+
+    withArtists:
+      _: "{TRACK} {BY}"
+      by: "van {ARTISTS}"
+      featuring: "met {ARTISTS}"
+      by.featuring: "van {ARTISTS} met {FEATURING}"
+
+    withDuration.withArtists: "{DURATION} {TRACK} {BY}"
+    rerelease: "{TRACK} (re-release)"
+
+misc:
+  additionalNames:
+    title: "Extra of alternatieve namen:"
+    tooltip: "Klik om extra of alternatieve namen te bekijken"
+
+    item:
+      _: "{NAME}"
+      withAccent: "{NAME} {ACCENT}"
+
+      accent:
+        withAnnotation: "({ANNOTATION})"
+
+  artistCommentary:
+    _: "Artiest commentaar:"
+    entry:
+      title:
+        _: "{ARTISTS}:"
+        noArtists: "Onbekende artiest"
+
+  artistCredit:
+    withFeaturingArtists: "met {FEATURING}"
+    withNormalArtists.withFeaturingArtists: "{NORMAL} met {FEATURING}"
+
+  artistLink:
+    withEditsForWiki:
+      editsLine: "Wiki-bewerkingen van {ARTISTS}"
+
+    noExternalLinkPlatformName: "Andere"
+
+    chronology:
+      previous:
+        info: "Vorige van deze artiest"
+
+      next:
+        info: "Volgende van deze artiest"
+
+      kind:
+        album: "album"
+        track: "nummer"
+
+  external:
+    amazonMusic: "Amazon Music"
+    appleMusic: "Apple Music"
+    artstation: "ArtStation"
+    bandcamp: "Bandcamp"
+
+    bgreco:
+      _: "bgreco.net"
+      flash: "bgreco.net (hoge kwaliteit audio)"
+
+    bluesky: "Bluesky"
+    carrd: "Carrd"
+    cohost: "Cohost"
+
+    deconreconstruction:
+      _: "Deconreconstruction"
+      music: "MUSIC@DCRC"
+
+    deviantart: "DeviantArt"
+    facebook: "Facebook"
+
+    fandom:
+      _: "Fandom"
+      mspaintadventures:
+        _: "MSPA Wiki"
+        page: "MSPA Wiki ({PAGE})"
+
+    gamebanana: "GameBanana"
+
+    homestuck:
+      _: "Homestuck"
+      page: "Homestuck (pagina {PAGE})"
+      secretPage: "Homestuck (geheime pagina)"
+
+    hsmusic:
+      _: "HSMusic"
+      archive: "HSMusic (wiki-archief)"
+
+    instagram: "Instagram"
+    internetArchive: "Internet Archive"
+    itch: "itch.io"
+    kofi: "Ko-fi"
+    linktree: "Linktree"
+    mastodon: "Mastodon"
+    mspfa: "MSPFA"
+    neocities: "Neocities"
+    newgrounds: "Newgrounds"
+    patreon: "Patreon"
+    poetryFoundation: "Poetry Foundation"
+    soundcloud: "SoundCloud"
+    spotify: "Spotify"
+    steam: "Steam"
+    tiktok: "TikTok"
+    toyhouse: "Toyhouse"
+    tumblr: "Tumblr"
+    twitch: "Twitch"
+    twitter: "Twitter"
+    waybackMachine: "Wayback Machine"
+    wikipedia: "Wikipedia"
+
+    youtube:
+      _: "YouTube"
+      flash: "YouTube (op elk apparaat)"
+      playlist: "YouTube (playlist)"
+      fullAlbum: "YouTube (volledig album)"
+
+  missingImage: "(Deze afbeelding ontbreekt)"
+  missingLinkContent: "(Ontbrekende linkinhoud)"
+  navAccent: "({LINKS})"
+
+  quickDescription:
+    readMore: "Lees meer op {LINKS}."
+
+    moreInfo:
+      _: "({LINK})"
+      link: "Meer info..."
+
+    expandDescription:
+      _: "({EXPAND})"
+      expand: "Beschrijving uitvouwen..."
+
+    expandDescription.orReadMore:
+      _: "({EXPAND}, of lees meer op {LINKS})"
+      expand: "Beschrijving uitvouwen"
+
+    collapseDescription:
+      _: "({COLLAPSE})"
+      collapse: "Beschrijving samenvouwen..."
+
+    collapseDescription.orReadMore:
+      _: "({COLLAPSE}, of lees meer op {LINKS})"
+      collapse: "Beschrijving samenvouwen"
+
+  nav:
+    previous: "Vorige"
+    next: "Volgende"
+    info: "Info"
+    gallery: "Galerij"
+
+  pageTitle:
+    _: "{TITLE}"
+    withSubtitle: "{TITLE} - {SUBTITLE}"
+    withWikiName: "{TITLE} | {WIKI_NAME}"
+    withSubtitle.withWikiName: "{TITLE} - {SUBTITLE} | {WIKI_NAME}"
+
+  search:
+    placeholder: "Zoeken..."
+    preparing: "Voorbereiden..."
+    loadingData: "Gegevens laden..."
+    searching: "Zoeken..."
+    failed: "Er is een interne fout opgetreden en de zoekopdracht kon niet worden verwerkt. Het kan helpen om de pagina opnieuw te laden en opnieuw te zoeken. Sorry!"
+    noResults: "Geen resultaten voor deze zoekopdracht, sorry! Controleer de spelling en gebruik volledige woorden."
+    currentResult: "(je bent hier)"
+    endSearch: "(OK, Ik ben nu klaar met zoeken.)"
+
+    resultKind:
+      album: "(album)"
+      artist: "(artiest)"
+      group: "(groep)"
+
+  skippers:
+    artistCommentary: "Artiest commentaar"
+    tracks: "Numers"
+    references: "Verwijst naar..."
+    referencedBy: "Wordt naar verwezen door..."
+    samples: "Samplet..."
+    sampledBy: "Wordt gesampled door..."
+    lyrics: "Songteksten"
+    sheetMusicFiles: "Bladmuziek bestanden"
+    midiProjectFiles: "MIDI/project bestanden"
+    additionalFiles: "Extra bestanden"
+
+  jumpTo:
+    _: "Spring naar:"
+    withLinks: "Spring naar: {LINKS}."
+
+  contentWarnings:
+    reveal: "klik om weer te geven"
+
+  coverGrid:
+    details:
+      otherCoverArtists: "Met {ARTISTS}"
+
+  uiLanguage: "UI-taal: {LANGUAGES}"
+
+homepage:
+  news:
+    title: "Nieuws"
