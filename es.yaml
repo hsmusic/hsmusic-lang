@@ -272,11 +272,13 @@ trackList:
       duration:
         _: "({DURATION})"
         missing: "_:__"
+        missing.info: "ninguna duración presentada: tratado con duración de cero segundos"
 
     withArtists:
       _: "{TRACK} {BY}"
       by: "por {ARTISTS}"
       featuring: "colaborando con {ARTISTS}"
+      by.featuring: "por {ARTISTS} colaborando con {FEATURING}"
 
     withDuration.withArtists: "{DURATION} {TRACK} {BY}"
     rerelease: "{TRACK} (relanzamiento)"
@@ -312,12 +314,20 @@ misc:
           withAnnotation: "({ANNOTATION})"
 
         date: "{DATE}"
+        date.range: "{DATE_RANGE}"
+        date.accessed: "accesado {DATE}"
+        date.captured: "capturado {DATE}"
+        date.around: "alrededor {DATE}"
+        date.around.range: "alrededor {DATE_RANGE}"
+        date.sometime.range: "en algun momento de {DATE_RANGE}"
+        date.throughout.range: "a traves de {DATE_RANGE}"
 
       seeOriginalRelease: "¡Véase {ORIGINAL}!"
 
   artistCredit:
     withNormalArtists: "{NORMAL}"
     withFeaturingArtists: "colaborando con {FEATURING}"
+    withNormalArtists.withFeaturingArtists: "{NORMAL} colaborando con {FEATURING}"
 
   artistLink:
     _: "{ARTIST}"
@@ -483,6 +493,7 @@ misc:
     _: "{TITLE}"
     withSubtitle: "{TITLE} - {SUBTITLE}"
     withWikiName: "{TITLE} | {WIKI_NAME}"
+    withSubtitle.withWikiName: "{TITLE} - {SUBTITLE} | {WIKI_NAME}"
 
   search:
     placeholder: "Buscando lo que sea"
@@ -579,7 +590,9 @@ albumSidebar:
 
 albumSecondaryNav:
   group: "{GROUP}"
+  group.withPreviousNext: "{GROUP} ({PREVIOUS_NEXT})"
   series: "{SERIES}"
+  series.withPreviousNext: "{SERIES} ({PREVIOUS_NEXT})"
 
 albumPage:
   title: "{ALBUM}"
@@ -597,10 +610,15 @@ albumPage:
       withDuration: "{DURATION}."
       withTracks: "{TRACKS}."
       withReleaseDate: "Publicado {DATE}."
+      withDuration.withTracks: "{DURATION}, {TRACKS}."
+      withDuration.withReleaseDate: "{DURATION}. Publicado {DATE}."
+      withTracks.withReleaseDate: "{TRACKS}. Publicado {DATE}."
+      withDuration.withTracks.withReleaseDate: "{DURATION}, {TRACKS}. Publicado {DATE}."
 
 albumGalleryPage:
   title: "{ALBUM} - Galeria"
   statsLine: "{TRACKS} por un total de {DURATION}."
+  statsLine.withDate: "{TRACKS} por un total de {DURATION}. Publicado {DATE}."
   coverArtistsLine: "Toda la arte de pistas por {ARTISTS}."
   noTrackArtworksLine: "Este álbum no tiene arte de pistas."
 
@@ -642,6 +660,7 @@ artistPage:
       _: "{ALBUM}"
       withDate: "{ALBUM} ({DATE})"
       withDuration: "{ALBUM} ({DURATION})"
+      withDate.withDuration: "{ALBUM} ({DATE}; {DURATION})"
 
     flashAct:
       _: "{ACT}"
@@ -651,6 +670,7 @@ artistPage:
     entry:
       withAnnotation: "{ENTRY} ({ANNOTATION})"
       withArtists: "{ENTRY} (con {ARTISTS})"
+      withArtists.withAnnotation: "{ENTRY} ({ANNOTATION}; con {ARTISTS})"
       rerelease: "{ENTRY} (relanzamiento)"
 
       track:
@@ -738,6 +758,7 @@ groupPage:
 
   secondaryNav:
     category: "{CATEGORY}"
+    category.withPreviousNext: "{CATEGORY} ({PREVIOUS_NEXT})"
 
 groupInfoPage:
   title: "{GROUP}"
@@ -779,6 +800,7 @@ groupInfoPage:
         _: "{ALBUM} {BY}"
         by: "por {ARTISTS}"
         featuring: "colaborando con {ARTISTS}"
+        by.featuring: "por {ARTISTS} colaborando con {FEATURING}"
 
       withYear.withOtherGroup: "{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT}"
       withYear.withArtists: "{YEAR_ACCENT} {ALBUM} {BY}"
@@ -814,22 +836,27 @@ listingPage:
   listAlbums:
     byName:
       title: "Álbumes - por Nombre"
+      title.short: "...por Nombre"
       item: "{ALBUM} ({TRACKS})"
 
     byTracks:
       title: "Álbumes - por Pistas"
+      title.short: "...por Pistas"
       item: "{ALBUM} ({TRACKS})"
 
     byDuration:
       title: "Álbumes - por Duración"
+      title.short: "...por Duración"
       item: "{ALBUM} ({DURATION})"
 
     byDate:
       title: "Álbumes - por Fecha"
+      title.short: "...por Fecha"
       item: "{ALBUM} ({DATE})"
 
     byDateAdded:
       title: "Álbumes - por Fecha añadido al Wiki"
+      title.short: "...por Fecha añadido al Wiki"
       chunk:
         title: "{DATE}"
         item: "{ALBUM}"
@@ -837,10 +864,12 @@ listingPage:
   listArtists:
     byName:
       title: "Artistas - por Nombre"
+      title.short: "...por Nombre"
       item: "{ARTIST} ({CONTRIBUTIONS})"
 
     byContribs:
       title: "Artistas - por Contribuciones"
+      title.short: "...por Contribuciones"
       chunk:
         item: "{ARTIST} ({CONTRIBUTIONS})"
 
@@ -851,14 +880,17 @@ listingPage:
 
     byCommentary:
       title: "Artistas - por Entradas de comentarios"
+      title.short: "...Entradas de comentarios"
       item: "{ARTIST} ({ENTRIES})"
 
     byDuration:
       title: "Artistas - por Duración"
+      title.short: "...por Duración"
       item: "{ARTIST} ({DURATION})"
 
     byGroup:
       title: "Artistas - por Grupo"
+      title.short: "...por Grupo"
       item: "{ARTIST} ({CONTRIBUTIONS})"
 
       chunk:
@@ -867,6 +899,7 @@ listingPage:
 
     byLatest:
       title: "Artistas - por Última contribución"
+      title.short: "...por Última contribución"
       chunk:
         title:
           album: "{ALBUM} ({DATE})"
@@ -882,103 +915,129 @@ listingPage:
   listGroups:
     byName:
       title: "Grupos - por Nombre"
+      title.short: "...por Nombre"
       item: "{GROUP} ({GALLERY})"
+      item.gallery: "Galería"
 
     byCategory:
       title: "Grupos - por Categoría"
+      title.short: "...por Categoría"
       chunk:
         title: "{CATEGORY}"
         item: "{GROUP} ({GALLERY})"
+        item.gallery: "Galería"
 
     byAlbums:
       title: "Grupos - por Álbumes"
+      title.short: "...por Álbumes"
       item: "{GROUP} ({ALBUMS})"
 
     byTracks:
       title: "Grupos - por Pistas"
+      title.short: "...por Pistas"
       item: "{GROUP} ({TRACKS})"
 
     byDuration:
       title: "Grupos - por Duración"
+      title.short: "...por Duración"
       item: "{GROUP} ({DURATION})"
 
     byLatest:
       title: "Grupos - por Último álbum"
+      title.short: "...por Último álbum"
       item: "{GROUP} ({DATE})"
 
   listTracks:
     byName:
       title: "Pistas - por Nombre"
+      title.short: "...por Nombre"
       item: "{TRACK}"
 
     byAlbum:
       title: "Pistas - por Álbum"
+      title.short: "...por Álbumes"
       chunk:
         title: "{ALBUM}"
         item: "{TRACK}"
 
     byDate:
       title: "Pistas - por Fecha"
+      title.short: "...por Fecha"
       chunk:
         title: "{ALBUM} ({DATE})"
         item: "{TRACK}"
+        item.rerelease: "{TRACK} (relanzamiento)"
 
     byDuration:
       title: "Pistas - por Duración"
+      title.short: "...por Duración"
       item: "{TRACK} ({DURATION})"
 
     byDurationInAlbum:
       title: "Pistas - por Duración (en Álbum)"
+      title.short: "...por Duración (en Álbum)"
       chunk:
         title: "{ALBUM}"
         item: "{TRACK} ({DURATION})"
 
     byTimesReferenced:
       title: "Pistas - por Veces referenciado"
+      title.short: "...por Veces referenciado"
       item: "{TRACK} ({TIMES_REFERENCED})"
 
     inFlashes.byAlbum:
       title: "Pistas - en Flashes & juegos (por Álbum)"
+      title.short: "...en Flashes & juegos (por Álbum)"
       chunk:
         title: "{ALBUM}"
         item: "{TRACK} (en {FLASHES})"
 
     inFlashes.byFlash:
       title: "Pistas - en Flashes & juegos (por Flash)"
+      title.short: "...en Flashes & juegos (por Flash)"
       chunk:
         title: "{FLASH}"
         item: "{TRACK} (de {ALBUM})"
 
     withLyrics:
       title: "Pistas - con Letra"
+      title.short: "...con Letra"
       chunk:
         title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
         item: "{TRACK}"
 
     withSheetMusicFiles:
       title: "Pistas - con Partituras"
+      title.short: "...con Partituras"
       chunk:
         title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
         item: "{TRACK}"
 
     withMidiProjectFiles:
       title: "Pistas - con MIDI & Archivos de Proyectos"
+      title.short: "...con MIDI & Archivos de Proyectos"
       chunk:
         title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
         item: "{TRACK}"
 
   listTags:
     byName:
       title: "Etiquetas - por Nombre"
+      title.short: "...por Nombre"
       item: "{TAG} ({TIMES_USED})"
 
     byUses:
       title: "Etiquetas - por Veces usado"
+      title.short: "...por Veces usado"
       item: "{TAG} ({TIMES_USED})"
 
   other:
     allSheetMusic:
       title: "Toda las Partituras"
+      title.short: "Toda las Partituras"
       albumFiles: "Partitura de album:"
 
       file:
@@ -988,6 +1047,7 @@ listingPage:
 
     allMidiProjectFiles:
       title: "Todos los MIDI/Archivos de Proyecto"
+      title.short: "Todos los MIDI/Archivos de Proyecto"
       albumFiles: "MIDI/Archivos de Proyecto:"
 
       file:
@@ -997,6 +1057,7 @@ listingPage:
 
     allAdditionalFiles:
       title: "Todos los Archivos Adicionales"
+      title.short: "Todos los Archivos Adicionales"
       albumFiles: "Archivos adicionales del álbum:"
 
       file:
@@ -1006,6 +1067,7 @@ listingPage:
 
     randomPages:
       title: "Páginas Aleatorias"
+      title.short: "Páginas Aleatorias"
       chooseLinkLine:
         _: "{FROM_PART} {BROWSER_SUPPORT_PART}"
         fromPart:
@@ -1098,6 +1160,7 @@ trackPage:
     heading: "{ALBUM}"
     title: "{TRACK}"
     body:
+      withArtists.withCoverArtists: "Por {ARTISTS}; arte por {COVER_ARTISTS}."
       withArtists: "Por {ARTISTS}."
       withCoverArtists: "Arte por {COVER_ARTISTS}."
 
