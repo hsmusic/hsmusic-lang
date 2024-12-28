@@ -10,7 +10,7 @@ const yamlOptions = {
 };
 
 import {createReadStream} from 'node:fs';
-import {readFile} from 'node:fs/promises';
+import {readFile, writeFile} from 'node:fs/promises';
 
 import csv2json from 'csv2json';
 import yaml from 'js-yaml';
@@ -37,7 +37,9 @@ function streamToString(stream) {
 const args = process.argv.slice(2);
 
 if (empty(args)) {
-  console.error(`provide path to CSV; outputs to stdout`);
+  console.error(`provide path to CSV`);
+  console.error(`also provide output YAML file`);
+  console.error(`or only CSV, to output to stdout`);
   process.exit(1);
 }
 
@@ -71,4 +73,9 @@ const niceYAML =
     .replace(/^( *)(?!_|title)\S.*\n(?=\1\S.*\n\1 +\S)/gm, '$&\n')
     .replace(/^( +).*\n(?=(?!\1) *\S)/gm, '$&\n');
 
-process.stdout.write(niceYAML);
+if (args.length === 1) {
+  process.stdout.write(niceYAML);
+} else {
+  await writeFile(args[1], niceYAML);
+  console.log(`written to ${args[1]}`);
+}
