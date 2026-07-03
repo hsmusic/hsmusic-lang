@@ -43,18 +43,19 @@ const header = [
 ];
 
 const entries = Object.entries(flattenLanguageSpec(ref));
+const escape = cell => '"' + cell.replace(/"/g, '""') + '"';
 
 const headerRow =
   header
     .map(({title}) => title)
-    .map(cell => JSON.stringify(cell))
+    .map(cell => escape(cell))
     .join(',');
 
 const entryRows =
   entries
     .map(entry => header
       .map(({what}) => what(entry))
-      .map(cell => JSON.stringify(cell))
+      .map(cell => escape(cell))
       .join(','));
 
 console.log([headerRow, ...entryRows].join('\n'));
