@@ -1,7 +1,4 @@
-import * as path from 'node:path';
-
-const HSMUSIC_PATH =
-  path.join('..', '..', 'code');
+import hsmusicImport from './hsmusic-import.js';
 
 const yamlOptions = {
   indent: 2,
@@ -15,14 +12,9 @@ import {readFile, writeFile} from 'node:fs/promises';
 import csv2json from 'csv2json';
 import yaml from 'js-yaml';
 
-const {empty} = await import(path.join(
-  HSMUSIC_PATH, 'src', 'util', 'sugar.js'));
-
-const {
-  internalDefaultStringsFile,
-  unflattenLanguageSpec,
-} = await import(path.join(
-  HSMUSIC_PATH, 'src', 'data', 'language.js'));
+const {empty} = await hsmusicImport('#sugar');
+const {internalDefaultStringsFile, unflattenLanguageSpec} =
+  await hsmusicImport('#language');
 
 // https://stackoverflow.com/a/49428486/4633828
 function streamToString(stream) {

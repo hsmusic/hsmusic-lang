@@ -1,17 +1,11 @@
-import * as path from 'node:path';
-
-const HSMUSIC_PATH =
-  path.join('..', '..', 'code');
+import hsmusicImport from './hsmusic-import.js';
 
 import {readFile} from 'node:fs/promises';
 
 import yaml from 'js-yaml';
 
-const {
-  internalDefaultStringsFile,
-  flattenLanguageSpec,
-} = await import(path.join(
-  HSMUSIC_PATH, 'src', 'data', 'language.js'));
+const {internalDefaultStringsFile, flattenLanguageSpec} =
+  await hsmusicImport('#language');
 
 const refPath = internalDefaultStringsFile;
 const refYAML = (await readFile(refPath)).toString();
