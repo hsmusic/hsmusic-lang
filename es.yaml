@@ -5,14 +5,20 @@ count:
   additionalFiles:
     _: "{FILES}"
     withUnit:
-      one: "{FILES} archivo adicional"
-      other: "{FILES} archivos adicionales"
+      one: "{FILES} archivo"
+      other: "{FILES} archivos"
 
   albums:
     _: "{ALBUMS}"
     withUnit:
       one: "{ALBUMS} álbum"
       other: "{ALBUMS} álbumes"
+
+  artTags:
+    _: "{TAGS}"
+    withUnit:
+      one: "{TAGS} tag"
+      other: "{TAGS} etiquetas"
 
   artworks:
     _: "{ARTWORKS}"
@@ -31,12 +37,6 @@ count:
     withUnit:
       one: "{CONTRIBUTIONS} contribución"
       other: "{CONTRIBUTIONS} contribuciones"
-
-  coverArts:
-    _: "{COVER_ARTS}"
-    withUnit:
-      one: "{COVER_ARTS} carátula"
-      other: "{COVER_ARTS} carátulas"
 
   flashes:
     _: "{FLASHES}"
@@ -61,6 +61,12 @@ count:
     withUnit:
       one: "{MONTHS} mes"
       other: "{MONTHS} meses"
+
+  timesFeatured:
+    _: "{TIMES_FEATURED}"
+    withUnit:
+      one: "aparece {TIMES_FEATURED} vez"
+      other: "aparece {TIMES_FEATURED} veces"
 
   timesReferenced:
     _: "{TIMES_REFERENCED}"
@@ -142,22 +148,20 @@ releaseInfo:
     featuring: "Por {ARTISTS}, colaborando con {FEATURING}."
 
   from: "De {ALBUM}."
-  coverArtBy: "Carátula por {ARTISTS}."
-  wallpaperArtBy: "Fondo por {ARTISTS}."
+  wallpaperArtBy: "Fondo de pantalla por {ARTISTS}."
   bannerArtBy: "Arte de banner por {ARTISTS}."
   released: "Lanzado el {DATE}."
-  artReleased: "Arte lanzado el {DATE}."
+  albumReleased: "Álbum lanzado el {DATE}."
+  trackReleased: "Canción lanzado el {DATE}."
   addedToWiki: "Añadido a la wiki el {DATE}."
   duration: "Duración: {DURATION}."
   contributors: "Contribuidores:"
-  lyrics: "Letra:"
-  note: "Notas de contexto:"
 
-  alsoReleasedAs:
-    _: "También lanzada como:"
-    item:
-      _: "{TRACK} ({ALBUM})"
-      withYear: "({YEAR}) {TRACK} ({ALBUM})"
+  lyrics:
+    _: "Letra:"
+    switcher: "({ENTRIES})"
+
+  note: "Notas de contexto:"
 
   tracksReferenced:
     _: "Pistas que {TRACK} referencia:"
@@ -171,15 +175,15 @@ releaseInfo:
     _: "Pistas que referencian {TRACK}:"
     sticky:
       _: "Pistas que hacen referencia a esta:"
-      fromGroup: "Pistas de {GROUP} que hacen referencia a esta:"
-      fromOther: "Pistas de otras partes que hacen referencia a esta:"
+      fromGroup: "Pistas que hacen referencia a esta — de {GROUP}:"
+      fromOther: "Pistas que hacen referencia a esta — de otra parte:"
 
   tracksThatSample:
     _: "Pistas que samplean {TRACK}:"
     sticky:
       _: "Pistas que samplean esta:"
-      fromGroup: "Pistas de {GROUP} que samplean esta:"
-      fromOther: "Pistas de otras partes que samplean esta:"
+      fromGroup: "Pistas que samplean esta — de {GROUP}:"
+      fromOther: "Pistas que samplean esta — de otra parte:"
 
   flashesThatFeature:
     _: "Flashes & juegos que incluyen {TRACK}:"
@@ -214,7 +218,7 @@ releaseInfo:
 
   listenOn:
     _: "Escucha en {LINKS}."
-    noLinks: "La wikia no tiene links para escuchar {NAME}."
+    noLinks: "La wikia no tiene links para escuchar a {NAME}."
 
   visitOn: "Visita en {LINKS}."
   playOn: "Ver en {LINKS}."
@@ -222,10 +226,6 @@ releaseInfo:
   readCommentary:
     _: "Lea en {LINK}."
     link: "comentario de artista"
-
-  readCreditSources:
-    _: "Lea en {LINK}."
-    link: "fuentes de créditos"
 
   additionalFiles:
     heading: "Véase o descarge archivos adicionales:"
@@ -303,7 +303,7 @@ misc:
     flashArt: "arte del flash"
 
   artistCommentary:
-    _: "Comentario del artista:"
+    _: "Comentario de artista para {THING}:"
     entry:
       title:
         _: "{ARTISTS}:"
@@ -322,7 +322,11 @@ misc:
         date.sometime.range: "en algun momento de {DATE_RANGE}"
         date.throughout.range: "a traves de {DATE_RANGE}"
 
-      seeOriginalRelease: "¡Véase {ORIGINAL}!"
+    info:
+      fromMainRelease: "El siguiente comentario esta localizado apropiadamente en el lanzamiento principal de esta cancion, {ALBUM}."
+      fromMainRelease.namedDifferently: "El siguiente comentario esta localizado apropiadamente en el lanzamiento principal de esta cancion, {ALBUM}, donde se llama {NAME}."
+      seeSpecificReleases: "Para comentario especifico al lanzamiento, revisa: {ALBUMS}."
+      seeSpecificReleases.withMainCommentary: "Para comentario especifico al lanzamiento, tambien ve: {ALBUMS}."
 
   artistCredit:
     withNormalArtists: "{NORMAL}"
@@ -365,19 +369,6 @@ misc:
         trackContribution: "contribución de pista"
         wallpaperArt: "wallpaper del arte"
 
-  chronology:
-    seeArtistPages: "¡Vea las páginas de los artistas para la información cronológica!"
-    withNavigation: "{HEADING} ({NAVIGATION})"
-
-    heading:
-      coverArt: "{INDEX} carátula por {ARTIST}"
-      flash: "{INDEX} flash/juego por {ARTIST}"
-      track: "{INDEX} pista por {ARTIST}"
-      trackArt: "{INDEX} arte de pista por {ARTIST}"
-      onlyIndex: "Solo"
-
-  creditSources: "Fuente de créditos:"
-
   external:
     external: "Externo"
     withDomain: "{PLATFORM} ({DOMAIN})"
@@ -394,7 +385,10 @@ misc:
     amazonMusic: "Amazon Music"
     appleMusic: "Apple Music"
     artstation: "ArtStation"
-    bandcamp: "Bandcamp"
+
+    bandcamp:
+      _: "Bandcamp"
+      officialRelease: "Bandcamp (lanzamiento oficial)"
 
     bgreco:
       _: "bgreco.net"
@@ -437,6 +431,7 @@ misc:
     mspfa: "MSPFA"
     neocities: "Neocities"
     newgrounds: "Newgrounds"
+    nintendoMusic: "Nintendo Music"
     patreon: "Patreon"
     poetryFoundation: "Poetry Foundation"
     soundcloud: "SoundCloud"
@@ -523,7 +518,6 @@ misc:
       right: "Barra lateral (derecha)"
 
     artistCommentary: "Comentario de artista"
-    creditSources: "Fuentes de créditos"
     tracks: "Pistas"
     artworks: "Arte"
     flashes: "Animaciones & Juegos"
@@ -543,8 +537,6 @@ misc:
   socialEmbed:
     heading: "{WIKI_NAME} | {HEADING}"
 
-  trackArtFromAlbum: "Caratula de portada para {ALBUM}"
-
   jumpTo:
     _: "Saltar a:"
     withLinks: "Saltar a: {LINKS}."
@@ -552,6 +544,14 @@ misc:
   contentWarnings:
     warnings: "{WARNINGS}"
     reveal: "haga clic para mostrar"
+
+  coverArtwork:
+    artworkBy: "Carátula por {ARTISTS}"
+    artworkBy.customLabel: "{LABEL} por {ARTISTS}"
+    artworkBy.withYear: "Arte ({YEAR}) por {ARTISTS}"
+    artworkBy.customLabel.withYear: "{LABEL} ({YEAR}) por {ARTISTS}"
+    source: "Por {SOURCE}"
+    trackArtFromAlbum: "Caratula de portada para {ALBUM}"
 
   coverGrid:
     noCoverArt: "{ALBUM}"
@@ -565,14 +565,14 @@ misc:
   albumGalleryGrid:
     noCoverArt: "{NAME}"
 
-  uiLanguage: "Lenguaje de interfaz: {LANGUAGES}"
+  uiLanguage: "Interfaz de lenguaje: {LANGUAGES}"
 
 homepage:
   title: "{TITLE}"
   news:
     title: "Noticias"
     entry:
-      viewRest: "¡Vea el resto del artículo!"
+      viewRest: "(¡Ver resto de la entrada!)"
 
 albumSidebar:
   trackList:
@@ -581,12 +581,16 @@ albumSidebar:
 
     group:
       _: "{GROUP}"
-      withRange: "{GROUP} ({RANGE})"
+      withRange: "{GROUP} {RANGE_PART}"
+      withRange.rangePart: "({RANGE})"
 
   groupBox:
     title: "{GROUP}"
     next: "Siguiente: {ALBUM}"
-    previous: "Anterior: {ALBUM}"
+    previous: "Previo: {ALBUM}"
+
+  releaseBox:
+    title: "{ALBUM}"
 
 albumSecondaryNav:
   group: "{GROUP}"
@@ -598,7 +602,7 @@ albumPage:
   title: "{ALBUM}"
   nav:
     album: "{ALBUM}"
-    backToAlbum: "Volver a la página del álbum"
+    backToAlbum: "Volver a pagina de album"
     randomTrack: "Pista Aleatoria"
     gallery: "Galeria"
     commentary: "Comentario"
@@ -609,25 +613,34 @@ albumPage:
     body:
       withDuration: "{DURATION}."
       withTracks: "{TRACKS}."
-      withReleaseDate: "Publicado {DATE}."
+      withReleaseDate: "Lanzado el {DATE}."
       withDuration.withTracks: "{DURATION}, {TRACKS}."
-      withDuration.withReleaseDate: "{DURATION}. Publicado {DATE}."
-      withTracks.withReleaseDate: "{TRACKS}. Publicado {DATE}."
-      withDuration.withTracks.withReleaseDate: "{DURATION}, {TRACKS}. Publicado {DATE}."
+      withDuration.withReleaseDate: "{DURATION}. Lanzado el {DATE}."
+      withTracks.withReleaseDate: "{TRACKS}. Lanzado el {DATE}."
+      withDuration.withTracks.withReleaseDate: "{DURATION}, {TRACKS}. Lanzado el {DATE}."
 
 albumGalleryPage:
   title: "{ALBUM} - Galeria"
-  statsLine: "{TRACKS} por un total de {DURATION}."
-  statsLine.withDate: "{TRACKS} por un total de {DURATION}. Publicado {DATE}."
-  coverArtistsLine: "Toda la arte de pistas por {ARTISTS}."
-  noTrackArtworksLine: "Este álbum no tiene arte de pistas."
+  statsLine: "{TRACKS} sumando a {DURATION}."
+  statsLine.withDate: "{TRACKS} sumando a {DURATION}. Lanzado el {DATE}.\n"
+  coverArtistsLine: "Todos las artes para pistas por {ARTISTS}."
+  noTrackArtworksLine: "Este album no tiene ningun arte de pista."
+
+  setSwitcher:
+    _: "({SETS})"
+    unlabeledSet: "Arte principal de album"
 
 albumCommentaryPage:
   title: "{ALBUM} - Comentario"
   nav:
-    album: "Álbum: {ALBUM}"
+    album: "Album: {ALBUM}"
 
-  infoLine: "{WORDS} en {ENTRIES}."
+  sidebar:
+    noTrackCommentary: "No hay comentario de pista."
+    noCommentary: "No hay comentario de album o pista."
+
+  infoLine: "{WORDS} a traves de {ENTRIES}."
+  infoLine.withoutCommentary: "Este album no tiene ningun comentario."
 
   entry:
     title:
@@ -646,14 +659,14 @@ artistPage:
     artist: "Artista: {ARTIST}"
 
   closelyLinkedGroups:
-    one: "Este artista tiene una página de grupo: {GROUP}."
-    multiple: "Este artista tiene páginas de grupos: {GROUPS}."
+    one: "Este artista tiene una pagina de grupo: {GROUP}."
+    multiple: "Este artista tiene una pagina de grupos: {GROUP}."
 
     group:
       _: "{GROUP}"
       withAnnotation: "{GROUP} ({ANNOTATION})"
 
-    alias: "Este artista es un alias de {GROUPS}."
+    alias: "Este artista tiene un alias de {GROUPS}."
 
   creditList:
     album:
@@ -671,31 +684,40 @@ artistPage:
       withAnnotation: "{ENTRY} ({ANNOTATION})"
       withArtists: "{ENTRY} (con {ARTISTS})"
       withArtists.withAnnotation: "{ENTRY} ({ANNOTATION}; con {ARTISTS})"
-      rerelease: "{ENTRY} (relanzamiento)"
+
+      rerelease:
+        _: "{ENTRY} ({RERELEASE})"
+        term: "relanzamiento"
+        firstRelease: "Lanzado por primera vez en {ALBUM}"
+
+      firstRelease:
+        _: "{ENTRY} ({FIRST_RELEASE})"
+        term: "primer lanzamiento"
+        rerelease: "Tambien lanzado en {ALBUM}"
 
       track:
         _: "{TRACK}"
         withDuration: "({DURATION}) {TRACK}"
 
       album:
-        coverArt: "(carátula)"
-        wallpaperArt: "(fondo)"
-        bannerArt: "(banner)"
-        commentary: "(comentario del álbum)"
+        coverArt: "(arte de portada)"
+        wallpaperArt: "(arte de fondo de pantalla)"
+        bannerArt: "(arte de pancarta)"
+        commentary: "(comentario de album)"
 
       flash: "{FLASH}"
 
-  contributedDurationLine: "{ARTIST} ha contribuido {DURATION} de música compartido en este wiki."
+  contributedDurationLine: "{ARTIST} ha contribuido {DURATION} de musica a traves de esta wiki."
 
   groupContributions:
     title:
-      music: "Contribuyó música a estos grupos:"
-      artworks: "Contribuyó arte a estos grupos:"
+      music: "Contribuyo music a grupos:"
+      artworks: "Contribuo arte a grupos:"
       withSortButton: "{TITLE} ({SORT})"
 
       sorting:
-        count: "En orden de cuenta."
-        duration: "En orden de duración."
+        count: "Ordenar por cuenta."
+        duration: "Ordernar por duracion."
 
     item:
       countAccent: "({COUNT})"
@@ -707,7 +729,7 @@ artistPage:
     title: "Pistas"
 
   artList:
-    title: "Arte"
+    title: "Artes"
 
   flashList:
     title: "Flashes & Juegos"
@@ -716,30 +738,96 @@ artistPage:
     title: "Comentario"
 
   viewArtGallery:
-    _: "¡Véase {LINK}!"
-    orBrowseList: "¡Véase {LINK}! O navegue la lista:"
-    link: "galería de arte"
+    _: "¡Vea {LINK}!"
+    orBrowseList: "¡Vea {LINK}! O busque la lista:"
+    link: "galeria de arte"
 
-  wikiEditArtworks: "{ARTIST} ha editado este arte para esta wikia:"
+  wikiEditArtworks:
+    _: "{ARTIST} ha editado estas artes por esta wikia:"
+    sticky: "Artes — editados por esta wikia"
+
+  wikiEditorCommentary:
+    _: "{ARTIST} ha escrito estas entradas de comentario como un editor de esta wikia:"
+    sticky: "Comentario — escrito por esta wiki"
 
 artistGalleryPage:
-  title: "{ARTIST} - Galería"
-  infoLine: "Contribuyó a {COVER_ARTS}."
+  title: "{ARTIST} - Galeria"
+  infoLine: "Contribuyo a {COVER_ARTS}."
+
+artTagPage:
+  nav:
+    tag: "Etiqueta: {TAG}"
+
+  sidebar:
+    otherTagsExempt: "(…otra {TAGS}…)"
+
+artTagInfoPage:
+  title: "{TAG}"
+  viewArtGallery:
+    _: "¡Vea el {LINK} de este tag!"
+    link: "galeria de arte"
+
+  readMoreOn: "Lea mas sobre '{TAG}' en {LINKS}."
+
+  seeAlso:
+    _: "Vea tambien: {TAGS}"
+    tagWithAnnotation: "{TAG} ({ANNOTATION})"
+
+  featuredIn:
+    notFeatured: "Esta etiqueta no ha aparecido en ninguna arte aun."
+    directlyOnly: "Esta etiqueta aparece en {COVER_ARTS}."
+    indirectlyOnly: "Esta etiqueta aparece en {COVER_ARTS}, pero solo indirectamente."
+    directlyAndIndirectly: "Esta etiqueta aparece directamente en {ARTWORKS_DIRECTLY}, e mas indirectamente en {ARTWORKS_INDIRECTLY}, para un total de {ARTWORKS_TOTAL}."
+
+  descendsFromTags:
+    _: "Etiquetas en las que '{TAG}' cae:"
+    item: "{TAG}"
+
+  descendantTags:
+    _: "Etiquetas en las que '{TAG}' cae:"
+    item:
+      _: "{TAG}"
+      withGallery:
+        _: "{TAG} ({GALLERY})"
+        gallery: "vea galeria"
+
+      withTimesUsed: "{TAG} ({TIMES_USED})"
+      withGallery.withTimesUsed: "{TAG} ({GALLERY}; {TIMES_USED})"
+
+artTagGalleryPage:
+  title: "{TAG}"
+  descendsFrom: "Arriba: {TAGS}."
+  descendants: "Abajo: {TAGS}."
+
+  featuredLine:
+    all: "Aparece en {COVER_ARTS}."
+    direct: "Aparece directamente en {COVER_ARTS}."
+    indirect: "Aparece indirectamente en {COVER_ARTS}."
+
+    notFeatured:
+      _: "Esta etiqueta no ha aparecido en ninguna arte aun."
+      callToAction: "¡Tal ves tu pista pueda ser la primera!"
+
+  showingLine:
+    _: "({SHOWING})"
+    all: "Mostrando todas las artes."
+    indirect: "Mostrando artes donde esta etiqueta aparece solo indirectamente."
+    direct: "Mostrando artes donde esta etiqueta aparece directamente."
 
 commentaryIndex:
   title: "Comentario"
-  infoLine: "{WORDS} en {ENTRIES} en total."
+  infoLine: "{WORDS} a traves de {ENTRIES}, en total."
 
   albumList:
-    title: "Escoge un álbum:"
-    item: "{ALBUM} ({WORDS} en {ENTRIES})"
+    title: "Elige un album:"
+    item: "{ALBUM} ({WORDS} a traves de {ENTRIES})"
 
 flashIndex:
   title: "Flashes & Juegos"
 
 flashSidebar:
   flashList:
-    entriesInThisSection: "Entradas en esta sección:"
+    entriesInThisSection: "Entradas en esta seccion"
 
 flashPage:
   title: "{FLASH}"
@@ -764,25 +852,25 @@ groupInfoPage:
   title: "{GROUP}"
   closelyLinkedArtists:
     one: "Ver pagina de artista: {ARTIST}."
-    multiple: "Ver paginas de artista: {ARTISTS}."
-    aliases: "Ver páginas de alias: {ALIASES}."
+    multiple: "Ver paginas de artista: {ARTIST}."
+    aliases: "Ver paginas de alias: {ARTIST}."
 
     artist:
       _: "{ARTIST}"
       withAnnotation: "{ARTIST} ({ANNOTATION})"
 
   viewAlbumGallery:
-    _: "¡Véase {LINK}! O navegue la lista:"
-    link: "galería de álbumes"
-    withViewSwitcher: "¡Véase {LINK}! O navegue la lista: {VIEW_SWITCHER}"
+    _: "¡Vea {LINK}! O busque la lista:"
+    link: "galeria de albumes"
+    withViewSwitcher: "¡Vea {LINK}! O busque la lista: {VIEW_SWITCHER}"
 
   viewSwitcher:
     _: "({OPTIONS})"
     bySeries: "Por series"
-    byDate: "Por fecha"
+    byDate: "Por fechas"
 
   albumList:
-    title: "Álbumes"
+    title: "Albumes"
     series: "{SERIES}:"
 
     item:
@@ -793,26 +881,26 @@ groupInfoPage:
 
       withOtherGroup:
         _: "{ALBUM} {OTHER_GROUP_ACCENT}"
-        accent: "(de {GROUPS})"
-        notFromThisGroup: "(no de {GROUP})"
+        accent: "(por {GROUPS})"
+        notFromThisGroup: "(no por {GROUP})"
 
       withArtists:
         _: "{ALBUM} {BY}"
         by: "por {ARTISTS}"
-        featuring: "colaborando con {ARTISTS}"
-        by.featuring: "por {ARTISTS} colaborando con {FEATURING}"
+        featuring: "colaborando {ARTISTS}"
+        by.featuring: "por {ARTISTS} colaborando {FEATURING}"
 
       withYear.withOtherGroup: "{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT}"
       withYear.withArtists: "{YEAR_ACCENT} {ALBUM} {BY}"
 
 groupGalleryPage:
-  title: "{GROUP} - Galería"
-  infoLine: "{TRACKS} en {ALBUMS}, sumando {TIME}."
+  title: "{GROUP} - Galeria"
+  infoLine: "{TRACKS} a traves de {ALBUMS}, en total {TIME}."
 
 listingIndex:
-  title: "Listados"
-  infoLine: "{WIKI}: {TRACKS} en {ALBUMS}, sumando {DURATION}."
-  exploreList: "¡Explora cualquiera de los listados vinculados abajo y en la barra lateral!"
+  title: "Listas"
+  infoLine: "{WIKI}: {TRACKS} a traves de {ALBUMS}, en total {TIME}."
+  exploreList: "¡Sientete libre de explorar cualquiera de las listas vinculadas abajo y en la barra lateral!"
 
 listingPage:
   target:
@@ -835,31 +923,79 @@ listingPage:
 
   listAlbums:
     byName:
-      title: "Álbumes - por Nombre"
+      title: "Albumes - por Nombre"
       title.short: "...por Nombre"
       item: "{ALBUM} ({TRACKS})"
 
     byTracks:
-      title: "Álbumes - por Pistas"
+      title: "Albumes - por Pistas"
       title.short: "...por Pistas"
       item: "{ALBUM} ({TRACKS})"
 
     byDuration:
-      title: "Álbumes - por Duración"
-      title.short: "...por Duración"
+      title: "Albums - por Duracion"
+      title.short: "...por Duracion"
       item: "{ALBUM} ({DURATION})"
 
     byDate:
-      title: "Álbumes - por Fecha"
+      title: "Albumes - por Fecha"
       title.short: "...por Fecha"
       item: "{ALBUM} ({DATE})"
 
     byDateAdded:
-      title: "Álbumes - por Fecha añadido al Wiki"
-      title.short: "...por Fecha añadido al Wiki"
+      title: "Albumes - por Fecha Agregada a la Wiki"
+      title.short: "...por Fecha Agregada a la Wiki"
       chunk:
         title: "{DATE}"
         item: "{ALBUM}"
+
+  listArtTags:
+    byName:
+      title: "Etiquetas - por Nombre"
+      title.short: "...por Nombre"
+      item: "{TAG} ({TIMES_USED})"
+
+    byUses:
+      title: "Etiquetas - por Veces usado"
+      title.short: "...por Veces usado"
+      item: "{TAG} ({TIMES_USED})"
+
+    network:
+      title: "Red de Etiqueta de Arte"
+      title.short: "Red de Etiqueta de Arte"
+      jumpToRoot:
+        title: "Saltar a una de las etiquetas mas altas:"
+        item: "{TAG}"
+
+      statLine:
+        _: "Mostrando informacion de etiqueta: {STAT}"
+        none: "solo nombre"
+        totalUses: "usos (totales)"
+        directUses: "usos (solo directamente)"
+        descendants: "descendientes (totales)"
+        leaves: "descendientes (solo hojas)"
+
+      root:
+        _: "{TAG}"
+
+      root.jumpToTop:
+        _: "{TAG} ({LINK})"
+        link: "Saltar a la cima:"
+
+      root.withAncestors: "{TAG} (desciende de {ANCESTORS})"
+
+      tag:
+        _: "{TAG}"
+        jumpToRoot: "Saltar a: {TAG}"
+
+        withStat:
+          _: "{STAT} {TAG}"
+          stat: "({STAT})"
+          notApplicable: "-"
+
+      orphanArtTags:
+        title: "Estas etiquetas no tienen ni descendientes o ancestros:"
+        item: "{TAG}"
 
   listArtists:
     byName:
@@ -874,32 +1010,32 @@ listingPage:
         item: "{ARTIST} ({CONTRIBUTIONS})"
 
         title:
-          trackContributors: "Pistas Contribuido:"
-          artContributors: "Arte Contribuido:"
-          flashContributors: "Contribuidas a flashes & juegos:"
+          trackContributors: "Pistas contribuidas:"
+          artContributors: "Artes contribuidas:"
+          flashContributors: "Flashes & juegos contribuidos:"
 
     byCommentary:
-      title: "Artistas - por Entradas de comentarios"
-      title.short: "...Entradas de comentarios"
+      title: "Artistas - por Entradas de Comentario"
+      title.short: "...por Entradas de Comentario"
       item: "{ARTIST} ({ENTRIES})"
 
     byDuration:
-      title: "Artistas - por Duración"
-      title.short: "...por Duración"
+      title: "Artistas - por Duracion"
+      title.short: "...por Duracion"
       item: "{ARTIST} ({DURATION})"
 
     byGroup:
-      title: "Artistas - por Grupo"
-      title.short: "...por Grupo"
+      title: "Artistas - por Grupos"
+      title.short: "...por Grupos"
       item: "{ARTIST} ({CONTRIBUTIONS})"
 
       chunk:
-        title: "Contribuyo a {GROUP}:"
+        title: "Contribuyo a {GROUP}"
         item: "{ARTIST} ({CONTRIBUTIONS})"
 
     byLatest:
-      title: "Artistas - por Última contribución"
-      title.short: "...por Última contribución"
+      title: "Artistas - por Última Contribución"
+      title.short: "...por Última Contribución"
       chunk:
         title:
           album: "{ALBUM} ({DATE})"
@@ -981,20 +1117,20 @@ listingPage:
         item: "{TRACK} ({DURATION})"
 
     byTimesReferenced:
-      title: "Pistas - por Veces referenciado"
-      title.short: "...por Veces referenciado"
+      title: "Pistas - por Veces Referenciado"
+      title.short: "...por Veces Referenciado"
       item: "{TRACK} ({TIMES_REFERENCED})"
 
     inFlashes.byAlbum:
       title: "Pistas - en Flashes & juegos (por Álbum)"
-      title.short: "...en Flashes & juegos (por Álbum)"
+      title.short: "...en Flashes & Juegos (por Álbum)"
       chunk:
         title: "{ALBUM}"
         item: "{TRACK} (en {FLASHES})"
 
     inFlashes.byFlash:
-      title: "Pistas - en Flashes & juegos (por Flash)"
-      title.short: "...en Flashes & juegos (por Flash)"
+      title: "Pistas - en Flashes & Juegos (por Flash)"
+      title.short: "...en Flashes & Juegos (por Flash)"
       chunk:
         title: "{FLASH}"
         item: "{TRACK} (de {ALBUM})"
@@ -1023,17 +1159,6 @@ listingPage:
         title.withDate: "{ALBUM} ({DATE})"
         item: "{TRACK}"
 
-  listTags:
-    byName:
-      title: "Etiquetas - por Nombre"
-      title.short: "...por Nombre"
-      item: "{TAG} ({TIMES_USED})"
-
-    byUses:
-      title: "Etiquetas - por Veces usado"
-      title.short: "...por Veces usado"
-      item: "{TAG} ({TIMES_USED})"
-
   other:
     allSheetMusic:
       title: "Toda las Partituras"
@@ -1048,7 +1173,7 @@ listingPage:
     allMidiProjectFiles:
       title: "Todos los MIDI/Archivos de Proyecto"
       title.short: "Todos los MIDI/Archivos de Proyecto"
-      albumFiles: "MIDI/Archivos de Proyecto:"
+      albumFiles: "MIDI/Archivos de Proyecto del Album:"
 
       file:
         _: "{TITLE}"
@@ -1133,13 +1258,6 @@ referencingArtworksPage:
   subtitle: "Artes de Referencia"
   statsLine: "Referenciado por {ARTWORKS}."
 
-tagPage:
-  title: "{TAG}"
-  nav:
-    tag: "Etiqueta: {TAG}"
-
-  infoLine: "Aparece en {COVER_ARTS}."
-
 trackPage:
   title: "{TRACK}"
   nav:
@@ -1150,12 +1268,6 @@ trackPage:
       _: "{TRACK}"
       withNumber: "{NUMBER}. {TRACK}"
 
-    chronology:
-      scope:
-        title: "Links cronologicos {SCOPE}"
-        wiki: "a traves de la wiki"
-        album: "en este album"
-
   socialEmbed:
     heading: "{ALBUM}"
     title: "{TRACK}"
@@ -1165,25 +1277,223 @@ trackPage:
       withCoverArtists: "Arte por {COVER_ARTISTS}."
 
 meta.unmapped:
-  content:
-    group:
-      clark-powell:
-        description: "Compositora de {MEDIUM} y {SYMPHONY_IMPOSSIBLE_TO_PLAY} al igual que docenas de canciones a través de la discografía de Homestuck, y la artista detrás de varios álbumes independientes cuyas canciones fueron recopiladas y usadas como la banda sonora para {PSYCHOLONIALS}."
+  releaseInfo:
+    by:
+      featuring:
+        withAlbum: "De {ALBUM}, por {ARTISTS} colaborando con {FEATURING}."
 
-      cristata:
-        description: "Artista detrás de {PERFECTLY_GENERIC_ALBUM} entre otros, y creadora de la fanventura crossover {DELTASTUCK}. Lanza álbumes bajo una variedad de nombres."
+      withAlbum: "De {ALBUM}, por {ARTISTS}."
 
-      michael-guy-bowman:
-        description: "Reconicido por {SBURBAN_JUNGLE}, su album solo oficial {MOBIUS_TRIP_AND_HADRON_KALEIDO} y muchos otros hits en la discográfica de Homestuck, Bowman ha continuado desde entonces con su extensa discografía personal."
+    alsoReleased:
+      onAlbums:
+        _: "Tambien lanzado en {ALBUMS}."
+        asSingle: "Tambien lanzado en {ALBUMS}, y como {SINGLE}."
 
-      nasqueron:
-        description: "Artista creadora de varias canciones en una gama de álbumes fan (donde es acreditada como {KAL_LA_KAL_LA}), con dos álbumes de poesía sonora en su haber."
+      asSingle: "Tambien lanzado como {SINGLE}."
+      single: "como un sencillo"
 
-      nuclear333:
-        description: "Co-creadora del webcomic {INHOSPITABLE}, y música con un catálogo que abarca media década. Artista plural de internet."
+    readCommentary:
+      link:
+        withWikiCommentary: "comentario de artista y wiki"
+        onlyWikiCommentary: "comentario de wiki"
 
-      tensei:
-        description: "Compositor roquero detrás del lanzamiento hit de 2011 {STRIFE} y en general guitarrista y músico detrás de una gran cantidad de canciones memorables. ¡Desde entonces ha lanzado la secuela de 2017 {STRIFE_2} y una variedad de otras canciones colaborativas tras Homestuck!"
+    readCreditingSources:
+      _: "Lea en {LINK}."
+      link: "fuentes de créditos"
 
-      toby-fox:
-        description: "Un artista con más de 100 canciones en el canon musical de Homestuck (incluyendo el elusivo {PENUMBRA_PHANTASM}), Toby Fox siguió a componer las renombradas bandas sonoras de sus juegos {UNDERTALE_AND_DELTARUNE}, plantando firmemente su lugar en la historia moderna de los videojuegos e Internet."
+    readReferencingSources:
+      _: "Lea en {LINK}."
+      link: "fuente de referencias"
+
+  misc:
+    artistCommentary:
+      sticky: "Comentario de artista:"
+
+      withWikiCommentary:
+        _: "Comentario de artista y wiki para {THING}:"
+        sticky: "Comentario de artista y wiki:"
+
+      onlyWikiCommentary:
+        _: "Comentario de wiki para {THING}:"
+        sticky: "Comentario de wiki:"
+
+    artistLink:
+      chronology:
+        heading:
+          artistReleases: "Lanzamientos por {ARTIST}:"
+          artistTracks: "Pistas por {ARTIST}:"
+
+        kind:
+          release: "lanzamientos"
+
+    creditingSources:
+      _: "Fuente de créditos para:"
+      sticky: "Fuente de créditos:"
+
+    external:
+      bandcamp:
+        composerRelease: "Bandcamp (lanzamiento del compositor)"
+
+      reddit:
+        _: "Reddit"
+        subreddit: "Reddit ({SUBREDDIT})"
+
+    lyrics:
+      source: "Por {SOURCE}"
+      contributors: "Contribuciones de {CONTRIBUTORS}"
+      squareBracketAnnotations: "Tenga en mente partes marcadas en [corchetes]"
+
+    nav:
+      rollingWindow: "Ventana Enrollable"
+
+    search:
+      resultDisambiguator:
+        group: "({DISAMBIGUATOR})"
+        flash: "(en {DISAMBIGUATOR})"
+        track: "(desde {DISAMBIGUATOR})"
+
+      resultFilter:
+        album: "Albumes"
+        artTag: "Tiquetas de Arte"
+        artist: "Artistas"
+        flash: "Flashes"
+        group: "Grupos"
+        track: "Pistas"
+
+    referencingSources:
+      _: "Fuentes referenciadas para {THING}:"
+      sticky: "Fuentes referenciadas:"
+
+    skippers:
+      creditingSources: "Fuentes de créditos"
+      referencingSources: "Fuentes referenciadas"
+
+    coverArtwork:
+      source:
+        customLabel:
+          _: "{LABEL} por {SOURCE}"
+          withYear: "{LABEL} ({YEAR}) por {SOURCE}"
+
+        withYear: "Por {SOURCE} ({YEAR})"
+
+      customLabel:
+        _: "{LABEL}"
+        withYear: "{LABEL} ({YEAR})"
+
+      year: "Lanzado {YEAR}"
+      sameTagsAsMainArtwork: "Mismas etiquetas para arte principal"
+
+    coverGrid:
+      revealAll:
+        reveal: "Revelar todas las artes"
+        conceal: "Esconder todas las artes"
+        warnings: "En esta galeria: {WARNINGS}"
+
+      expandCollapseCue: "({CUE})"
+      expand: "¡Mostrar el resto!"
+      collapse: "Colapsar estos"
+
+      tab:
+        groups: "{GROUPS}"
+
+        artists:
+          _: "{ARTISTS}"
+          featuring: "{ARTISTS} colaborando con {FEATURING}"
+
+      details:
+        notFromThisGroup:
+          _: "{NAME}{MARKER}"
+          marker: "*"
+
+        albumLength:
+          single: "sencillo, {TIME}"
+
+        coverArtists:
+          customLabel: "{LABEL} por {ARTISTS}"
+
+  albumGalleryPage:
+    statsLine:
+      withDate:
+        noDuration: "Lanzado el {DATE}."
+
+  artistPage:
+    creditList:
+      entry:
+        artwork:
+          accent:
+            withLabel:
+              _: "{LABEL}"
+              withAnnotation: "{LABEL}: {ANNOTATION}"
+
+            withAnnotation: "{ANNOTATION}"
+
+  artistRollingWindowPage:
+    title: "{ARTIST} - Ventana Enrollable"
+    timeframeSelectionControl:
+      _: "{PREVIOUS} {TIMEFRAMES} {NEXT}"
+      previous: "← Previo"
+      next: "Siguiente →"
+
+    contributionKind:
+      artwork: "Arte"
+      music: "Musica"
+      flash: "Flash"
+
+    contributionGroup:
+      all: "Todos los grupos"
+      group: "{GROUP}"
+
+    timeframe:
+      months: "{INPUT} meses"
+
+  groupGalleryPage:
+    albumViewSwitcher:
+      _: "Monstrando albumes:"
+      bySeries: "Por series"
+      byDate: "Por fechas"
+
+    albumStyleSwitcher:
+      _: "Mostrando estos lanzamientos:"
+      album: "Albumes"
+      single: "Sencillos"
+
+      count:
+        all: "todo {TOTAL}"
+        filtered: "{COUNT} de {TOTAL}"
+        none: "ninguno de ellos"
+
+    albumsByDate:
+      title: "Todos los albumes"
+
+    albumSection:
+      caption:
+        _: "{TRACKS} a traves de {ALBUMS}."
+        withDate: "{TRACKS} a traves de {ALBUMS}, lanzados {DATE}."
+        withYear: "{TRACKS} a traves de {ALBUMS}, lanzados durante {YEAR}."
+        withYearRange: "{TRACKS} a traves de {ALBUMS}, lanzados {YEAR_RANGE}."
+        seriesAlbumsNotFromGroup: "Albumess marcados {MARKER} son parte de {SERIES}, pero no de {GROUP}."
+
+  listingPage:
+    listAlbums:
+      byTracks:
+        item:
+          single: "{ALBUM} ({TRACKS}—sencillo)"
+
+    listTracks:
+      needingLyrics:
+        title:
+          _: "Pistas - que necesitan Letras"
+          short: "...que necesitan Letras"
+
+        chunk:
+          title:
+            _: "{ALBUM}"
+            withDate: "{ALBUM} ({DATE})"
+
+          item: "{TRACK}"
+
+  trackPage:
+    nav:
+      singleAccent: "sencillo"
+
+    needsLyrics: "Esta pista tiene vocales, ¡pero esta wiki no tiene las letras disponibles aun!"
