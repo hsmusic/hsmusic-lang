@@ -1,0 +1,1702 @@
+meta.languageCode: "vi"
+meta.languageName: "Tiếng Việt"
+
+count:
+  albums:
+    _: "{ALBUMS}"
+    withUnit:
+      other: "{ALBUMS} album"
+
+  artTags:
+    _: "{TAGS}"
+    withUnit:
+      other: "{TAGS} thẻ"
+
+  artworks:
+    _: "{ARTWORKS}"
+    withUnit:
+      other: "{ARTWORKS} ảnh"
+
+  commentaryEntries:
+    _: "{ENTRIES}"
+    withUnit:
+      other: "{ENTRIES} lượt"
+
+  contributions:
+    _: "{CONTRIBUTIONS}"
+    withUnit:
+      other: "{CONTRIBUTIONS} đóng góp"
+
+  files:
+    _: "{FILES}"
+    withUnit:
+      other: "{FILES} tệp"
+
+  flashes:
+    _: "{FLASHES}"
+    withUnit:
+      other: "{FLASHES} hoạt ảnh"
+
+  tracks:
+    _: "{TRACKS}"
+    withUnit:
+      other: "{TRACKS} bài hát"
+
+  days:
+    _: "{DAYS}"
+    withUnit:
+      other: "{DAYS} ngày"
+
+  months:
+    _: "{MONTHS}"
+    withUnit:
+      other: "{MONTHS} tháng"
+
+  timesFeatured:
+    _: "{TIMES_FEATURED}"
+    withUnit:
+      other: "đã xuất hiện {TIMES_FEATURED} lần"
+
+  timesReferenced:
+    _: "{TIMES_REFERENCED}"
+    withUnit:
+      other: "{TIMES_REFERENCED} lần có liên hệ"
+
+  timesUsed:
+    _: "{TIMES_USED}"
+    withUnit:
+      other: "được sử dụng {TIMES_USED} lần"
+
+  weeks:
+    _: "{WEEKS}"
+    withUnit:
+      other: "{WEEKS} tuần"
+
+  words:
+    _: "{WORDS}"
+    thousand: "{WORDS} nghìn"
+
+    withUnit:
+      other: "{WORDS} từ"
+
+  years:
+    _: "{YEARS}"
+    withUnit:
+      other: "{YEARS} năm"
+
+  duration:
+    missing: "_:__"
+    approximate: "~{DURATION}"
+
+    hours:
+      _: "{HOURS}:{MINUTES}:{SECONDS}"
+      withUnit: "{HOURS}:{MINUTES}:{SECONDS} giờ"
+
+    minutes:
+      _: "{MINUTES}:{SECONDS}"
+      withUnit: "{MINUTES}:{SECONDS} phút"
+
+  dateDuration:
+    earlier: "sớm hơn {DURATION}"
+    later: "trễ hơn {DURATION}"
+    same: "cùng ngày"
+    zero: "không quá một ngày"
+    approximate: "khoảng {DURATION}"
+    approximateEarlier: "khoảng ít hơn {DURATION}"
+    approximateLater: "khoảng nhiều hơn {DURATION}"
+    relativeAbsolute: "{ABSOLUTE}; {RELATIVE}"
+    years: "{YEARS}"
+    months: "{MONTHS}"
+    days: "{DAYS}"
+    yearsMonthsDays: "{YEARS}, {MONTHS}, {DAYS}"
+    yearsMonths: "{YEARS}, {MONTHS}"
+    yearsDays: "{YEARS}, {DAYS}"
+    monthsDays: "{MONTHS}, {DAYS}"
+
+  fileSize:
+    terabytes: "{TERABYTES} TB"
+    gigabytes: "{GIGABYTES} GB"
+    megabytes: "{MEGABYTES} MB"
+    kilobytes: "{KILOBYTES} kB"
+    bytes: "{BYTES} byte"
+
+  index:
+    other: "thứ {INDEX}"
+
+releaseInfo:
+  by: "Bởi {ARTISTS}."
+  by.featuring: "Bởi {ARTISTS} với sự góp mặt của {FEATURING}."
+  by.withAlbum: "Trong {ALBUM}, bởi {ARTISTS}."
+  by.featuring.withAlbum: "Trong {ALBUM}, bởi {ARTISTS} và sự góp mặt của {FEATURING}."
+  by.withAlbum.albumLast: "Bởi {ARTISTS}, trong {ALBUM}."
+  by.featuring.withAlbum.albumLast: "Bởi {ARTISTS} với sự góp mặt của {FEATURING}; trong {ALBUM}."
+  from: "Từ {ALBUM}."
+  musicBy: "Nhạc bởi {ARTISTS}."
+  musicBy.featuring: "Nhạc bởi {ARTISTS} với sự góp mặt của {FEATURING}."
+  wallpaperArtBy: "Ảnh nền bởi {ARTISTS}"
+  bannerArtBy: "Ảnh biểu ngữ bởi {ARTISTS}"
+  released: "Được phát hành lúc {DATE}."
+  albumReleased: "Album được phát hành lúc {DATE}."
+  trackReleased: "Bài hát được phát hành lúc {DATE}."
+  released.withAlbum: "Từ {ALBUM}, được phát hành lúc {DATE}."
+  posted: "Được đăng lúc {DATE}."
+  albumPosted: "Album được đăng lúc {DATE}."
+  trackPosted: "Bài hát được đăng lúc {DATE}."
+  posted.withAlbum: "Từ {ALBUM}, được đăng lúc {DATE}."
+  released.vgm.withAlbum: "Từ {ALBUM} (lúc {DATE})."
+  addedToWiki: "Được thêm vào wiki lúc {DATE}."
+  unofficialName: "\"{NAME}\" được đánh dấu là tên không chính thức trên wiki này."
+  unofficialLocalization: "\"{NAME}\" được đánh dấu là bản dịch không chính thức trên wiki này."
+  duration: "Thời lượng: {DURATION}."
+  contributors: "Những người đóng góp:"
+
+  lyrics:
+    _: "Lời bài hát:"
+    switcher: "({ENTRIES})"
+
+  note: "Chú thích:"
+
+  alsoReleased:
+    alsoReleased: "Cũng được phát hành"
+    released: "Được phát hành"
+    included: "Được thêm vào"
+    onAlbums: "{ALSO_RELEASED} trong {ALBUMS}."
+    asSingle: "{ALSO_RELEASED} trong {SINGLE}."
+    onSingle: "{ALSO_RELEASED} trong {SINGLE}."
+    onAlbums.asSingle: "{ALSO_RELEASED} trong {ALBUMS} và {SINGLE}."
+    onAlbums.onSingle: "{ALSO_RELEASED} trong {ALBUMS} và {SINGLE}."
+    asSingle.link: "như một bản đơn"
+    onSingle.link: "trong một bản đơn"
+
+    tooltip:
+      differentName: "dưới tên khác {NAME}"
+      differentName.onSingle: "{NAME}"
+
+  tracksReferenced:
+    _: "Bài hát mà {TRACK} có liên hệ đến:"
+    withoutName: "Bài hát mà nó có liên hệ đến:"
+    sticky: "Bài hát mà nó có liên hệ đến:"
+
+  tracksSampled:
+    _: "Bài hát mà {TRACK} có trích từ nó:"
+    withoutName: "Bài hát mà bài hát này có trích từ:"
+    sticky: "Bài hát mà bài hát này có trích từ:"
+
+  tracksThatReference:
+    _: "Bài hát có liên hệ đến {TRACK}:"
+    withoutName: "Bài hát có liên hệ đến bài hát này:"
+
+    sticky:
+      _: "Bài hát có liên hệ đến bài hát này:"
+      fromGroup: "Bài hát có liên hệ đến bài hát này — trong {GROUP}:"
+      fromOther: "Bài hát có liên hệ đến bài hát này — từ nơi khác:"
+
+  tracksThatSample:
+    _: "Bài hát có đoạn trích từ {TRACK}:"
+    withoutName: "Bài hát có đoạn trích từ bài hát này:"
+
+    sticky:
+      _: "Bài hát có đoạn trích từ bài hát này:"
+      fromGroup: "Bài hát có đoạn trích từ bài hát này — trong {GROUP}:"
+      fromOther: "Bài hát có đoạn trích từ bài hát này — từ nơi khác:"
+
+  flashesThatFeature:
+    _: "Hoạt ảnh có chứa {TRACK}:"
+    withoutName: "Hoạt ảnh có chứa bài hát này:"
+    sticky: "Hoạt ảnh có chứa bài hát này:"
+
+  referencesArtworks: "Có liên hệ đến {ARTWORKS}."
+  referencedByArtworks: "{ARTWORKS} liên hệ đến thứ này."
+  tracksFeatured: "Bài hát mà {FLASH} có chứa:"
+
+  viewCommentary:
+    _: "Xem tại {LINK}!"
+    link: "trang bình luận"
+
+  viewGallery:
+    _: "Xem tại {LINK}!"
+    link: "trang ảnh"
+
+  viewGalleryOrCommentary:
+    _: "Xem {GALLERY} hoặc {COMMENTARY}!"
+    gallery: "trang ảnh"
+    commentary: "trang bình luận"
+
+  viewOriginalFile:
+    _: "Xem tại {LINK}."
+    withSize: "Xem tại {LINK} ({SIZE})."
+    link: "tệp gốc"
+    sizeWarning: "(Chú ý rằng bản tải này có dung lượng lớn, đặc biệt khi bạn sử dụng dữ liệu di động)"
+
+  listenOn: "Nghe tại {LINKS}."
+  listenOn.title: "Nghe tại:"
+  listenOn.noLinks: "Trang wiki này không có liên kết nghe nào cho {TRACK}."
+  listenOn.excludingLinks: "Các liên kết nghe cho {TRACK} được lược bỏ trên trang này."
+  listenOn.excludingLinks.notClearlyPublic: "Các liên kết nghe cho {TRACK} được lược bỏ trên trang wiki do chúng tôi không rõ liệu bài hát này có được chia sẻ công khai hay không."
+  listenOn.excludingLinks.paidBonusTrack: "{TRACK} chỉ có sẵn khi mua trọn bộ album {ALBUM}, do đó trang wiki này không cung cấp các liên kết để nghe bài hát đó."
+  visitOn: "Xem tại {LINKS}."
+  visitOn.title: "Xem tại:"
+  playOn: "Mở tại {LINKS}."
+  playOn.title: "Mở tại:"
+  watchOn: "Xem tại {LINKS}."
+  watchOn.title: "Xem tại:"
+
+  readCommentary:
+    _: "Đọc tại {LINK}."
+    link:
+      _: "chú thích của tác giả"
+      withWikiCommentary: "chú thích của tác giả và người làm wiki"
+      onlyWikiCommentary: "chú thích của người làm wiki"
+
+  readCreditingSources:
+    _: "Đọc tại {LINK}."
+    link: "nguồn ghi công"
+
+  readReferencingSources:
+    _: "Đọc tại {LINK}."
+    link: "nguồn liên hệ"
+
+  additionalFiles:
+    entry:
+      _: "{TITLE}"
+      withCredit: "{TITLE} {CREDIT}"
+      credit: "bởi {ARTISTS}"
+      noFilesAvailable: "Không có tệp tin khả dụng hoặc được liệt kê cho mục này."
+
+    file:
+      _: "{FILE}"
+      withSize: "{FILE} ({SIZE})"
+
+  miscellaneousAdditionalFiles:
+    heading: "Xem hoặc tải các tệp đi kèm:"
+    entry.placeholderTitle: "Tệp đi kèm"
+
+    shortcut:
+      _: "Xem tại {LINK}."
+      link: "các tệp đi kèm"
+
+  sheetMusicFiles:
+    heading: "In hoặc tải xuống các tệp bản nhạc:"
+    entry.placeholderTitle: "Bản nhạc"
+
+    shortcut:
+      _: "Tải tại {LINK}."
+      link: "các tệp bản nhạc"
+
+  midiProjectFiles:
+    heading: "Tải các tệp MIDI và tệp dự án khác:"
+    entry.placeholderTitle: "tệp MIDI hoặc tệp dự án khác"
+
+    shortcut:
+      _: "Tải tại {LINK}."
+      link: "các tệp MIDI hoặc/và tệp dự án khác"
+
+trackList:
+  section:
+    _: "{SECTION}:"
+    withDuration: "{SECTION}: ({DURATION})"
+    sticky: "{SECTION}:"
+
+  fromGroup: "trong {GROUP}:"
+  fromOther: "từ nơi khác:"
+
+  item:
+    _: "{TRACK}"
+    withAccent: "{ACCENT} {TRACK}"
+    accent.withDate: "({DATE})"
+    accent.withDate.withDuration: "({DURATION}; {DATE})"
+    accent.withDuration: "({DURATION})"
+    accent.date: "{DATE}"
+
+    accent.duration:
+      _: "{DURATION}"
+      missing: "_:__"
+      missing.info: "không có thông tin về thời lượng; xem như dài 0 giây"
+
+    withDetail: "{TRACK} {DETAIL_ACCENT}"
+    withDetail.accent: "({DETAIL})"
+    withArtists: "{TRACK} {ARTISTS}"
+
+    artists:
+      by: "bởi {ARTISTS}"
+      featuring: "với sự góp mặt của {ARTISTS}"
+      by.featuring: "bởi {ARTISTS} với sự góp mặt của {FEATURING}"
+
+    withAccent.withDetail: "{ACCENT} {TRACK} {DETAIL_ACCENT}"
+    withAccent.withArtists: "{ACCENT} {TRACK} {ARTISTS}"
+    withDetail.withArtists: "{TRACK} {DETAIL_ACCENT} {ARTISTS}"
+    withAccent.withDetail.withArtists: "{ACCENT} {TRACK} {DETAIL_ACCENT} {ARTISTS}"
+    rerelease: "{TRACK} (bản tái phát hành)"
+
+flashList:
+  underSide: "thuộc mục {SIDE}:"
+  underOther: "khác:"
+
+  item:
+    _: "{FLASH}"
+    asDifferentRelease: "{FLASH} (dưới tên khác {TRACK})"
+
+misc:
+  additionalNames:
+    title: "Tên gọi khác hoặc tên thay thế:"
+    tooltip: "Nhấn vào để xem các tên gọi khác:"
+
+    item:
+      _: "{NAME}"
+      withAccent: "{NAME} {ACCENT}"
+
+      accent:
+        withAnnotation: "({ANNOTATION})"
+
+  alt:
+    albumCover: "ảnh bìa của album"
+    albumBanner: "ảnh biểu ngữ của album"
+    trackCover: "ảnh bìa của bài hát"
+    artistAvatar: "ảnh đại diện của tác giả"
+    flashArt: "ảnh cho hoạt ảnh"
+
+  artistCommentary:
+    _: "Chú thích của tác giả cho {THING}:"
+    withoutName: "Chú thích của tác giả:"
+    sticky: "Chú thích của tác giả:"
+
+    withWikiCommentary:
+      _: "Chú thích của tác giả và người làm wiki cho {THING}:"
+      withoutName: "Chú thích của tác giả và người làm wiki:"
+      sticky: "Chú thích của tác giả và người làm wiki:"
+
+    onlyWikiCommentary:
+      _: "Chú thích của người làm wiki cho {THING}:"
+      withoutName: "Chú thích của người làm wiki:"
+      sticky: "Chú thích của người làm wiki:"
+
+    entry:
+      title:
+        withArtists: "{ARTISTS} ✑"
+        withArtists.withAccent: "{ARTISTS} ✑ {ACCENT}"
+        withArtists.withAccent.wikiEditor: "{ARTISTS}: {ACCENT}"
+        accent.withAnnotation: "{ANNOTATION}"
+        withAnnotation: "{ANNOTATION}"
+        date: "{DATE}"
+        date.range: "{DATE_RANGE}"
+        date.accessed: "truy cập lúc {DATE}"
+        date.captured: "chụp vào lúc {DATE}"
+        date.around: "khoảng {DATE}"
+        date.around.range: "trong đoạn {DATE_RANGE}"
+        date.sometime.range: "vào một thời điểm trong {DATE_RANGE}"
+        date.throughout.range: "trong suốt đoạn {DATE_RANGE}"
+        date.sameDayAsAlbum: "cùng ngày với album này"
+        date.sameDayAsSingle: "cùng ngày với bản đơn này"
+        date.sameDayAsTrack: "cùng ngày với bài hát này"
+        date.sameDayAsFlash: "cùng ngày với hoạt ảnh này"
+
+        date.relativeTo:
+          _: "liên quan đến {THING} —"
+          album: "album này"
+          single: "bản đơn này"
+          track: "bài hát này"
+          flash: "hoạt ảnh này"
+
+    info:
+      fromMainRelease: "Phần bình luận sau đây nằm tại bản phát hành chính của bài hát này, {ALBUM}."
+      fromMainRelease.namedDifferently: "Phần bình luận sau đây nằm tại bản phát hành chính của bài hát này, {ALBUM}, trong đó bài hát có tên là {NAME}."
+      seeSpecificReleases: "Để xem bình luận trong bản phát hành cụ thể, hãy xem tại {ALBUMS}."
+      seeSpecificReleases.withMainCommentary: "Để xem bình luận trong bản phát hành cụ thể, hãy xem thêm tại {ALBUMS}."
+
+  artistCredit:
+    withNormalArtists: "{NORMAL}"
+    withFeaturingArtists: "với sự góp mặt của {FEATURING}"
+    withNormalArtists.withFeaturingArtists: "{NORMAL} với sự góp mặt của {FEATURING}"
+
+  artistLink:
+    _: "{ARTIST}"
+    withContribution: "{ARTIST} ({CONTRIB})"
+
+    withEditsForWiki:
+      _: "{ARTISTS} ({EDITS})"
+      edits: "kèm các chỉnh sửa"
+      editsLine: "Các chỉnh sửa cho wiki bởi {ARTISTS}"
+
+    noExternalLinkPlatformName: "Khác"
+
+    chronology:
+      heading:
+        artistReleases: "Các phát hành bởi {ARTIST}:"
+        artistTracks: "Các bài hát bởi {ARTIST}:"
+
+      previous:
+        symbol: "←"
+
+        info:
+          _: "Trước đó bởi tác giả này"
+          withKind: "{KIND} trước đó bởi tác giả này"
+
+      next:
+        symbol: "→"
+
+        info:
+          _: "Tiếp theo bởi tác giả này"
+          withKind: "{KIND} tiếp theo bởi tác giả này"
+
+      kind:
+        album: "Album"
+        bannerArt: "Ảnh biểu ngữ"
+        coverArt: "Ảnh bìa"
+        flash: "Hoạt ảnh"
+        midiProjectFile: "Tệp dự án / MIDI"
+        miscellaneousAdditionalFile: "Tệp đi kèm"
+        musicVideo: "Video âm nhạc"
+        musicVideoContribution: "Đóng góp vào video"
+        release: "Phát hành"
+        sheetMusicFile: "Tệp bản nhạc"
+        track: "Bài hát"
+        trackArt: "Ảnh cho bản nhạc"
+        trackContribution: "Đóng góp vào bài hát"
+        wallpaperArt: "Ảnh nền"
+
+  creditingSources:
+    _: "{CUE} cho {THING}:"
+    withoutName: "{CUE}:"
+    collapsed: "{CUE} cho {THING}…"
+    withoutName.collapsed: "{CUE}…"
+    cue: "Các nguồn ghi công:"
+    sticky: "Các nguồn ghi công:"
+
+  downloadLayoutMedia:
+    withWallpaper: "Tệp wiki: {WALLPAPER}"
+    withBanner: "Tệp wiki: {BANNER}"
+    withWallpaper.withBanner: "Tệp wiki: {WALLPAPER}, {BANNER}"
+    withWallpaperParts: "Ảnh nền: {PARTS}"
+    wallpaper: "Ảnh nền"
+    banner: "Ảnh biểu ngữ"
+
+  external:
+    external: "Nguồn bên ngoài"
+    withUnusualDomain: "{PLATFORM} ({DOMAIN})"
+    withHandle: "{PLATFORM} ({HANDLE})"
+    withAnnotation: "{LINK} ({ANNOTATION})"
+    withAutomaticAndCustomAnnotations: "{LINK} ({AUTOMATIC}, {CUSTOM})"
+    opensInNewTab: "{PLATFORM} (mở tại thẻ mới)"
+    opensInNewTab.annotation: "mở trong thẻ mới"
+    invalidURL: "liên kết không hợp lệ"
+    invalidURL.annotation: "liên kết không hợp lệ"
+    amazonMusic: "Amazon Music"
+    appleMusic: "Apple Music"
+    artstation: "ArtStation"
+
+    bandcamp:
+      _: "Bandcamp"
+      artistRelease: "Bandcamp (trang phát hành của riêng tác giả)"
+      officialRelease: "Bandcamp (trang phát hành chính thức)"
+
+    bgreco:
+      _: "bgreco.net"
+      flash: "bgreco.net (âm thanh chất lượng cao)"
+
+    bluesky: "Bluesky"
+    carrd: "Carrd"
+    cohost: "Cohost"
+
+    deconreconstruction:
+      _: "Deconreconstruction"
+      music: "MUSIC@DCRC"
+
+    deviantart: "DeviantArt"
+    facebook: "Facebook"
+
+    fandom:
+      _: "Fandom"
+      mspaintadventures:
+        _: "MSPA Wiki"
+        page: "MSPA Wiki ({PAGE})"
+
+    gamebanana: "GameBanana"
+
+    homestuck:
+      _: "Homestuck"
+      page: "Homestuck (trang {PAGE})"
+      secretPage: "Homestuck (trang ẩn)"
+
+    hsmusic:
+      _: "HSMusic"
+      archive: "HSMusic (kho lưu trữ wiki)"
+
+    instagram: "Instagram"
+    internetArchive: "Internet Archive"
+    itch: "itch.io"
+    kofi: "Ko-fi"
+    linktree: "Linktree"
+    mastodon: "Mastodon"
+    mspfa: "MSPFA"
+    neocities: "Neocities"
+    newgrounds: "Newgrounds"
+    nintendoMusic: "Nintendo Music"
+    patreon: "Patreon"
+    poetryFoundation: "Quỹ Poetry (một quỹ về thơ ca)"
+
+    reddit:
+      _: "Reddit"
+      subreddit: "Reddit ({SUBREDDIT})"
+
+    soundcloud: "SoundCloud"
+    spotify: "Spotify"
+    steam: "Steam"
+    tiktok: "TikTok"
+    toyhouse: "Toyhouse"
+    tumblr: "Tumblr"
+    twitch: "Twitch"
+    twitter: "Twitter"
+    waybackMachine: "Wayback Machine"
+    wikipedia: "Wikipedia"
+
+    youtube:
+      _: "YouTube"
+      flash: "YouTube (cho mọi thiết bị)"
+      playlist: "YouTube (danh sách phát)"
+      fullAlbum: "YouTube (toàn bộ album trong một video)"
+
+    youtubeMusic: "YouTube Music"
+
+  flashActWithTitle: "{ACT}: {TITLE}"
+
+  lyrics:
+    source: "Theo {SOURCE}"
+    contributors: "Đóng góp từ {CONTRIBUTORS}"
+    squareBracketAnnotations: "Các phần không rõ ràng được kẹp giữa hai dấu ngoặc vuông"
+
+  missingImage: "(Không có tệp ảnh)"
+  missingLinkContent: "(Mất nội dung liên kết)"
+
+  linkWithNameDetail:
+    insideLink: "{NAME} ({DETAIL})"
+    withAccent: "{LINK} {ACCENT}"
+    accent: "({DETAIL})"
+
+  navAccent: "({LINKS})"
+
+  quickDescription:
+    readMore: "Đọc thêm tại {LINKS}."
+
+    moreInfo:
+      _: "({LINK})"
+      link: "Thêm..."
+
+    expandDescription:
+      _: "({EXPAND})"
+      expand: "Mở rộng..."
+
+    expandDescription.orReadMore:
+      _: "({EXPAND}, hoặc đọc thêm tại {LINKS})"
+      expand: "Mở rộng"
+
+    collapseDescription:
+      _: "({COLLAPSE})"
+      collapse: "Thu gọn..."
+
+    collapseDescription.orReadMore:
+      _: "({COLLAPSE}, hoặc đọc thêm tại {LINKS})"
+      collapse: "Thu gọn"
+
+  nav:
+    previous: "Trước đó"
+    next: "Tiếp theo"
+    info: "Thông tin"
+    gallery: "Tập ảnh"
+    rollingWindow: "Chế độ phân đoạn"
+
+  pageTitle:
+    _: "{TITLE}"
+    withDetail: "{TITLE} ({DETAIL})"
+    withSubtitle: "{TITLE} - {SUBTITLE}"
+    withWikiName: "{TITLE} | {WIKI_NAME}"
+    withDetail.withSubtitle: "{TITLE} ({DETAIL}) - {SUBTITLE}"
+    withDetail.withWikiName: "{TITLE} ({DETAIL}) | {WIKI_NAME}"
+    withSubtitle.withWikiName: "{TITLE} - {SUBTITLE} | {WIKI_NAME}"
+    withDetail.withSubtitle.withWikiName: "{TITLE} ({DETAIL}) - {SUBTITLE} | {WIKI_NAME}"
+
+  pageHeading:
+    _: "{TITLE}"
+    withDetail: "{TITLE} {DETAIL_ACCENT}"
+    withDetail.accent: "({DETAIL})"
+
+  search:
+    placeholder: "Tìm kiếm..."
+    preparing: "Chuẩn bị dữ liệu..."
+    loadingData: "Đang tải..."
+    searching: "Đang tìm kiếm"
+    failed: "Có lỗi xảy ra! Bạn có thể tải trang và thử lại."
+    noResults: "Không có kết quả cho truy vấn này. Vui lòng kiểm tra chính tả hoặc/và viết các từ một cách đầy đủ; buồn lòng thì thôi."
+    back: "Về trang {PAGE}"
+    currentResult: "(bạn ở trang này)"
+    endSearch: "Tắt tìm kiếm"
+
+    resultKind:
+      album: "(album)"
+      artTag: "(thẻ ảnh)"
+      artist: "(tác giả)"
+      flash: "(hoạt ảnh)"
+      group: "(nhóm)"
+      single: "(bản đơn)"
+      vgmAlbum: "(nhạc trong trò chơi)"
+
+    resultDisambiguator:
+      group: "({CATEGORY})"
+      flash: "(trong {ACT})"
+      track.album: "(từ {ALBUM})"
+      track.artists: "(bởi {ARTISTS})"
+
+    resultFilter:
+      album: "Phát hành"
+      artTag: "Thẻ ảnh"
+      artist: "Tác giả"
+      flash: "Hoạt ảnh"
+      group: "Nhóm"
+      track: "Bài hát"
+
+  referencingSources:
+    _: "{CUE} cho {THING}:"
+    withoutName: "{CUE}:"
+    collapsed: "{CUE} cho {THING}…"
+    withoutName.collapsed: "{CUE}…"
+    cue: "Các nguồn liên hệ:"
+    sticky: "Các nguồn liên hệ:"
+
+  skippers:
+    skipTo: "Chuyển qua:"
+    content: "Nội dung chính"
+    header: "Đầu trang"
+    footer: "Cuối trang"
+
+    sidebar:
+      _: "Thanh bên"
+      left: "Thanh bên trái"
+      right: "Thanh bên phải"
+
+    artistCommentary: "Chú thích của tác giả"
+    creditingSources: "nguồn ghi công"
+    tracks: "Bài hát"
+    artworks: "Ảnh"
+    flashes: "Hoạt ảnh]"
+    commentary: "Chú thích"
+    contributors: "Người đóng góp"
+    references: "Có liên hệ đến..."
+    referencedBy: "Được liên hệ bởi..."
+    samples: "Có trích từ..."
+    sampledBy: "Được trích từ..."
+    features: "Xuất hiện trong..."
+    featuredIn: "Được xuất hiện trong..."
+    referencingSources: "Nguồn liên hệ"
+    lyrics: "Lời bài hát"
+    sheetMusicFiles: "Tệp bản nhạc"
+    midiProjectFiles: "Tệp MIDI và các tệp dự án khác"
+    additionalFiles: "Tệp đi kèm"
+
+  socialEmbed:
+    heading: "{WIKI_NAME} | {HEADING}"
+
+  jumpTo:
+    _: "Chuyển qua:"
+    withLinks: "Chuyển qua: {LINKS}."
+
+  contentWarnings:
+    warnings: "{WARNINGS}"
+    reveal: "nhấn để xem"
+
+  coverArtwork:
+    artworkBy: "Ảnh bởi {ARTISTS}"
+    artworkBy.customLabel: "{LABEL} bởi {ARTISTS}"
+    artworkBy.withYear: "Ảnh ({YEAR}) bởi {ARTISTS} "
+    artworkBy.customLabel.withYear: "{LABEL} ({YEAR}) bởi {ARTISTS} "
+    source: "Từ {SOURCE}"
+    source.customLabel: "{LABEL} từ {SOURCE}"
+    source.withYear: "từ {SOURCE} ({YEAR})"
+    source.customLabel.withYear: "{LABEL} ({YEAR}) từ {SOURCE}"
+    customLabel: "{LABEL}"
+    customLabel.withYear: "{LABEL} ({YEAR})"
+    year: "Phát hành vào năm {YEAR}"
+    trackArtFromAlbum: "Bìa album cho {ALBUM}"
+    sameTagsAsMainArtwork: "Cùng thẻ như ảnh chính"
+
+  musicVideo:
+    label: "Video âm nhạc"
+    label.customLabel: "{LABEL}"
+    label.customLabel.title: "{TITLE}"
+    watchOn: "Xem tại: {LINKS}"
+    artistsLine: "Video âm nhạc {CREDIT}"
+    artistsLine.customLabel: "{LABEL} {CREDIT}"
+    artistsLine.credit: "bởi {ARTISTS}"
+    artistsLine.noLabel: "Bởi {ARTISTS}"
+    date: "Phát hành lúc {DATE}"
+    date.sameDayAsTrack: "Được phát hành cùng với bài hát này"
+    date.sameDayAsAlbum: "Được phát hành cùng với album này"
+    date.sameDayAsSingle: "Được phát hành cùng với bản đơn này"
+    contributorsLine: "Người đóng góp: {CREDIT}"
+    contributorsLine.credit: "{ARTISTS}"
+    contributorsList.title: "Người đóng góp: "
+
+  coverGrid:
+    revealAll:
+      reveal: "Hiển thị tất cả ảnh"
+      conceal: "Ẩn tất cả ảnh"
+      warnings: "Trong tập ảnh này: {WARNINGS}"
+
+    expandCollapseCue: "({CUE})"
+    expand: "Hiển thị tất cả còn lại"
+    collapse: "Ẩn tất cả"
+    noCoverArt: "{ALBUM}"
+
+    tab:
+      groups: "{GROUPS}"
+      artists: "{ARTISTS}"
+      artists.featuring: "{ARTISTS} với sự góp mặt của {FEATURING}"
+
+    details:
+      notFromThisGroup: "{NAME}{MARKER}"
+      notFromThisGroup.marker: "*"
+      accent: "({DETAILS})"
+      albumLength: "{TRACKS}, {TIME}"
+      albumLength.single: "bản đơn, {TIME}"
+      albumLength.single.withMultipleTracks: "bản đơn, {TRACKS}, {TIME}+"
+      albumLength.tracksOnly: "{TRACKS}"
+      coverArtists: "Ảnh bởi {ARTISTS}"
+      coverArtists.customLabel: "{LABEL} bởi {ARTISTS}"
+      otherCoverArtists: "Cùng với {ARTISTS}"
+
+  albumGalleryGrid:
+    noCoverArt: "{NAME}"
+
+  uiLanguage: "Ngôn ngữ: {LANGUAGES}"
+
+homepage:
+  title: "{TITLE}"
+  news:
+    title: "Tin tức"
+    entry:
+      viewRest: "(xem thêm...)"
+
+albumSidebar:
+  trackList:
+    item: "{TRACK}"
+    item.withDetail: "{TRACK} {DETAIL_ACCENT}"
+    item.withDetail.accent: "({DETAIL})"
+    fallbackSectionName: "Danh sách bài hát"
+
+    group:
+      _: "{GROUP}"
+      withRange: "{GROUP} {RANGE_PART}"
+      withRange.rangePart: "({RANGE})"
+
+  groupBox:
+    title: "{GROUP}"
+    next: "Tiếp theo: {ALBUM}"
+    previous: "Trước đó: {ALBUM}"
+
+  releaseBox:
+    title: "{ALBUM}"
+
+albumSecondaryNav:
+  group: "{GROUP}"
+  group.withPreviousNext: "{GROUP} ({PREVIOUS_NEXT})"
+  series: "{SERIES}"
+  series.withPreviousNext: "{SERIES} ({PREVIOUS_NEXT})"
+
+albumPage:
+  title: "{ALBUM}"
+  nav:
+    album: "{ALBUM}"
+    backToAlbum: "Về trang của album"
+
+    albumAccent:
+      withNameDetail: "{NAME_DETAIL}"
+      withType: "{TYPE}"
+      withNameDetail.withType: "{TYPE}: {NAME_DETAIL}"
+      type.single: "bản đơn"
+      type.vgm: "nhạc trong trò chơi"
+      withLinks: "{ACCENT} - {LINKS}"
+
+    randomTrack: "Chọn ngẫu nhiên một bài hát"
+    gallery: "Tập ảnh"
+    commentary: "Chú thích"
+
+  socialEmbed:
+    heading: "{GROUP}"
+    title: "{ALBUM}"
+    body:
+      withDuration: "{DURATION}."
+      withTracks: "{TRACKS}."
+      withDateReleased: "Phát hành lúc {DATE}."
+      withDatePosted: "Được đăng lúc {DATE}."
+      withDuration.withTracks: "{DURATION}, {TRACKS}."
+      withDuration.withDateReleased: "{DURATION}. Phát hành lúc {DATE}."
+      withDuration.withDatePosted: "{DURATION}. Được đăng lúc {DATE}."
+      withTracks.withDateReleased: "{TRACKS}. Phát hành lúc {DATE}."
+      withTracks.withDatePosted: "{DURATION}. Được đăng lúc {DATE}."
+      withDuration.withTracks.withDateReleased: "{DURATION}, {TRACKS}. Phát hành lúc {DATE}."
+      withDuration.withTracks.withDatePosted: "{DURATION}, {TRACKS}. Được đăng lúc {DATE}."
+
+albumGalleryPage:
+  title: "{ALBUM} - Tập ảnh"
+  statsLine: "{TRACKS} với tổng thời lượng {DURATION}."
+  statsLine.withDateReleased: "{TRACKS} với tổng thời lượng {DURATION}. Phát hành lúc {DATE}."
+  statsLine.withDatePosted: "{TRACKS} với tổng thời lượng {DURATION}. Được đăng lúc {DATE}."
+  statsLine.withDateReleased.noDuration: "Phát hành lúc {DATE}."
+  statsLine.withDatePosted.noDuration: "Được đăng lúc {DATE}."
+  coverArtistsLine: "Tất cả các ảnh cho các bài hát bởi {ARTISTS}."
+  noTrackArtworksLine: "Album này không có ảnh đi kèm."
+
+  setSwitcher:
+    _: "({SETS})"
+    unlabeledSet: "Ảnh bìa album chính"
+
+albumCommentaryPage:
+  title: "{ALBUM} - Chú thích/bình luận"
+  nav:
+    album: "Album: {ALBUM}"
+
+  sidebar:
+    noTrackCommentary: "Không có bình luận nào."
+    noCommentary: "Không có bình luận nào về album hoặc bài hát."
+
+  infoLine: "{WORDS}, trải khắp {ENTRIES}."
+  infoLine.withoutCommentary: "Album này không có chú thích đi kèm."
+
+  entry:
+    title:
+      albumCommentary:
+        _: "{ALBUM}"
+        sticky: "{ALBUM} (chú thích album)"
+        accent: "Nghe tại: {LISTENING_LINKS}"
+
+      trackCommentary:
+        _: "{TRACK}"
+        accent: "Nghe tại: {LISTENING_LINKS}"
+
+artistPage:
+  title: "{ARTIST}"
+  nav:
+    artist: "Tác giả: {ARTIST}"
+
+  closelyLinkedGroups:
+    one: "Tác giả này có một trang nhóm riêng: {GROUP}."
+    multiple: "Tác giả này có các trang nhóm, tại: {GROUPS}."
+
+    group:
+      _: "{GROUP}"
+      withAnnotation: "{GROUP} ({ANNOTATION})"
+
+    alias: "Tác giả này là nghệ danh của {GROUPS}."
+
+  creditList:
+    album:
+      _: "{ALBUM}"
+      withCredit: "{ALBUM} {CREDIT}"
+
+      credit:
+        by: "bởi {ARTISTS}"
+
+      withDate: "{ALBUM} ({DATE})"
+      withDuration: "{ALBUM} ({DURATION})"
+      withDateRange: "{ALBUM} (trong {DATE_RANGE})"
+      withDate.withDuration: "{ALBUM} ({DATE}; {DURATION})"
+      withDateRange.withDuration: "{ALBUM} (trong {DATE_RANGE}; {DURATION})"
+
+    flashAct:
+      _: "{ACT}"
+      withDate: "{ACT} ({DATE})"
+      withDateRange: "{ACT} ({DATE_RANGE})"
+
+    entry:
+      withAnnotation: "{ENTRY} — {ANNOTATION}"
+      withCitation: "{ENTRY} ({CITATION})"
+      citation: "{CITATION}"
+      citation.quoted: "trích dẫn từ: {CITATION}"
+      quoted: "trích dẫn"
+
+      rerelease:
+        _: "{ENTRY} ({RERELEASE})"
+        withAnnotation: "{ENTRY} ({RERELEASE}) — {ANNOTATION}"
+        term: "tái phát hành"
+        firstRelease: "Phát hành lần đầu tại {ALBUM}"
+        notCreditedOnFirstRelease: "{ARTIST} không được ghi tên trong lần phát hành đầu tiên của bài hát này."
+
+      firstRelease:
+        _: "{ENTRY} ({FIRST_RELEASE})"
+        withAnnotation: "{ENTRY} ({FIRST_RELEASE}) — {ANNOTATION}"
+        term: "phát hành lần đầu tại đây"
+        rerelease: "Cũng được phát hành tại {ALBUM}"
+
+      track: "{TRACK}"
+
+      track.musicVideo:
+        _: "{TRACK}"
+        withLinks: "{TRACK}: {LINKS}"
+        withTitle: "{TRACK} — {TITLE}"
+        withTitle.withLinks: "{TRACK} — {TITLE}: {LINKS}"
+        withLabel: "{TRACK} — {LABEL}"
+        withLabel.withLinks: "{TRACK} — {LABEL}: {LINKS}"
+        withCredit: "{TRACK}, {CREDIT}"
+        withCredit.withLinks: "{TRACK}, {CREDIT}: {LINKS}"
+        withCredit.withTitle: "{TRACK}, {TITLE} {CREDIT}"
+        withCredit.withTitle.withLinks: "{TRACK}, {TITLE} {CREDIT}: {LINKS}"
+        withCredit.withLabel: "{TRACK}, {LABEL} {CREDIT}"
+        withCredit.withLabel.withLinks: "{TRACK}, {LABEL} {CREDIT}: {LINKS}"
+        withDate: "({DATE}) {TRACK}"
+        withDate.withLinks: "({DATE}) {TRACK}: {LINKS}"
+        withDate.withTitle: "({DATE}) {TRACK} — {TITLE}"
+        withDate.withTitle.withLinks: "({DATE}) {TRACK} — {TITLE}: {LINKS}"
+        withDate.withLabel: "({DATE}) {TRACK} — {LABEL}"
+        withDate.withLabel.withLinks: "({DATE}) {TRACK} — {LABEL}: {LINKS}"
+        withDate.withCredit: "({DATE}) {TRACK}, {CREDIT}"
+        withDate.withCredit.withLinks: "({DATE}) {TRACK}, {CREDIT}: {LINKS}"
+        withDate.withCredit.withTitle: "({DATE}) {TRACK}, {TITLE} {CREDIT}"
+        withDate.withCredit.withTitle.withLinks: "({DATE}) {TRACK}, {TITLE} {CREDIT}: {LINKS}"
+        withDate.withCredit.withLabel: "({DATE}) {TRACK}, {LABEL} {CREDIT}"
+        withDate.withCredit.withLabel.withLinks: "({DATE}) {TRACK}, {LABEL} {CREDIT}: {LINKS}"
+        credit: "video bởi {ARTISTS}"
+        credit.alongsideLabel: "bởi {ARTISTS}"
+        credit.alongsideTitle: "bởi {ARTISTS}"
+
+      track.miscellaneousAdditionalFile:
+        _: "{TITLE}: {TRACK}"
+        withCredit: "{TITLE} ({CREDIT}): {TRACK}"
+        withMultipleFiles: "{TITLE}: {TRACK} ({FILES})"
+        withNoFiles: "{TITLE}: {TRACK} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} ({CREDIT}): {TRACK} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} ({CREDIT}): {TRACK} (không có tệp)"
+        placeholderTitle: "Tệp đi kèm"
+        credit: "bởi {ARTISTS}"
+
+      track.sheetMusicFile:
+        _: "{TITLE}: {TRACK}"
+        withCredit: "{TITLE} ({CREDIT}): {TRACK}"
+        withMultipleFiles: "{TITLE}: {TRACK} ({FILES})"
+        withNoFiles: "{TITLE}: {TRACK} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} ({CREDIT}): {TRACK} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} ({CREDIT}): {TRACK} (không có tệp)"
+        placeholderTitle: "Tệp bản nhạc"
+        credit: "bởi {ARTISTS}"
+
+      track.midiProjectFile:
+        _: "{TITLE}: {TRACK}"
+        withCredit: "{TITLE} ({CREDIT}): {TRACK}"
+        withMultipleFiles: "{TITLE}: {TRACK} ({FILES})"
+        withNoFiles: "{TITLE}: {TRACK} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} ({CREDIT}): {TRACK} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} ({CREDIT}): {TRACK} (không có tệp)"
+        placeholderTitle: "Tệp MIDI hoặc tệp dự án khác"
+        credit: "bởi {ARTISTS}"
+
+      album:
+        albumArtistOnly: "Chỉ được ghi nhận là nghệ sĩ của album — thông tin ghi nhận cho từng bài hát có thể khác nhau."
+        coverArt: "(ảnh bìa)"
+        wallpaperArt: "(ảnh nền)"
+        bannerArt: "(ảnh biểu ngữ)"
+        commentary: "(chú thích album)"
+
+      album.musicVideo:
+        _: "(video nhạc cho album)"
+        withLinks: "(video nhạc cho album: {LINKS})"
+        withTitle: "(for album: {TITLE})"
+        withTitle.withLinks: "(trong album: {TITLE} - {LINKS})"
+        withLabel: "(trong album: {LABEL})"
+        withLabel.withLinks: "(trong album: {LABEL} - {LINKS})"
+        withCredit: "(video nhạc của {CREDIT})"
+        withCredit.withLinks: "(video nhạc của {CREDIT} - {LINKS})"
+        withCredit.withTitle: "(trong album: {TITLE} {CREDIT})"
+        withCredit.withTitle.withLinks: "(trong album: {TITLE} {CREDIT} - {LINKS})"
+        withCredit.withLabel: "(trong album: {LABEL} {CREDIT})"
+        withCredit.withLabel.withLinks: "(trong album: {LABEL} {CREDIT} - {LINKS})"
+        withDate: "({DATE}: video nhạc cho album)"
+        withDate.withLinks: "({DATE}, video nhạc cho album: {LINKS})"
+        withDate.withTitle: "({DATE}, trong album: {TITLE})"
+        withDate.withTitle.withLinks: "({DATE}, trong album: {TITLE} - {LINKS})"
+        withDate.withLabel: "({DATE}, trong album: {LABEL})"
+        withDate.withLabel.withLinks: "({DATE}, trong album: {LABEL} - {LINKS})"
+        withDate.withCredit: "({DATE}: video nhạc của {CREDIT})"
+        withDate.withCredit.withLinks: "({DATE}, video nhạc của {CREDIT} - {LINKS})"
+        withDate.withCredit.withTitle: "({DATE}, trong album: {TITLE} {CREDIT})"
+        withDate.withCredit.withTitle.withLinks: "({DATE}, trong album: {TITLE} {CREDIT} - {LINKS})"
+        withDate.withCredit.withLabel: "({DATE}, trong album: {LABEL} {CREDIT})"
+        withDate.withCredit.withLabel.withLinks: "({DATE}, trong album: {LABEL} {CREDIT} - {LINKS})"
+        credit: "bởi {ARTISTS}"
+        credit.alongsideLabel: "bởi {ARTISTS}"
+        credit.alongsideTitle: "bởi {ARTISTS}"
+
+      album.miscellaneousAdditionalFile:
+        _: "(tệp đi kèm cho album)"
+        withTitle: "(trong album: {TITLE})"
+        withCredit: "(trong album: {CREDIT})"
+        withCredit.withTitle: "(trong album: {TITLE} {CREDIT})"
+        credit: "tệp bởi {ARTISTS}"
+        credit.standaloneWithFiles: "{FILES} bởi {ARTISTS}"
+        credit.alongsideTitle: "bởi {ARTISTS}"
+
+      flash: "{FLASH}"
+
+      artwork.accent:
+        withLabel: "{LABEL}"
+        withAnnotation: "{ANNOTATION}"
+        withLabel.withAnnotation: "{LABEL}: {ANNOTATION}"
+
+  contributedDurationLine: "{ARTIST} đã đóng góp nhạc vào wiki với tổng thời lượng {DURATION}."
+
+  groupContributions:
+    title:
+      tracks: "Các bài hát đã đóng góp vào nhóm..."
+      artworks: "Các ảnh đã đóng góp vào nhóm..."
+      musicVideos: "Các video nhạc đã đóng góp vào nhóm..."
+
+    column:
+      count.tracks: "Bài hát"
+      count.artworks: "Ảnh"
+      count.musicVideos: "Video nhạc"
+      duration: "Thời lượng"
+
+  filterNotice: "(Danh sách trên đã được lọc. {CLEAR})"
+  filterNotice.clear: "Nhấn để hủy lọc."
+  trackList.title: "Bài hát"
+  artList.title: "Ảnh"
+  musicVideoList.title: "Video nhạc"
+  sheetMusicFileList.title: "Tệp bản nhạc"
+  midiProjectFileList.title: "Tệp MIDI và tệp dự án khác"
+  miscellaneousAdditionalFileList.title: "Tệp đi kèm"
+  flashList.title: "Hoạt ảnh"
+  commentaryList.title: "Chú thích"
+
+  viewArtGallery:
+    _: "Xem tại {LINK}."
+    orBrowseList: "Xem tại {LINK}; hoặc xem danh sách sau:"
+    link: "tập ảnh"
+
+  wikiEditArtworks:
+    _: "{ARTIST} đã chỉnh sửa các ảnh sau cho wiki này:"
+    sticky: "Ảnh — chỉnh sửa cho phù hợp với wiki"
+
+  wikiEditorCommentary:
+    _: "{ARTIST} đã viết những bình luận này với vai trò người chỉnh sửa wiki:"
+    sticky: "Chú thích — được viết cho wiki này"
+
+artistGalleryPage:
+  title: "{ARTIST} - Tập ảnh"
+  infoLine: "Đã đóng góp vào {COVER_ARTS}."
+
+artistRollingWindowPage:
+  title: "{ARTIST} - Chế độ phân đoạn"
+  windowConfigurationLine: "Xem các mục trong đoạn từ {TIME_BEFORE} trước một ngày nhất định đến {TIME_AFTER} tháng sau đó; bạn có thể xem các mục sau đoạn này {PEEK}..."
+  contributionConfigurationLine: "Chọn danh mục {KIND} trong nhóm {GROUP}..."
+
+  timeframeSelectionLine:
+    _: "Có tất cả {CONTRIBUTIONS} mục, được chia thành {TIMEFRAMES} đoạn thời gian, tính từ ngày {FIRST_DATE} đến ngày {LAST_DATE}."
+    none: "Không có mục thích hợp, do đó không thể chia các đoạn thời gian."
+
+  emptyTimeframeLine: "Đoạn thời gian này trống do không có mục nào ở đây."
+
+  timeframeSelectionControl:
+    _: "{PREVIOUS} {TIMEFRAMES} {NEXT}"
+    previous: "← Trước đó"
+    next: "Tiếp theo →"
+
+  contributionKind:
+    artwork: "Ảnh"
+    music: "Bài hát"
+    flash: "Hoạt ảnh"
+
+  contributionGroup:
+    all: "Tất cả"
+    group: "{GROUP}"
+
+  timeframe:
+    months: "{INPUT} tháng"
+
+artTagPage:
+  nav:
+    tag: "Thẻ: {TAG}"
+
+  sidebar:
+    otherTagsExempt: "(…{TAGS} khác…)"
+
+artTagInfoPage:
+  title: "{TAG}"
+  viewArtGallery:
+    _: "Xem {LINK} của thẻ này."
+    link: "tập ảnh"
+
+  readMoreOn: "Tìm hiểu thêm về '{TAG}' tại {LINKS}."
+
+  seeAlso:
+    _: "Xem thêm: {TAGS}"
+    tagWithAnnotation: "{TAG} ({ANNOTATION})"
+
+  featuredIn:
+    notFeatured: "Thẻ này chưa từng xuất hiện trong bất kỳ ảnh nào."
+    directlyOnly: "Thẻ này xuất hiện trong {ARTWORKS}."
+    indirectlyOnly: "Thẻ này xuất hiện trong {ARTWORKS}, nhưng dưới dạng gián tiếp."
+    directlyAndIndirectly: "Thẻ này xuất hiện trong tổng cộng {ARTWORKS_TOTAL}; trong đó có {ARTWORKS_DIRECTLY} được xuất hiện trực tiếp và {ARTWORKS_INDIRECTLY} được xuất hiện gián tiếp."
+
+  descendsFromTags:
+    _: "Thẻ mà '{TAG}' là thẻ con:"
+    item: "{TAG}"
+
+  descendantTags:
+    _: "Thẻ mà '{TAG}' là thẻ cha:"
+    item:
+      _: "{TAG}"
+      withGallery:
+        _: "{TAG} ({GALLERY})"
+        gallery: "xem tập ảnh"
+
+      withTimesUsed: "{TAG} ({TIMES_USED})"
+      withGallery.withTimesUsed: "{TAG} ({GALLERY}; {TIMES_USED})"
+
+artTagGalleryPage:
+  title: "{TAG}"
+  descendsFrom: "Các thẻ trên nó: {TAGS}."
+  descendants: "Các thẻ dưới nó: {TAGS}."
+
+  featuredLine:
+    simple: "Xuất hiện trong {COVER_ARTS}."
+    altogether: "Xuất hiện trong tổng cộng {COVER_ARTS}."
+    direct: "Xuất hiện trực tiếp trong {COVER_ARTS}."
+    indirect: "Xuất hiện gián tiếp trong {COVER_ARTS}."
+
+    notFeatured:
+      _: "Thẻ này chưa từng xuất hiện trong bất kỳ ảnh nào."
+      callToAction: "Có thể bài hát của bạn sẽ có ảnh chứa thẻ này đấy!"
+
+  showingLine:
+    _: "Hiển thị: {SHOWING}."
+    all: "tất cả các ảnh có chứa thẻ này"
+    indirect: "tất cả các ảnh có chứa thẻ này, một cách gián tiếp"
+    direct: "tất cả các ảnh có chứa thẻ này, một cách trực tiếp"
+
+commentaryIndex:
+  title: "Chú thích và bình luận"
+  infoLine: "Tổng cộng {WORDS}, trải khắp {ENTRIES}."
+
+  albumList:
+    title: "Chọn một album:"
+    item: "{ALBUM} ({WORDS} trong {ENTRIES})"
+
+flashIndex:
+  title: "Hoạt ảnh"
+
+flashSidebar:
+  flashList:
+    entriesInThisSection: "Các mục trong phần này"
+
+flashActPage:
+  title: "{ACT}"
+  title.withTitle: "{ACT}: {TITLE}"
+
+flashPage:
+  title: "{FLASH}"
+  nav:
+    flash: "{FLASH}"
+
+groupSidebar:
+  title: "Nhóm"
+  groupList:
+    category: "{CATEGORY}"
+    item: "{GROUP}"
+
+groupPage:
+  nav:
+    group: "Nhóm: {GROUP}"
+
+  secondaryNav:
+    category: "{CATEGORY}"
+    category.withPreviousNext: "{CATEGORY} ({PREVIOUS_NEXT})"
+
+groupInfoPage:
+  title: "{GROUP}"
+  closelyLinkedArtists:
+    one: "Xem trang của tác giả: {ARTIST}."
+    multiple: "Xem trang của tác giả: {ARTISTS}."
+    aliases: "Xem các nghệ danh khác: {ALIASES}."
+
+    artist:
+      _: "{ARTIST}"
+      withAnnotation: "{ARTIST} ({ANNOTATION})"
+
+  viewAlbumGallery:
+    _: "Xem {LINK}, hoặc xem danh sách sau:"
+    link: "tập ảnh"
+    withViewSwitcher: "Xem {LINK}; hoặc xem danh sách sau: {VIEW_SWITCHER}"
+
+  viewSwitcher:
+    _: "({OPTIONS})"
+    bySeries: "Theo danh mục"
+    byDate: "Theo ngày"
+
+  albumList:
+    title: "Album"
+    series: "{SERIES}:"
+
+    item:
+      _: "{ALBUM}"
+      withYear:
+        _: "{YEAR_ACCENT} {ALBUM}"
+        accent: "({YEAR})"
+
+      withOtherGroup:
+        _: "{ALBUM} {OTHER_GROUP_ACCENT}"
+        accent: "(trong {GROUPS})"
+        notFromThisGroup: "(không trong {GROUP})"
+
+      withArtists:
+        _: "{ALBUM} {BY}"
+        by: "bởi {ARTISTS}"
+        featuring: "với sự góp mặt của {ARTISTS}"
+        by.featuring: "bởi {ARTISTS} với sự góp mặt của {FEATURING}"
+
+      withYear.withOtherGroup: "{YEAR_ACCENT} {ALBUM} {OTHER_GROUP_ACCENT}"
+      withYear.withArtists: "{YEAR_ACCENT} {ALBUM} {BY}"
+
+groupGalleryPage:
+  title: "{GROUP} - Ảnh"
+  infoLine: "{TRACKS} trải khắp {ALBUMS}, với tổng thời lượng {TIME}."
+
+  albumViewSwitcher:
+    _: "Xem album:"
+    bySeries: "Theo danh mục"
+    byDate: "Theo ngày"
+
+  albumStyleSwitcher:
+    _: "Xem các phát hành:"
+    album: "Album"
+    single: "Bản đơn"
+
+    count:
+      all: "tổng cộng {TOTAL}"
+      filtered: "{COUNT} trong {TOTAL}"
+      none: "không có"
+
+  albumsByDate:
+    title: "Tất cả album"
+
+  albumSection:
+    caption: "{TRACKS} trải khắp {ALBUMS}."
+    caption.withDate: "{TRACKS} trải khắp {ALBUMS}, phát hành lúc {DATE}."
+    caption.withYear: "{TRACKS} trải khắp {ALBUMS}, phát hành trong năm {YEAR}."
+    caption.withYearRange: "{TRACKS} trải khắp {ALBUMS}, phát hành trong khoảng {YEAR_RANGE}."
+    caption.seriesAlbumsNotFromGroup: "Các album được đánh dấu {MARKER} là một phần của {SERIES}, nhưng không thuộc {GROUP}."
+
+listingIndex:
+  title: "Danh sách"
+  infoLine: "{WIKI}: {TRACKS} trải dài trên {ALBUMS} với tổng thời lượng {DURATION}."
+  exploreList: "Xem các danh sách được liên kết bên dưới và ở thanh bên."
+
+listingPage:
+  target:
+    album: "Album"
+    artist: "Tác giả"
+    group: "Nhóm"
+    track: "Bài hát"
+    tag: "Thẻ"
+    other: "Khác"
+
+  misc:
+    trackContributors: "Người đóng góp cho bài hát"
+    artContributors: "Người đóng góp cho ảnh"
+    flashContributors: "Người đóng góp cho hoạt ảnh tương tác"
+    artAndFlashContributors: "Người đóng góp cho ảnh và hoạt ảnh"
+
+  listingsFor: "Danh sách cho {TARGET}: {LISTINGS}"
+  seeAlso: "Xem thêm: {LISTINGS}"
+  skipToSection: "Chuyển tới:"
+
+  listAlbums:
+    byName:
+      title: "Album - theo tên"
+      title.short: "...theo tên"
+      item: "{ALBUM} ({TRACKS})"
+
+    byTracks:
+      title: "Album - theo số bài hát"
+      title.short: "... theo số bài hát"
+      item: "{ALBUM} ({TRACKS})"
+      item.single: "{ALBUM} ({TRACKS}—bản đơn)"
+
+    byDuration:
+      title: "Album - theo thời lượng"
+      title.short: "...theo thời lượng"
+      item: "{ALBUM} ({DURATION})"
+
+    byDate:
+      title: "Album - theo ngày phát hành"
+      title.short: "...theo ngày phát hành"
+      item: "{ALBUM} ({DATE})"
+
+    byDateAdded:
+      title: "Album - theo ngày được thêm vào wiki"
+      title.short: "...theo ngày được thêm vào wiki"
+      chunk:
+        title: "{DATE}"
+        item: "{ALBUM}"
+
+  listArtTags:
+    byName:
+      title: "Thẻ - theo tên"
+      title.short: "...theo tên"
+      item: "{TAG} ({TIMES_USED})"
+
+    byUses:
+      title: "Thẻ - theo số lần sử dụng"
+      title.short: "...theo số lần sử dụng"
+      item: "{TAG} ({TIMES_USED})"
+
+    network:
+      title: "Cây thẻ ảnh"
+      title.short: "Cây thẻ ảnh"
+      jumpToRoot:
+        title: "Chuyển đến một trong những thẻ ở trên cùng:"
+        item: "{TAG}"
+
+      statLine:
+        _: "Hiển thị thông tin cho thẻ ảnh: {STAT}"
+        none: "chỉ tên"
+        totalUses: "tổng số lần được sử dụng"
+        directUses: "tổng số lần được sử dụng một cách trực tiếp"
+        descendants: "tổng các thẻ con của thẻ này (bao gồm thẻ nhánh và thẻ tận cùng)"
+        leaves: "tổng các thẻ tận cùng của thẻ này"
+
+      root:
+        _: "{TAG}"
+
+      root.jumpToTop:
+        _: "{TAG} ({LINK})"
+        link: "Trở lại"
+
+      root.withAncestors: "{TAG} (thẻ con của {ANCESTORS})"
+
+      tag:
+        _: "{TAG}"
+        jumpToRoot: "Chuyển tới: {TAG}"
+
+        withStat:
+          _: "{STAT} {TAG}"
+          stat: "({STAT})"
+          notApplicable: "-"
+
+      orphanArtTags:
+        title: "Các thẻ không có thẻ cha hoặc thẻ con:"
+        item: "{TAG}"
+
+  listArtists:
+    byName:
+      title: "Tác giả - theo tên"
+      title.short: "...theo tên"
+      item: "{ARTIST} ({CONTRIBUTIONS})"
+
+    byContribs:
+      title: "Tác giả - theo số đóng góp"
+      title.short: "...theo số đóng góp"
+      chunk:
+        item: "{ARTIST} ({CONTRIBUTIONS})"
+
+        title:
+          trackContributors: "Đóng góp cho bài hát:"
+          artContributors: "Đóng góp cho ảnh:"
+          flashContributors: "Đóng góp cho hoạt ảnh:"
+
+    byCommentary:
+      title: "Tác giả - theo số lượt bình luận"
+      title.short: "...theo số lượt bình luận"
+      item: "{ARTIST} ({ENTRIES})"
+
+    byDuration:
+      title: "Tác giả - theo tổng thời lượng nhạc"
+      title.short: "...theo tổng thời lượng nhạc"
+      item: "{ARTIST} ({DURATION})"
+
+    byGroup:
+      title: "Tác giả - theo nhóm"
+      title.short: "...theo nhóm"
+      item: "{ARTIST} ({CONTRIBUTIONS})"
+
+      chunk:
+        title: "Đã đóng góp vào {GROUP}:"
+        item: "{ARTIST} ({CONTRIBUTIONS})"
+
+    byLatest:
+      title: "Tác giả - theo đóng góp gần đây"
+      title.short: "...theo đóng góp gần đây"
+      chunk:
+        title:
+          album: "{ALBUM} ({DATE})"
+          flash: "{FLASH} ({DATE})"
+          dateless: "Các đóng góp sau đây không được ghi ngày tháng."
+
+        item:
+          _: "{ARTIST}"
+          tracks: "{ARTIST} (nhạc)"
+          tracksAndArt: "{ARTIST} (ảnh và nhạc)"
+          art: "{ARTIST} (ảnh)"
+
+  listGroups:
+    byName:
+      title: "Nhóm - theo tên"
+      title.short: "...theo tên"
+      item: "{GROUP} ({GALLERY})"
+      item.gallery: "Tập ảnh"
+
+    byCategory:
+      title: "Nhóm - theo danh mục"
+      title.short: "...theo danh mục"
+      chunk:
+        title: "{CATEGORY}"
+        item: "{GROUP} ({GALLERY})"
+        item.gallery: "Tập ảnh"
+
+    byAlbums:
+      title: "Nhóm - theo số album"
+      title.short: "...theo số album"
+      item: "{GROUP} ({ALBUMS})"
+
+    byTracks:
+      title: "Nhóm - theo số bài hát"
+      title.short: "...theo số bài hát"
+      item: "{GROUP} ({TRACKS})"
+
+    byDuration:
+      title: "Nhóm - theo tổng thời lượng nhạc"
+      title.short: "...theo tổng thời lượng nhạc"
+      item: "{GROUP} ({DURATION})"
+
+    byLatest:
+      title: "Nhóm - theo album gần đây nhất"
+      title.short: "...theo album gần đây nhất"
+      item: "{GROUP} ({DATE})"
+
+  listTracks:
+    byName:
+      title: "Bài hát - theo tên"
+      title.short: "...theo tên"
+      item: "{TRACK}"
+
+    byAlbum:
+      title: "Bài hát - theo album"
+      title.short: "...theo album"
+      chunk:
+        title: "{ALBUM}"
+        item: "{TRACK}"
+
+    byDate:
+      title: "Bài hát - theo ngày phát hành"
+      title.short: "...theo ngày phát hành"
+      chunk:
+        title: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+        item.rerelease: "{TRACK} (bản tái phát hành)"
+
+    byDuration:
+      title: "Bài hát - theo thời lượng"
+      title.short: "...theo thời lượng"
+      item: "{TRACK} ({DURATION})"
+
+    byDurationInAlbum:
+      title: "Bài hát - theo thời lượng (sắp theo album)"
+      title.short: "...theo thời lượng (sắp theo album)"
+      chunk:
+        title: "{ALBUM}"
+        item: "{TRACK} ({DURATION})"
+
+    byTimesReferenced:
+      title: "Bài hát - theo số lần được liên hệ"
+      title.short: "...theo số lần được liên hệ"
+      item: "{TRACK} ({TIMES_REFERENCED})"
+
+    inFlashes.byAlbum:
+      title: "Bài hát - có trong hoạt ảnh (sắp theo album)"
+      title.short: "...có trong hoạt ảnh (sắp theo album)"
+      chunk:
+        title: "{ALBUM}"
+        item: "{TRACK} (trong {FLASHES})"
+
+    inFlashes.byFlash:
+      title: "Bài hát - có trong hoạt ảnh (sắp theo hoạt ảnh)"
+      title.short: "...có trong hoạt ảnh (sắp theo hoạt ảnh)"
+      chunk:
+        title: "{FLASH}"
+        item: "{TRACK} (trong album {ALBUM})"
+
+    withLyrics:
+      title: "Bài hát - có lời"
+      title.short: "...có lời bài hát"
+      chunk:
+        title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+
+    withMusicVideos:
+      title: "Bài hát - có video đi kèm"
+      title.short: "...có video âm nhạc"
+      chunk:
+        title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+
+    withSheetMusicFiles:
+      title: "Bài hát - có tệp bản nhạc"
+      title.short: "...có tệp bản nhạc"
+      chunk:
+        title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+
+    withMidiProjectFiles:
+      title: "Bài hát - có tệp MIDI và tệp dự án khác"
+      title.short: "...có tệp MIDI và tệp dự án khác"
+      chunk:
+        title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+
+    needingLyrics:
+      title: "Bài hát - có lời, nhưng chưa thêm vào wiki"
+      title.short: "...có lời bài hát, nhưng chưa thêm vào wiki"
+      chunk:
+        title: "{ALBUM}"
+        title.withDate: "{ALBUM} ({DATE})"
+        item: "{TRACK}"
+
+  other:
+    allSheetMusic:
+      title: "Danh sách bản nhạc"
+      title.short: "Tất cả bản nhạc"
+      albumFiles: "Bản nhạc cho album:"
+
+      file:
+        _: "{TITLE}"
+        placeholderTitle: "Bản nhạc"
+        withCredit: "{TITLE} {CREDIT}"
+        withMultipleFiles: "{TITLE} ({FILES})"
+        withNoFiles: "{TITLE} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} {CREDIT} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} {CREDIT} (không có tệp)"
+        credit: "bởi {ARTISTS}"
+
+    allMidiProjectFiles:
+      title: "Danh sách các tệp MIDI và tệp dự án khác"
+      title.short: "Tất cả tệp MIDI và tệp dự án"
+      albumFiles: "MIDI và tệp dự án cho album:"
+
+      file:
+        _: "{TITLE}"
+        placeholderTitle: "Tệp MIDI hoặc tệp dự án"
+        withCredit: "{TITLE} {CREDIT}"
+        withMultipleFiles: "{TITLE} ({FILES})"
+        withNoFiles: "{TITLE} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} {CREDIT} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} {CREDIT} (không có tệp)"
+        credit: "bởi {ARTISTS}"
+
+    allAdditionalFiles:
+      title: "Danh sách tệp đi kèm"
+      title.short: "Tất cả tệp đi kèm"
+      albumFiles: "Tệp đi kèm cho album:"
+
+      file:
+        _: "{TITLE}"
+        placeholderTitle: "Tệp đi kèm"
+        withCredit: "{TITLE} {CREDIT}"
+        withMultipleFiles: "{TITLE} ({FILES})"
+        withNoFiles: "{TITLE} (không có tệp)"
+        withCredit.withMultipleFiles: "{TITLE} {CREDIT} ({FILES})"
+        withCredit.withNoFiles: "{TITLE} {CREDIT} (không có tệp)"
+        credit: "bởi {ARTISTS}"
+
+    randomPages:
+      title: "Trang ngẫu nhiên"
+      title.short: "Trang ngẫu nhiên"
+      chooseLinkLine:
+        _: "{FROM_PART} {BROWSER_SUPPORT_PART}"
+        fromPart:
+          dividedByGroups: "Chọn một liên kết để truy cập ngẫu nhiên vào một trang trong nhóm hoặc album đó!"
+          notDividedByGroups: "Chọn một liên kết để truy cập ngẫu nhiên vào một trang trong album đó!"
+
+        browserSupportPart: "Những liên kết này có thể không hoạt động nếu bạn không bật JavaScript."
+
+      dataLoadingLine: "(Các tệp dữ liệu đang được tải xuống trong nền...)"
+      dataLoadedLine: "(Các tệp dữ liệu đã tải xong, và các liên kết này sẽ hoạt động ổn định)"
+      dataErrorLine: "(Các tệp dữ liệu tải xuống không thành công, và các liên kết có thể không mở được)"
+
+      chunk:
+        title:
+          misc: "Các mục khác:"
+          fromAlbum: "Từ một album:"
+
+          fromGroup:
+            _: "Từ {GROUP}:"
+            accent:
+              _: "({RANDOM_ALBUM}, {RANDOM_TRACK})"
+              randomAlbum: "Album ngẫu nhiên"
+              randomTrack: "Bài hát ngẫu nhiên"
+
+        item:
+          album: "{ALBUM}"
+
+          randomArtist:
+            _: "{MAIN_LINK} ({AT_LEAST_TWO_CONTRIBUTIONS})"
+            mainLink: "Tác giả ngẫu nhiên"
+            atLeastTwoContributions: "có ít nhất 2 đóng góp"
+
+          randomAlbumWholeSite: "Trang album ngẫu nhiên"
+          randomTrackWholeSite: "Trang bài hát ngẫu nhiên"
+
+newsIndex:
+  title: "Tin tức"
+  entry:
+    viewRest: "(Xem thêm...)"
+
+newsEntryPage:
+  title: "{ENTRY}"
+  published: "(được đăng vào ngày {DATE}.)"
+
+  readAnother:
+    previous:
+      _: "(← {ENTRY})"
+      withDate: "(← {DATE} {ENTRY})"
+
+    next:
+      _: "(→ {ENTRY})"
+      withDate: "(→ {DATE} {ENTRY})"
+
+redirectPage:
+  title: "Chuyển đến {TITLE}"
+  infoLine: "Trang này được chuyển đến trang {TARGET}."
+
+referencedArtworksPage:
+  subtitle: "Các ảnh có liên hệ đến ảnh này"
+  statsLine: "Liên hệ đến {ARTWORKS}."
+
+referencingArtworksPage:
+  subtitle: "Các ảnh mà ảnh này liên hệ đến"
+  statsLine: "Được liên hệ từ {ARTWORKS}."
+
+trackPage:
+  title: "{TRACK}"
+  nav:
+    random: "Ngẫu nhiên"
+    backToTrack: "Trở về trang bài hát"
+
+    albumAccent:
+      withNameDetail: "{NAME_DETAIL}"
+      withType: "{TYPE}"
+      withNameDetail.withType: "{TYPE}: {NAME_DETAIL}"
+      type.single: "bản đơn"
+      type.vgm: "nhạc trong trò chơi"
+
+    track:
+      _: "{TRACK}"
+      withNumber: "{NUMBER}. {TRACK}"
+
+  needsLyrics: "Bài hát này có phần lời hát, nhưng hiện vẫn chưa có lời bài hát trên wiki này."
+
+  socialEmbed:
+    heading: "{ALBUM}"
+    title: "{TRACK}"
+    body:
+      withArtists.withCoverArtists: "Bởi {ARTISTS}; ảnh bởi {COVER_ARTISTS}."
+      withArtists: "Bởi {ARTISTS}."
+      withCoverArtists: "Ảnh bởi {COVER_ARTISTS}."
