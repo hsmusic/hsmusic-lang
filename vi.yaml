@@ -721,6 +721,7 @@ misc:
     label: "Video âm nhạc"
     label.customLabel: "{LABEL}"
     label.customLabel.title: "{TITLE}"
+    label.customLabel.besideTitle: "{LABEL}"
     watchOn: "Xem tại: {LINKS}"
     artistsLine: "Video âm nhạc {CREDIT}"
     artistsLine.customLabel: "{LABEL} {CREDIT}"
@@ -1135,10 +1136,20 @@ artTagInfoPage:
 
   descendsFromTags:
     _: "Thẻ mà '{TAG}' là thẻ con:"
+    sticky: "Thẻ mà thẻ này là thẻ con:"
     item: "{TAG}"
 
   descendantTags:
     _: "Thẻ mà '{TAG}' là thẻ cha:"
+    withShowMoreLessSwitcher: "Thẻ mà '{TAG}' là thẻ cha: {SHOW_MORE_LESS_SWITCHER}"
+
+    showMoreLessSwitcher:
+      _: "({SHOW_MORE_LESS})"
+      showMore: "hiện thêm"
+      showLess: "ẩn bớt"
+
+    sticky: "Thẻ mà thẻ này là thẻ cha:"
+
     item:
       _: "{TAG}"
       withGallery:
