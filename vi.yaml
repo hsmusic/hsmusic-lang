@@ -120,6 +120,8 @@ count:
     kilobytes: "{KILOBYTES} kB"
     bytes: "{BYTES} byte"
 
+  timeIntoDurationRange: "{START}–{END}"
+
   index:
     other: "thứ {INDEX}"
 
@@ -172,6 +174,8 @@ releaseInfo:
       differentName: "dưới tên khác {NAME}"
       differentName.onSingle: "{NAME}"
 
+  derivesFromMotifs: "Bắt nguồn từ {MOTIFS}."
+
   tracksReferenced:
     _: "Bài hát mà {TRACK} có liên hệ đến:"
     withoutName: "Bài hát mà nó có liên hệ đến:"
@@ -199,6 +203,25 @@ releaseInfo:
       _: "Bài hát có đoạn trích từ bài hát này:"
       fromGroup: "Bài hát có đoạn trích từ bài hát này — trong {GROUP}:"
       fromOther: "Bài hát có đoạn trích từ bài hát này — từ nơi khác:"
+
+  motifsFeatured:
+    _: "Các motif xuất hiện trong {TRACK}:"
+    withoutName: "Các motif xuất hiện trong bài hát:"
+    sticky: "Các motif xuất hiện trong bài hát:"
+
+  tracksThatFeatureMotif:
+    _: "Các bài hát có motif '{MOTIF}':"
+    withoutName: "Các bài hát có motif này:"
+
+    sticky:
+      _: "Các bài hát có motif này:"
+      fromGroup: "Bài hát có motif này — trong {GROUP}:"
+      fromOther: "Bài hát có motif này — từ nơi khác:"
+
+  motifsThatDeriveFromMotif:
+    _: "Các mô-típ bắt nguồn từ '{MOTIF}':"
+    withoutName: "Các mô-típ bắt nguồn từ motif này:"
+    sticky: "Các mô-típ bắt nguồn từ motif này:"
 
   flashesThatFeature:
     _: "Hoạt ảnh có chứa {TRACK}:"
@@ -335,6 +358,17 @@ flashList:
   item:
     _: "{FLASH}"
     asDifferentRelease: "{FLASH} (dưới tên khác {TRACK})"
+
+motifConnectionList:
+  item:
+    track: "{TRACK}"
+    motif: "{MOTIF}"
+    track.withContext: "{TRACK} ({CONTEXT})"
+    motif.withContext: "{MOTIF} ({CONTEXT})"
+    track.withTimeRange: "{TRACK} ({TIME_RANGE})"
+    motif.withTimeRange: "({TIME_RANGE}) {MOTIF}"
+    track.withTimeRange.withContext: "{TRACK} ({TIME_RANGE}) ({CONTEXT})"
+    motif.withTimeRange.withContext: "({TIME_RANGE}) {MOTIF} ({CONTEXT})"
 
 misc:
   additionalNames:
@@ -500,6 +534,10 @@ misc:
     deconreconstruction:
       _: "Deconreconstruction"
       music: "MUSIC@DCRC"
+
+      wiki:
+        _: "DCRC Wiki"
+        page: "DCRC Wiki ({PAGE})"
 
     deviantart: "DeviantArt"
     facebook: "Facebook"
@@ -1304,6 +1342,7 @@ listingPage:
     group: "Nhóm"
     track: "Bài hát"
     tag: "Thẻ"
+    motif: "Motif"
     other: "Khác"
 
   misc:
@@ -1571,6 +1610,24 @@ listingPage:
         title.withDate: "{ALBUM} ({DATE})"
         item: "{TRACK}"
 
+  listMotifs:
+    byName:
+      title: "Motif - theo tên"
+      title.short: "...theo tên"
+      item: "{MOTIF}"
+
+    byUses:
+      title: "Motif - theo số lần sử dụng"
+      title.short: "...theo số lần sử dụng"
+      item: "{MOTIF} ({TIMES_USED})"
+
+    byGroup:
+      title: "Motif - theo nhóm"
+      title.short: "...theo nhóm"
+      chunk:
+        title: "{GROUP}"
+        item: "{MOTIF}"
+
   other:
     allSheetMusic:
       title: "Danh sách bản nhạc"
@@ -1654,6 +1711,11 @@ listingPage:
 
           randomAlbumWholeSite: "Trang album ngẫu nhiên"
           randomTrackWholeSite: "Trang bài hát ngẫu nhiên"
+
+motifInfoPage:
+  title: "{MOTIF}"
+  nav:
+    motif: "Motif: {MOTIF}"
 
 newsIndex:
   title: "Tin tức"
